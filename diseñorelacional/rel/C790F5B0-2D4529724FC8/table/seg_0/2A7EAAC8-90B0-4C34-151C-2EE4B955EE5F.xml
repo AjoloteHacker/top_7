@@ -1,0 +1,56 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2A7EAAC8-90B0-4C34-151C-2EE4B955EE5F" name="METODO_PAGO">
+<sourceDDLFile>tablas.sql</sourceDDLFile>
+<createdBy>W608-PCXX</createdBy>
+<createdTime>2026-09-15 13:48:38 UTC</createdTime>
+<ownerDesignName>diseñorelacional</ownerDesignName>
+<importedID>F3FBE988-65D0-D285-1D86-075D9FDA7BF6</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_metodo_pago" id="3EB52E86-A171-F084-E547-B9A83EB06EFC">
+<sourceDDLFile>tablas.sql</sourceDDLFile>
+<createdBy>W608-PCXX</createdBy>
+<createdTime>2026-09-15 13:48:38 UTC</createdTime>
+<ownerDesignName>diseñorelacional</ownerDesignName>
+<importedID>76C49F9B-88C4-86CB-FF14-A56DCA1C1C4B</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>C2B61FEC-2E72-238F-9CBD-79B744DCD91D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementGenerateAlways>true</autoIncrementGenerateAlways>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementOrder>false</autoIncrementOrder>
+</Column>
+<Column name="nombre" id="45996FF4-732E-5E50-654D-0A8F580EEA23">
+<sourceDDLFile>tablas.sql</sourceDDLFile>
+<createdBy>W608-PCXX</createdBy>
+<createdTime>2026-09-15 13:48:38 UTC</createdTime>
+<ownerDesignName>diseñorelacional</ownerDesignName>
+<importedID>B6744CB4-9B5E-C221-3FD0-3D1B9CA7C468</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>F9C30B80-01EF-99D2-01CC-E4E2794BEF5E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="37457640-A362-E429-DEA5-C65B4169EE84" name="pk_metodo_pago">
+<sourceDDLFile>tablas.sql</sourceDDLFile>
+<createdBy>W608-PCXX</createdBy>
+<createdTime>2026-09-15 13:48:38 UTC</createdTime>
+<ownerDesignName>diseñorelacional</ownerDesignName>
+<importedID>2FF6FA30-FA06-8541-E558-7C2C92AB6E68</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3EB52E86-A171-F084-E547-B9A83EB06EFC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

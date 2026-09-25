@@ -1,0 +1,68 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4FF406A9-FA5A-D972-827F-93D6B077FD10" name="SUCURSAL">
+<sourceDDLFile>tablas.sql</sourceDDLFile>
+<createdBy>W608-PCXX</createdBy>
+<createdTime>2026-09-15 13:48:38 UTC</createdTime>
+<ownerDesignName>diseñorelacional</ownerDesignName>
+<importedID>DB7C7037-32A4-2F50-7278-0EA432CF4F79</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_sucursal" id="F65F2563-5543-DE0E-E1E5-E3BCABB9D283">
+<sourceDDLFile>tablas.sql</sourceDDLFile>
+<createdBy>W608-PCXX</createdBy>
+<createdTime>2026-09-15 13:48:38 UTC</createdTime>
+<ownerDesignName>diseñorelacional</ownerDesignName>
+<importedID>78378A88-E869-3B51-D7DA-B574215AFDF3</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>C2B61FEC-2E72-238F-9CBD-79B744DCD91D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementGenerateAlways>true</autoIncrementGenerateAlways>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementOrder>false</autoIncrementOrder>
+</Column>
+<Column name="nombre" id="278A3886-D058-120C-1AD9-8C4B563BE3B1">
+<sourceDDLFile>tablas.sql</sourceDDLFile>
+<createdBy>W608-PCXX</createdBy>
+<createdTime>2026-09-15 13:48:38 UTC</createdTime>
+<ownerDesignName>diseñorelacional</ownerDesignName>
+<importedID>7F9C7808-9578-BB5C-EBF7-F0FAB3DD3BF3</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>F9C30B80-01EF-99D2-01CC-E4E2794BEF5E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="direccion" id="DE049485-68BB-BC2F-41E5-EBCF8B12C528">
+<sourceDDLFile>tablas.sql</sourceDDLFile>
+<createdBy>W608-PCXX</createdBy>
+<createdTime>2026-09-15 13:48:38 UTC</createdTime>
+<ownerDesignName>diseñorelacional</ownerDesignName>
+<importedID>EF133394-E84D-7055-FF70-1D3E907015BE</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>B882CFE7-7072-FB12-6B2E-2C36775A722F</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A2EE7119-FA00-B85F-66F7-54E6A7BF9FDC" name="pk_sucursal">
+<sourceDDLFile>tablas.sql</sourceDDLFile>
+<createdBy>W608-PCXX</createdBy>
+<createdTime>2026-09-15 13:48:38 UTC</createdTime>
+<ownerDesignName>diseñorelacional</ownerDesignName>
+<importedID>11A882D1-FF3A-E277-2DA7-B375C8DFF85B</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F65F2563-5543-DE0E-E1E5-E3BCABB9D283"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

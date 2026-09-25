@@ -1,0 +1,56 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CE6A7B55-2F87-B3E0-5ABB-8F298014D45E" name="CARGO">
+<sourceDDLFile>creacion_tablas.sql</sourceDDLFile>
+<createdBy>W608-PCXX</createdBy>
+<createdTime>2026-09-15 14:07:23 UTC</createdTime>
+<ownerDesignName>diseñorelacional</ownerDesignName>
+<importedID>F66E1185-0501-3FC4-6D6B-3938343D72B3</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_cargo" id="B3EAC65C-9AFE-F271-75BF-59ADBF020CFD">
+<sourceDDLFile>creacion_tablas.sql</sourceDDLFile>
+<createdBy>W608-PCXX</createdBy>
+<createdTime>2026-09-15 14:07:23 UTC</createdTime>
+<ownerDesignName>diseñorelacional</ownerDesignName>
+<importedID>7A8DBD50-E75A-7E71-651F-AAEB86FE827C</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>C2B61FEC-2E72-238F-9CBD-79B744DCD91D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementGenerateAlways>true</autoIncrementGenerateAlways>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementOrder>false</autoIncrementOrder>
+</Column>
+<Column name="nombre_cargo" id="1AA54211-B635-0A3F-76C1-4AA4494EC118">
+<sourceDDLFile>creacion_tablas.sql</sourceDDLFile>
+<createdBy>W608-PCXX</createdBy>
+<createdTime>2026-09-15 14:07:23 UTC</createdTime>
+<ownerDesignName>diseñorelacional</ownerDesignName>
+<importedID>C9CB26C8-08B2-E6E3-1D5C-087876FECB79</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>F9C30B80-01EF-99D2-01CC-E4E2794BEF5E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4E78F0F5-29CA-8F5E-3266-3C9CA7083800" name="pk_cargo">
+<sourceDDLFile>creacion_tablas.sql</sourceDDLFile>
+<createdBy>W608-PCXX</createdBy>
+<createdTime>2026-09-15 14:07:23 UTC</createdTime>
+<ownerDesignName>diseñorelacional</ownerDesignName>
+<importedID>DCB52106-D3D4-2786-F8C8-834B4A67B78D</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B3EAC65C-9AFE-F271-75BF-59ADBF020CFD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

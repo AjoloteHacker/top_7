@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="Relational_1" id="DD2F0662-B6CE-1C13-DD19-5391F891756F" mainViewID="11007213-1FFE-7815-E5F6-4798D02AC2CD">
+<createdBy>rena4</createdBy>
+<createdTime>2026-09-16 01:45:08 UTC</createdTime>
+<ownerDesignName>diseñorelacional</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+<selectedRDBMSSite>01F6E6D1-21D0-CFBD-ABDD-3988D1813575</selectedRDBMSSite>
+<importDDLFileStamps>
+<importDDLFileStamp class="oracle.dbtools.crest.imports.DDLFileStamp">
+<fileName>Data_Base_Top9.sql</fileName>
+<pathName>C:\Users\rena4\Repositorios\004D_Taller_DB\Top_9</pathName>
+<dbType>17</dbType>
+</importDDLFileStamp>
+</importDDLFileStamps>
+</relationalModel>

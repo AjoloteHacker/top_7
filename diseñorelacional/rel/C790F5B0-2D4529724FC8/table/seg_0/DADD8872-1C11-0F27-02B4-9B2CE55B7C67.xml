@@ -1,0 +1,128 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DADD8872-1C11-0F27-02B4-9B2CE55B7C67" name="INSCRIPCION">
+<sourceDDLFile>tablas.sql</sourceDDLFile>
+<createdBy>W608-PCXX</createdBy>
+<createdTime>2026-09-15 13:48:38 UTC</createdTime>
+<ownerDesignName>diseñorelacional</ownerDesignName>
+<importedID>EC8B9EB8-68D6-488C-5183-AA1304924A14</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_inscripcion" id="6E71A5AE-96A5-489E-ADA0-DFB88C6A72B1">
+<sourceDDLFile>tablas.sql</sourceDDLFile>
+<createdBy>W608-PCXX</createdBy>
+<createdTime>2026-09-15 13:48:38 UTC</createdTime>
+<ownerDesignName>diseñorelacional</ownerDesignName>
+<importedID>CEFDB748-FAE1-8CF1-657F-BF165CBD2EE8</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>C2B61FEC-2E72-238F-9CBD-79B744DCD91D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementGenerateAlways>true</autoIncrementGenerateAlways>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementOrder>false</autoIncrementOrder>
+</Column>
+<Column name="fecha_inscripcion" id="D080E269-79B3-BD83-C7B0-CAF3BF1771F8">
+<sourceDDLFile>tablas.sql</sourceDDLFile>
+<createdBy>W608-PCXX</createdBy>
+<createdTime>2026-09-15 13:48:38 UTC</createdTime>
+<ownerDesignName>diseñorelacional</ownerDesignName>
+<importedID>0F0E6F99-1DE9-CDE1-E0A3-067642CA3ED2</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>E7E9C63B-23E8-26D6-0019-6E3B287AA484</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="asistio" id="C58FB694-1028-9A0A-5656-74E49102891C">
+<sourceDDLFile>tablas.sql</sourceDDLFile>
+<createdBy>W608-PCXX</createdBy>
+<createdTime>2026-09-15 13:48:38 UTC</createdTime>
+<ownerDesignName>diseñorelacional</ownerDesignName>
+<importedID>BBA8F98F-580D-7E08-6595-A50BCA02EB74</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>0D22C1D6-8AA9-7CC3-5660-B24C5C0774A0</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_cliente" id="C927C1D3-B2AF-FD9D-2243-17644AE76F69">
+<sourceDDLFile>tablas.sql</sourceDDLFile>
+<createdBy>W608-PCXX</createdBy>
+<createdTime>2026-09-15 13:48:38 UTC</createdTime>
+<ownerDesignName>diseñorelacional</ownerDesignName>
+<importedID>447352B3-F517-93CF-B062-B44D5EECF9F2</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>C2B61FEC-2E72-238F-9CBD-79B744DCD91D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0AF15F8D-7300-55ED-A6EF-DA00CEFEDBDB" referredColumn="851A1334-4C34-7B22-A8D6-A4FC4413A116"/>
+</associations>
+</Column>
+<Column name="id_evento" id="44CC9D65-D45D-84C3-503F-0BBB37F5D3F4">
+<sourceDDLFile>tablas.sql</sourceDDLFile>
+<createdBy>W608-PCXX</createdBy>
+<createdTime>2026-09-15 13:48:38 UTC</createdTime>
+<ownerDesignName>diseñorelacional</ownerDesignName>
+<importedID>77DA5719-732C-CA84-6FD9-DE7C00C33FBD</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>C2B61FEC-2E72-238F-9CBD-79B744DCD91D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BB5A2A5E-BF56-9420-06D0-4A5D2829DBED" referredColumn="3D5B4A7E-DDAD-2047-1B6B-A5F52E36B435"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8F2803BA-E846-775C-9FFF-35490144AB47" name="pk_inscripcion">
+<sourceDDLFile>tablas.sql</sourceDDLFile>
+<createdBy>W608-PCXX</createdBy>
+<createdTime>2026-09-15 13:48:38 UTC</createdTime>
+<ownerDesignName>diseñorelacional</ownerDesignName>
+<importedID>0EDB16D0-4CA0-8BC1-7653-C61713885242</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6E71A5AE-96A5-489E-ADA0-DFB88C6A72B1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A415C1A8-E30A-F7F2-2915-0BC0507438D5" name="fk_inscripcion_cliente">
+<createdBy>W608-PCXX</createdBy>
+<createdTime>2026-09-15 13:48:38 UTC</createdTime>
+<ownerDesignName>diseñorelacional</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C927C1D3-B2AF-FD9D-2243-17644AE76F69"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6CAFF935-E2F5-857A-4033-A0B711045BE7" name="fk_inscripcion_evento">
+<createdBy>W608-PCXX</createdBy>
+<createdTime>2026-09-15 13:48:38 UTC</createdTime>
+<ownerDesignName>diseñorelacional</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="44CC9D65-D45D-84C3-503F-0BBB37F5D3F4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="chk_inscripcion_asistio" directorySegmentName="seg_0" id="48843837-F6BF-C448-D903-46B2ACB0311A">
+<sourceDDLFile>tablas.sql</sourceDDLFile>
+<createdBy>W608-PCXX</createdBy>
+<createdTime>2026-09-15 13:48:38 UTC</createdTime>
+<ownerDesignName>diseñorelacional</ownerDesignName>
+<importedID>9B274695-323E-31C4-7A09-64C4A080E0F4</importedID>
+<rule><![CDATA[asistio IN ('S', 'N')]]></rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
+</Table>

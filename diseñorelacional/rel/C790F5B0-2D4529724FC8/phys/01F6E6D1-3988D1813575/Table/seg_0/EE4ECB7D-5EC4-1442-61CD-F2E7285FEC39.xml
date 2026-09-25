@@ -1,0 +1,57 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="PROVEEDOR" directorySegmentName="seg_0" id="EE4ECB7D-5EC4-1442-61CD-F2E7285FEC39">
+<createdBy>W608-PCXX</createdBy>
+<createdTime>2026-09-15 13:48:38 UTC</createdTime>
+<ownerDesignName>diseñorelacional</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="email" id="2426AF38-2E71-CA85-9D31-4CB1E9672BFB">
+<createdBy>W608-PCXX</createdBy>
+<createdTime>2026-09-15 13:48:38 UTC</createdTime>
+<ownerDesignName>diseñorelacional</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="direccion" id="5EFC6359-7C52-AC56-1107-2AD22D1199F3">
+<createdBy>W608-PCXX</createdBy>
+<createdTime>2026-09-15 13:48:38 UTC</createdTime>
+<ownerDesignName>diseñorelacional</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="pais" id="6C5AD988-47D8-12FF-68CC-BC42AB7860AA">
+<createdBy>W608-PCXX</createdBy>
+<createdTime>2026-09-15 13:48:38 UTC</createdTime>
+<ownerDesignName>diseñorelacional</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="id_proveedor" id="77FCDB3E-BCEA-FA39-EBFC-5D6E68A9A749">
+<createdBy>W608-PCXX</createdBy>
+<createdTime>2026-09-15 13:48:38 UTC</createdTime>
+<ownerDesignName>diseñorelacional</ownerDesignName>
+<autoIncrementDDL>IDENTITY_CLAUSE</autoIncrementDDL>
+</ColumnProxy>
+<ColumnProxy name="nombre_proveedor" id="AF44390F-71A8-9F72-6C83-83146E1754F9">
+<createdBy>W608-PCXX</createdBy>
+<createdTime>2026-09-15 13:48:38 UTC</createdTime>
+<ownerDesignName>diseñorelacional</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ciudad" id="B4AAE523-8479-796B-C7A5-6C837305D30A">
+<createdBy>W608-PCXX</createdBy>
+<createdTime>2026-09-15 13:48:38 UTC</createdTime>
+<ownerDesignName>diseñorelacional</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="telefono" id="ED7FB30C-52F9-1586-6960-33770F71A009">
+<createdBy>W608-PCXX</createdBy>
+<createdTime>2026-09-15 13:48:38 UTC</createdTime>
+<ownerDesignName>diseñorelacional</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="pk_proveedor" id="B82473B1-AC7C-73A5-8E38-DC9A9225F6F0">
+<createdBy>W608-PCXX</createdBy>
+<createdTime>2026-09-15 13:48:38 UTC</createdTime>
+<ownerDesignName>diseñorelacional</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev20c>

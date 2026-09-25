@@ -1,0 +1,181 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BB59046E-533C-4743-8227-E048F621321A" name="EMPLEADO">
+<sourceDDLFile>creacion_tablas.sql</sourceDDLFile>
+<createdBy>ruke</createdBy>
+<createdTime>2026-09-24 00:00:00 UTC</createdTime>
+<ownerDesignName>diseñorelacional</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_empleado" id="E9C26CD3-D7AF-4597-A4D8-ED60341D77C5">
+<sourceDDLFile>creacion_tablas.sql</sourceDDLFile>
+<createdBy>ruke</createdBy>
+<createdTime>2026-09-24 00:00:00 UTC</createdTime>
+<ownerDesignName>diseñorelacional</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>829ED3D0-7BC0-2295-4C17-829383613182</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementGenerateAlways>true</autoIncrementGenerateAlways>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementOrder>false</autoIncrementOrder>
+</Column>
+<Column name="rut" id="6DD7EC81-CF2D-423C-AAA1-B4377B597047">
+<sourceDDLFile>creacion_tablas.sql</sourceDDLFile>
+<createdBy>ruke</createdBy>
+<createdTime>2026-09-24 00:00:00 UTC</createdTime>
+<ownerDesignName>diseñorelacional</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>B1C2D3E4-1111-2222-3333-444455556666</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="primer_nombre" id="44214721-34C7-4E15-A84A-D25A32975D4D">
+<sourceDDLFile>creacion_tablas.sql</sourceDDLFile>
+<createdBy>ruke</createdBy>
+<createdTime>2026-09-24 00:00:00 UTC</createdTime>
+<ownerDesignName>diseñorelacional</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>2982C471-1104-20EA-5526-1AA4AC14870D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="segundo_nombre" id="BD623E6A-8CBF-440B-A263-8F6ED908C4B5">
+<sourceDDLFile>creacion_tablas.sql</sourceDDLFile>
+<createdBy>ruke</createdBy>
+<createdTime>2026-09-24 00:00:00 UTC</createdTime>
+<ownerDesignName>diseñorelacional</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>2982C471-1104-20EA-5526-1AA4AC14870D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="primer_apellido" id="C119D5B4-0C59-4E2C-9DE4-1BC3C7D21DC8">
+<sourceDDLFile>creacion_tablas.sql</sourceDDLFile>
+<createdBy>ruke</createdBy>
+<createdTime>2026-09-24 00:00:00 UTC</createdTime>
+<ownerDesignName>diseñorelacional</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>2982C471-1104-20EA-5526-1AA4AC14870D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="segundo_apellido" id="D997CABA-D26D-46AD-B17F-A3F236F2B46E">
+<sourceDDLFile>creacion_tablas.sql</sourceDDLFile>
+<createdBy>ruke</createdBy>
+<createdTime>2026-09-24 00:00:00 UTC</createdTime>
+<ownerDesignName>diseñorelacional</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>2982C471-1104-20EA-5526-1AA4AC14870D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="sueldo" id="E76E960C-02F7-44AE-8D50-616251DA57F4">
+<sourceDDLFile>creacion_tablas.sql</sourceDDLFile>
+<createdBy>ruke</createdBy>
+<createdTime>2026-09-24 00:00:00 UTC</createdTime>
+<ownerDesignName>diseñorelacional</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>829ED3D0-7BC0-2295-4C17-829383613182</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="email" id="6CEA6DD3-89F8-4562-A6D1-09A10C5E0181">
+<sourceDDLFile>creacion_tablas.sql</sourceDDLFile>
+<createdBy>ruke</createdBy>
+<createdTime>2026-09-24 00:00:00 UTC</createdTime>
+<ownerDesignName>diseñorelacional</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>CFF40E5E-5A1A-1604-AED2-D208B396B24D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="direccion" id="128A6CF0-DD4E-4581-AE57-29F855CC4390">
+<sourceDDLFile>creacion_tablas.sql</sourceDDLFile>
+<createdBy>ruke</createdBy>
+<createdTime>2026-09-24 00:00:00 UTC</createdTime>
+<ownerDesignName>diseñorelacional</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>D1A2B3C4-1234-5678-ABCD-EF1234567890</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_cargo" id="4015062B-9C9F-4294-8C15-EF8BA21AB143">
+<sourceDDLFile>creacion_tablas.sql</sourceDDLFile>
+<createdBy>ruke</createdBy>
+<createdTime>2026-09-24 00:00:00 UTC</createdTime>
+<ownerDesignName>diseñorelacional</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>829ED3D0-7BC0-2295-4C17-829383613182</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FEAE90D7-D0D0-4657-9238-B53F7C5C6458" referredColumn="1A3E610C-6F35-40BC-85EB-29ADE2B4CB62"/>
+</associations>
+</Column>
+<Column name="id_sucursal" id="A35FE888-4C70-414D-8B7B-D55359724E9F">
+<sourceDDLFile>creacion_tablas.sql</sourceDDLFile>
+<createdBy>ruke</createdBy>
+<createdTime>2026-09-24 00:00:00 UTC</createdTime>
+<ownerDesignName>diseñorelacional</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>829ED3D0-7BC0-2295-4C17-829383613182</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C102D1C0-F02E-426E-96F5-C65129BF3955" referredColumn="6645F61D-D4B2-49BB-9134-FF8806EBBF32"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="97962BAD-3B9F-48D0-8793-8998809AE13E" name="pk_empleado">
+<sourceDDLFile>creacion_tablas.sql</sourceDDLFile>
+<createdBy>ruke</createdBy>
+<createdTime>2026-09-24 00:00:00 UTC</createdTime>
+<ownerDesignName>diseñorelacional</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E9C26CD3-D7AF-4597-A4D8-ED60341D77C5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4BD954EC-603D-4F57-B897-971C173A3B34" name="fk_empleado_cargo">
+<createdBy>ruke</createdBy>
+<createdTime>2026-09-24 00:00:00 UTC</createdTime>
+<ownerDesignName>diseñorelacional</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4015062B-9C9F-4294-8C15-EF8BA21AB143"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="53230A06-9BB8-40AC-B403-ADEA82A66CE7" name="fk_sucursal_empleado">
+<createdBy>ruke</createdBy>
+<createdTime>2026-09-24 00:00:00 UTC</createdTime>
+<ownerDesignName>diseñorelacional</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A35FE888-4C70-414D-8B7B-D55359724E9F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

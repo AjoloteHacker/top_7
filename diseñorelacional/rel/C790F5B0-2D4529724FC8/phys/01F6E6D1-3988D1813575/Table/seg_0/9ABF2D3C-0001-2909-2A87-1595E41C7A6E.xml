@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="EMPLEADO" directorySegmentName="seg_0" id="9ABF2D3C-0001-2909-2A87-1595E41C7A6E">
+<createdBy>W608-PCXX</createdBy>
+<createdTime>2026-09-15 14:07:23 UTC</createdTime>
+<ownerDesignName>diseñorelacional</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="id_sucursal" id="0B09FE8E-950E-B4B8-1E13-17251E31336F">
+<createdBy>W608-PCXX</createdBy>
+<createdTime>2026-09-15 14:07:23 UTC</createdTime>
+<ownerDesignName>diseñorelacional</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="segundo_nombre" id="0D71EEBD-FAC6-FFE9-3D63-545C808AA3A6">
+<createdBy>W608-PCXX</createdBy>
+<createdTime>2026-09-15 14:07:23 UTC</createdTime>
+<ownerDesignName>diseñorelacional</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="primer_nombre" id="12FC3649-CA34-795D-189B-00DDA27E01BC">
+<createdBy>W608-PCXX</createdBy>
+<createdTime>2026-09-15 14:07:23 UTC</createdTime>
+<ownerDesignName>diseñorelacional</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="rut" id="1608480C-742F-0458-3164-E86CD7908D09">
+<createdBy>W608-PCXX</createdBy>
+<createdTime>2026-09-15 14:07:23 UTC</createdTime>
+<ownerDesignName>diseñorelacional</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="tercer_nombre" id="2F96A741-BCDF-1240-1283-F13A1DC334EC">
+<createdBy>W608-PCXX</createdBy>
+<createdTime>2026-09-15 14:07:23 UTC</createdTime>
+<ownerDesignName>diseñorelacional</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="email" id="6408006B-EC7E-50A6-6377-9351321586D1">
+<createdBy>W608-PCXX</createdBy>
+<createdTime>2026-09-15 14:07:23 UTC</createdTime>
+<ownerDesignName>diseñorelacional</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="id_cargo" id="93220260-E45A-C90E-A66C-9FFDDC453FB0">
+<createdBy>W608-PCXX</createdBy>
+<createdTime>2026-09-15 14:07:23 UTC</createdTime>
+<ownerDesignName>diseñorelacional</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="id_empleado" id="97F640FD-F56D-DC94-4539-DB4A4AA6077F">
+<createdBy>W608-PCXX</createdBy>
+<createdTime>2026-09-15 14:07:23 UTC</createdTime>
+<ownerDesignName>diseñorelacional</ownerDesignName>
+<autoIncrementDDL>IDENTITY_CLAUSE</autoIncrementDDL>
+</ColumnProxy>
+<ColumnProxy name="direccion" id="AF0A31F6-5B38-302C-FA0A-5E89C53C1AC5">
+<createdBy>W608-PCXX</createdBy>
+<createdTime>2026-09-15 14:07:23 UTC</createdTime>
+<ownerDesignName>diseñorelacional</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="sueldo" id="F3BE42A7-B6B2-01EE-B218-E8D8E2F3BDAA">
+<createdBy>W608-PCXX</createdBy>
+<createdTime>2026-09-15 14:07:23 UTC</createdTime>
+<ownerDesignName>diseñorelacional</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="fk_empleado_cargo" id="6806E133-00A8-B6DA-E50C-A85E6DBEA75C">
+<createdBy>W608-PCXX</createdBy>
+<createdTime>2026-09-15 14:07:23 UTC</createdTime>
+<ownerDesignName>diseñorelacional</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="pk_empleado" id="C6C9526C-BF10-8894-3BEF-68C664B1C798">
+<createdBy>W608-PCXX</createdBy>
+<createdTime>2026-09-15 14:07:23 UTC</createdTime>
+<ownerDesignName>diseñorelacional</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev20c>

@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="CLIENTE" directorySegmentName="seg_0" id="EFCE6749-8BB3-3333-466E-6427AC0E9CCE">
+<createdBy>W608-PCXX</createdBy>
+<createdTime>2026-09-15 14:07:23 UTC</createdTime>
+<ownerDesignName>diseñorelacional</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="telefono" id="012D260D-B22F-6C48-9E3A-66E1B9FA6938">
+<createdBy>W608-PCXX</createdBy>
+<createdTime>2026-09-15 14:07:23 UTC</createdTime>
+<ownerDesignName>diseñorelacional</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="segundo_nombre" id="5F16AB1F-D915-E8AE-D24E-1EB7FFDD2840">
+<createdBy>W608-PCXX</createdBy>
+<createdTime>2026-09-15 14:07:23 UTC</createdTime>
+<ownerDesignName>diseñorelacional</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="rut" id="6002F832-34E7-5BBC-6AAB-A3E00B0E7720">
+<createdBy>W608-PCXX</createdBy>
+<createdTime>2026-09-15 14:07:23 UTC</createdTime>
+<ownerDesignName>diseñorelacional</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="email" id="6471425B-95C6-210E-BE85-92B268160300">
+<createdBy>W608-PCXX</createdBy>
+<createdTime>2026-09-15 14:07:23 UTC</createdTime>
+<ownerDesignName>diseñorelacional</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="primer_nombre" id="679F50B8-6035-0F9E-A392-F70325703DE6">
+<createdBy>W608-PCXX</createdBy>
+<createdTime>2026-09-15 14:07:23 UTC</createdTime>
+<ownerDesignName>diseñorelacional</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="primer_apellido" id="A1414834-B367-9B89-246A-0F3863094475">
+<createdBy>W608-PCXX</createdBy>
+<createdTime>2026-09-15 14:07:23 UTC</createdTime>
+<ownerDesignName>diseñorelacional</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="segundo_apellido" id="A7D50592-7034-CDCC-3864-492716388D1A">
+<createdBy>W608-PCXX</createdBy>
+<createdTime>2026-09-15 14:07:23 UTC</createdTime>
+<ownerDesignName>diseñorelacional</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="id_cliente" id="C59AB99B-417A-890D-6063-F048C3F62818">
+<createdBy>W608-PCXX</createdBy>
+<createdTime>2026-09-15 14:07:23 UTC</createdTime>
+<ownerDesignName>diseñorelacional</ownerDesignName>
+<autoIncrementDDL>IDENTITY_CLAUSE</autoIncrementDDL>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="pk_cliente" id="35D92916-11D0-4332-5BA2-6FD563AD0479">
+<createdBy>W608-PCXX</createdBy>
+<createdTime>2026-09-15 14:07:23 UTC</createdTime>
+<ownerDesignName>diseñorelacional</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev20c>

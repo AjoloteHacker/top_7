@@ -1,0 +1,56 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4284BE5F-B1CD-1F32-DB24-024524986A60" name="METODO_PAGO">
+<sourceDDLFile>creacion_tablas.sql</sourceDDLFile>
+<createdBy>W608-PCXX</createdBy>
+<createdTime>2026-09-15 14:07:23 UTC</createdTime>
+<ownerDesignName>diseñorelacional</ownerDesignName>
+<importedID>EB852202-F285-E9FE-F416-4BCFF52E4FC4</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_metodo_pago" id="D7264F3A-6E7C-DA2C-5812-1AFA51D66333">
+<sourceDDLFile>creacion_tablas.sql</sourceDDLFile>
+<createdBy>W608-PCXX</createdBy>
+<createdTime>2026-09-15 14:07:23 UTC</createdTime>
+<ownerDesignName>diseñorelacional</ownerDesignName>
+<importedID>C928F563-2587-DCB4-8975-22BF51DB372C</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>C2B61FEC-2E72-238F-9CBD-79B744DCD91D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementGenerateAlways>true</autoIncrementGenerateAlways>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementOrder>false</autoIncrementOrder>
+</Column>
+<Column name="nombre" id="4B376D13-55C6-0BFD-2038-A208E48620FF">
+<sourceDDLFile>creacion_tablas.sql</sourceDDLFile>
+<createdBy>W608-PCXX</createdBy>
+<createdTime>2026-09-15 14:07:23 UTC</createdTime>
+<ownerDesignName>diseñorelacional</ownerDesignName>
+<importedID>3A61EA61-F5E4-97ED-98A6-3D95734D8253</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>F9C30B80-01EF-99D2-01CC-E4E2794BEF5E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="73C4BDEB-ECA6-D73C-B566-657237691EE1" name="pk_metodo_pago">
+<sourceDDLFile>creacion_tablas.sql</sourceDDLFile>
+<createdBy>W608-PCXX</createdBy>
+<createdTime>2026-09-15 14:07:23 UTC</createdTime>
+<ownerDesignName>diseñorelacional</ownerDesignName>
+<importedID>3EFE27CC-9145-A92B-3DB3-6D199FCE2C8A</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D7264F3A-6E7C-DA2C-5812-1AFA51D66333"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

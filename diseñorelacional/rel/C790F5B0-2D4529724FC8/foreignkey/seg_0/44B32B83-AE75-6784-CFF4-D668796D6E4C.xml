@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="44B32B83-AE75-6784-CFF4-D668796D6E4C" containerWithKeyObject="0F9ED81B-6448-E772-F260-9828EE1541FD" localFKIndex="DBE62272-1F12-2218-0B46-34903D9397E2" name="fk_review_evento">
+<sourceDDLFile>tablas.sql</sourceDDLFile>
+<createdBy>W608-PCXX</createdBy>
+<createdTime>2026-09-15 13:48:38 UTC</createdTime>
+<ownerDesignName>diseñorelacional</ownerDesignName>
+<importedID>AC67F6C4-96CA-4048-F2A0-CA7F3C3CAF4E</importedID>
+<referredTableLongName>EVENTO</referredTableLongName>
+<arc>689E27BE-4F72-DD33-60CC-A7F6C967C548</arc>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>184D1966-3738-BD10-0EBD-07E678AEDD30</referredTableID>
+<keyObject>1A67A8F0-7600-8B43-6E09-B6303CBBD4F0</keyObject>
+<referredKeyID>1A67A8F0-7600-8B43-6E09-B6303CBBD4F0</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>id_evento</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

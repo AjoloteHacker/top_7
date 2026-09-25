@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="22F5B618-0711-4746-9452-053303B9F087" containerWithKeyObject="7E6A7B94-6D41-293A-170D-3F94F7D80F2A" localFKIndex="B0F55C3B-3D98-4E05-A7CE-64C82E2AC245" name="fk_prod_proveedor">
+<sourceDDLFile>creacion_tablas.sql</sourceDDLFile>
+<createdBy>W608-PCXX</createdBy>
+<createdTime>2026-09-15 14:07:23 UTC</createdTime>
+<ownerDesignName>diseñorelacional</ownerDesignName>
+<importedID>FD664643-4501-F5EA-869B-1B897C445534</importedID>
+<referredTableLongName>PROVEEDOR</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>0A797B38-1144-896D-4DAD-09768065DDC3</referredTableID>
+<keyObject>A6D089A7-06FB-BBD8-51EA-655A6DCE6414</keyObject>
+<referredKeyID>A6D089A7-06FB-BBD8-51EA-655A6DCE6414</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_proveedor</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

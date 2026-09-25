@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="4FD0B485-B6EE-EDD2-043D-B01AA157A46A" containerWithKeyObject="BED4E55E-1964-C6B4-20CB-CCF13AE03266" localFKIndex="6CC04ADE-2630-28F8-E9A1-56E46658ED71" name="fk_prod_editorial">
+<sourceDDLFile>tablas.sql</sourceDDLFile>
+<createdBy>W608-PCXX</createdBy>
+<createdTime>2026-09-15 13:48:38 UTC</createdTime>
+<ownerDesignName>diseñorelacional</ownerDesignName>
+<importedID>55AF1028-FB85-6424-DD99-D85D82E427F5</importedID>
+<referredTableLongName>EDITORIAL</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>E0EA9D09-2919-549B-8D24-4BA039244503</referredTableID>
+<keyObject>64281BCC-2A97-6546-887F-B7FA39B89A76</keyObject>
+<referredKeyID>64281BCC-2A97-6546-887F-B7FA39B89A76</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>id_editorial</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

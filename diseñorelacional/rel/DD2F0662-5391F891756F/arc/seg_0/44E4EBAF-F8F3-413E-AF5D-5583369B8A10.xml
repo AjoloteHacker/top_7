@@ -1,0 +1,13 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+
+<FKArc class="oracle.dbtools.crest.model.design.relational.FKArc" directorySegmentName="seg_0" id="44E4EBAF-F8F3-413E-AF5D-5583369B8A10" name="chk_review_objetivo">
+<createdBy>ruke</createdBy>
+<createdTime>2026-09-24 00:00:00 UTC</createdTime>
+<ownerDesignName>diseñorelacional</ownerDesignName>
+<mandatory>true</mandatory>
+<table>9242FD8E-1239-4F79-A02A-E54E02CB4C0B</table>
+<fkeys>
+<fkeyID>D8E602D8-4BC8-4235-A2CB-A434C9B4D17D</fkeyID>
+<fkeyID>DA717165-E1BE-441B-B3E1-088A87724FBC</fkeyID>
+</fkeys>
+</FKArc>
