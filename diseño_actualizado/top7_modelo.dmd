@@ -1,0 +1,13 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="top7_modelo" id="B129333A-7EFB-2C9A-C5E1-55CBFADBC08F" version="3.5">
+<createdBy>ruke</createdBy>
+<createdTime>2026-09-26 23:57:39 UTC</createdTime>
+<ownerDesignName>top7_modelo</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>B129333A-7EFB-2C9A-C5E1-55CBFADBC08F</designId>
+<usedDesignStorageDescriptors>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="37EED171-366B-E455-9AC0-6E77D1E3D1A5">
+<designStoragePath>/creacion_tablas</designStoragePath>
+</designDescr>
+</usedDesignStorageDescriptors>
+</OSDM_Design>

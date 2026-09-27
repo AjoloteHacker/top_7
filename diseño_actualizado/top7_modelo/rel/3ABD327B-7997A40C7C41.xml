@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="Relational_1" id="3ABD327B-C1BC-7AAB-B926-7997A40C7C41" mainViewID="B907FABD-CD73-34E5-F3B7-2BF7600CE735">
+<createdBy>ruke</createdBy>
+<createdTime>2026-09-26 23:57:40 UTC</createdTime>
+<ownerDesignName>top7_modelo</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+<selectedRDBMSSite>3FD120B5-9F4E-6278-D5E2-746D192C8319</selectedRDBMSSite>
+<importDDLFileStamps>
+<importDDLFileStamp class="oracle.dbtools.crest.imports.DDLFileStamp">
+<fileName>creacion_tablas.sql</fileName>
+<pathName>/home/ruke/taller_base_de_datos/top_7</pathName>
+<dbType>11</dbType>
+</importDDLFileStamp>
+</importDDLFileStamps>
+</relationalModel>

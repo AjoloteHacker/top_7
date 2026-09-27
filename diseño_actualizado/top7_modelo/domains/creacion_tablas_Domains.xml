@@ -1,0 +1,120 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<DomainFile class="oracle.dbtools.crest.model.design.DomainFileWrapper" fileName="creacion_tablas_Domains">
+<domains>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_100" id="0A31FCD1-5BC2-D80D-0792-A86433E9393B">
+<createdBy>ruke</createdBy>
+<createdTime>2026-09-26 23:58:36 UTC</createdTime>
+<ownerDesignName>top7_modelo</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>100</dataTypeSize>
+<fileName>creacion_tablas_Domains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_12" id="515F809C-9A96-1706-C029-98E3866E54C4">
+<createdBy>ruke</createdBy>
+<createdTime>2026-09-26 23:58:36 UTC</createdTime>
+<ownerDesignName>top7_modelo</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>12</dataTypeSize>
+<fileName>creacion_tablas_Domains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_15" id="6C4BAAFC-89FF-9546-337A-3F44C54BFE86">
+<createdBy>ruke</createdBy>
+<createdTime>2026-09-26 23:58:36 UTC</createdTime>
+<ownerDesignName>top7_modelo</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>15</dataTypeSize>
+<fileName>creacion_tablas_Domains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_500" id="7BBD4AE9-7EE9-64F8-50EC-4660D684EF69">
+<createdBy>ruke</createdBy>
+<createdTime>2026-09-26 23:58:36 UTC</createdTime>
+<ownerDesignName>top7_modelo</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>500</dataTypeSize>
+<fileName>creacion_tablas_Domains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="Date_0_0_0" id="7CB37A13-3ACD-7FE3-FD3A-F92A6C9E2EC3">
+<createdBy>ruke</createdBy>
+<createdTime>2026-09-26 23:58:36 UTC</createdTime>
+<ownerDesignName>top7_modelo</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<fileName>creacion_tablas_Domains</fileName>
+<logicalDatatype>LOGDT007</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_150" id="A92A02DB-5ABD-4084-9607-2675770B1B72">
+<createdBy>ruke</createdBy>
+<createdTime>2026-09-26 23:58:36 UTC</createdTime>
+<ownerDesignName>top7_modelo</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>150</dataTypeSize>
+<fileName>creacion_tablas_Domains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="CHAR_0_0_1" id="A9912C4B-60BE-2313-B4E8-3E94BFDBFA5D">
+<createdBy>ruke</createdBy>
+<createdTime>2026-09-26 23:58:36 UTC</createdTime>
+<ownerDesignName>top7_modelo</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>1</dataTypeSize>
+<fileName>creacion_tablas_Domains</fileName>
+<logicalDatatype>LOGDT025</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_20" id="B4728727-7CE0-1F98-7F29-9A14D7BB0A68">
+<createdBy>ruke</createdBy>
+<createdTime>2026-09-26 23:58:36 UTC</createdTime>
+<ownerDesignName>top7_modelo</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>20</dataTypeSize>
+<fileName>creacion_tablas_Domains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="NUMERIC_0_0_0" id="C04AF55C-246D-895E-2DF3-6F88B52341AE">
+<createdBy>ruke</createdBy>
+<createdTime>2026-09-26 23:58:36 UTC</createdTime>
+<ownerDesignName>top7_modelo</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<fileName>creacion_tablas_Domains</fileName>
+<logicalDatatype>LOGDT019</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_255" id="F5093760-BC2F-A0EC-2FBE-26907F2E3526">
+<createdBy>ruke</createdBy>
+<createdTime>2026-09-26 23:58:36 UTC</createdTime>
+<ownerDesignName>top7_modelo</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>255</dataTypeSize>
+<fileName>creacion_tablas_Domains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_50" id="FF8AF47A-620F-0B55-9A73-49DD7DDCA6F4">
+<createdBy>ruke</createdBy>
+<createdTime>2026-09-26 23:58:36 UTC</createdTime>
+<ownerDesignName>top7_modelo</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>50</dataTypeSize>
+<fileName>creacion_tablas_Domains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+</domains>
+</DomainFile>

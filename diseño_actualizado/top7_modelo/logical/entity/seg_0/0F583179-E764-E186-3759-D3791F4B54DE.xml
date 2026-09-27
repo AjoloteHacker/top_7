@@ -1,0 +1,113 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0F583179-E764-E186-3759-D3791F4B54DE" name="EVENTO">
+<createdBy>ruke</createdBy>
+<createdTime>2026-09-26 23:58:44 UTC</createdTime>
+<generatorID>0610E7D6-3E27-E5A8-4210-C362EC2BF5F9</generatorID>
+<ownerDesignName>top7_modelo</ownerDesignName>
+<engineerTo>
+<item key="3ABD327B-C1BC-7AAB-B926-7997A40C7C41" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id evento" id="C67E129E-D5A5-058D-5224-6D84F9DE1641">
+<createdBy>ruke</createdBy>
+<createdTime>2026-09-26 23:58:44 UTC</createdTime>
+<generatorID>E57293C3-DEC9-C9D4-E073-A59A5D2A070B</generatorID>
+<ownerDesignName>top7_modelo</ownerDesignName>
+<engineerTo>
+<item key="3ABD327B-C1BC-7AAB-B926-7997A40C7C41" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>C04AF55C-246D-895E-2DF3-6F88B52341AE</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre evento" id="4406262B-D421-AE05-F964-1F90E49C68E3">
+<createdBy>ruke</createdBy>
+<createdTime>2026-09-26 23:58:44 UTC</createdTime>
+<generatorID>F3348C87-3685-23CD-A41F-9C6997A612AB</generatorID>
+<ownerDesignName>top7_modelo</ownerDesignName>
+<engineerTo>
+<item key="3ABD327B-C1BC-7AAB-B926-7997A40C7C41" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>0A31FCD1-5BC2-D80D-0792-A86433E9393B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tipo evento" id="EC4781AB-0F85-DB3B-7640-3A23A6944065">
+<createdBy>ruke</createdBy>
+<createdTime>2026-09-26 23:58:44 UTC</createdTime>
+<generatorID>DD5BFBD8-9249-D66A-B308-B5DF99547F35</generatorID>
+<ownerDesignName>top7_modelo</ownerDesignName>
+<engineerTo>
+<item key="3ABD327B-C1BC-7AAB-B926-7997A40C7C41" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>FF8AF47A-620F-0B55-9A73-49DD7DDCA6F4</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha inicio" id="98DC633D-38B1-E744-E659-2FC4A80E4065">
+<createdBy>ruke</createdBy>
+<createdTime>2026-09-26 23:58:44 UTC</createdTime>
+<generatorID>43C03ADE-3CB1-D307-FD6E-1A7C7AB674D0</generatorID>
+<ownerDesignName>top7_modelo</ownerDesignName>
+<engineerTo>
+<item key="3ABD327B-C1BC-7AAB-B926-7997A40C7C41" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>7CB37A13-3ACD-7FE3-FD3A-F92A6C9E2EC3</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha final" id="5DDE28DD-B99A-ADBD-DA44-C5B781F58443">
+<createdBy>ruke</createdBy>
+<createdTime>2026-09-26 23:58:44 UTC</createdTime>
+<generatorID>65EBCFDB-DC36-A4AE-0B08-1CED4CC9794A</generatorID>
+<ownerDesignName>top7_modelo</ownerDesignName>
+<engineerTo>
+<item key="3ABD327B-C1BC-7AAB-B926-7997A40C7C41" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>7CB37A13-3ACD-7FE3-FD3A-F92A6C9E2EC3</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cupo maximo" id="152401FD-4254-52EA-0AD4-A47E98B6C542">
+<createdBy>ruke</createdBy>
+<createdTime>2026-09-26 23:58:44 UTC</createdTime>
+<generatorID>CE93F49B-8B7E-2C5E-833D-C10A200897CD</generatorID>
+<ownerDesignName>top7_modelo</ownerDesignName>
+<engineerTo>
+<item key="3ABD327B-C1BC-7AAB-B926-7997A40C7C41" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>C04AF55C-246D-895E-2DF3-6F88B52341AE</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="163FF757-6F88-A06C-89D3-797A43988DF6" name="pk evento">
+<createdBy>ruke</createdBy>
+<createdTime>2026-09-26 23:58:44 UTC</createdTime>
+<generatorID>A5D48E0B-AF7D-0873-B261-BB1742C4E9B1</generatorID>
+<ownerDesignName>top7_modelo</ownerDesignName>
+<engineerTo>
+<item key="3ABD327B-C1BC-7AAB-B926-7997A40C7C41" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C67E129E-D5A5-058D-5224-6D84F9DE1641</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

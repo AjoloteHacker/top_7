@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="16BF286B-3FB9-E536-96D3-1932BB3D8844" name="STOCK">
+<createdBy>ruke</createdBy>
+<createdTime>2026-09-26 23:58:44 UTC</createdTime>
+<generatorID>95BA585D-815F-3C02-7D13-5E5AC6BCEEFF</generatorID>
+<ownerDesignName>top7_modelo</ownerDesignName>
+<engineerTo>
+<item key="3ABD327B-C1BC-7AAB-B926-7997A40C7C41" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id stock" id="7ECD4400-B4B6-2A7A-36EF-100EFE574068">
+<createdBy>ruke</createdBy>
+<createdTime>2026-09-26 23:58:44 UTC</createdTime>
+<generatorID>50E673C8-3EE4-A8C3-5D0C-72EAE3DDC162</generatorID>
+<ownerDesignName>top7_modelo</ownerDesignName>
+<engineerTo>
+<item key="3ABD327B-C1BC-7AAB-B926-7997A40C7C41" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>C04AF55C-246D-895E-2DF3-6F88B52341AE</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cantidad producto" id="6281A86F-9788-5D51-C902-770CE4625ECF">
+<createdBy>ruke</createdBy>
+<createdTime>2026-09-26 23:58:44 UTC</createdTime>
+<generatorID>E2F082E6-8013-D3DE-F055-2B9A5D3C6453</generatorID>
+<ownerDesignName>top7_modelo</ownerDesignName>
+<engineerTo>
+<item key="3ABD327B-C1BC-7AAB-B926-7997A40C7C41" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>C04AF55C-246D-895E-2DF3-6F88B52341AE</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="FEE49CBE-6CCD-70DC-9E17-015227932219" name="pk stock">
+<createdBy>ruke</createdBy>
+<createdTime>2026-09-26 23:58:44 UTC</createdTime>
+<generatorID>340A3187-0175-DD1C-956D-0F0CB921A99A</generatorID>
+<ownerDesignName>top7_modelo</ownerDesignName>
+<engineerTo>
+<item key="3ABD327B-C1BC-7AAB-B926-7997A40C7C41" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>7ECD4400-B4B6-2A7A-36EF-100EFE574068</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

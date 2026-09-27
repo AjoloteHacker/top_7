@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8FECD19F-BCE3-7EC5-71B9-B1F13AF84DA2" name="CARGO">
+<createdBy>ruke</createdBy>
+<createdTime>2026-09-26 23:58:44 UTC</createdTime>
+<generatorID>5C368EA8-ED5E-99BE-38D6-1032D48B7E94</generatorID>
+<ownerDesignName>top7_modelo</ownerDesignName>
+<engineerTo>
+<item key="3ABD327B-C1BC-7AAB-B926-7997A40C7C41" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id cargo" id="0793571F-470D-B6FA-0FC8-89D4982F3741">
+<createdBy>ruke</createdBy>
+<createdTime>2026-09-26 23:58:44 UTC</createdTime>
+<generatorID>683E1BC4-F05A-E370-5A6D-C05D133B8AF9</generatorID>
+<ownerDesignName>top7_modelo</ownerDesignName>
+<engineerTo>
+<item key="3ABD327B-C1BC-7AAB-B926-7997A40C7C41" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>C04AF55C-246D-895E-2DF3-6F88B52341AE</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre cargo" id="6B1FEFF6-2421-8792-E150-D9648BC0F230">
+<createdBy>ruke</createdBy>
+<createdTime>2026-09-26 23:58:44 UTC</createdTime>
+<generatorID>0EBBF0DC-8265-4BAA-F479-66058E2814DD</generatorID>
+<ownerDesignName>top7_modelo</ownerDesignName>
+<engineerTo>
+<item key="3ABD327B-C1BC-7AAB-B926-7997A40C7C41" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>FF8AF47A-620F-0B55-9A73-49DD7DDCA6F4</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="753B0586-581E-4A98-0FAC-0A85F421BCD6" name="pk cargo">
+<createdBy>ruke</createdBy>
+<createdTime>2026-09-26 23:58:44 UTC</createdTime>
+<generatorID>5BEFE572-EEC8-6650-D394-C90468339FE6</generatorID>
+<ownerDesignName>top7_modelo</ownerDesignName>
+<engineerTo>
+<item key="3ABD327B-C1BC-7AAB-B926-7997A40C7C41" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>0793571F-470D-B6FA-0FC8-89D4982F3741</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1B6ECE32-5F3A-1BA8-680D-1F94910B85CB" name="PAIS">
+<createdBy>ruke</createdBy>
+<createdTime>2026-09-26 23:58:44 UTC</createdTime>
+<generatorID>B9DA4D17-169B-CCD3-BCA0-24941C623A8F</generatorID>
+<ownerDesignName>top7_modelo</ownerDesignName>
+<engineerTo>
+<item key="3ABD327B-C1BC-7AAB-B926-7997A40C7C41" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id pais" id="6070A7E1-A6A1-5BF5-1D68-05D9EEAD9613">
+<createdBy>ruke</createdBy>
+<createdTime>2026-09-26 23:58:44 UTC</createdTime>
+<generatorID>C10B2070-A0D2-079C-CB27-D28F97550406</generatorID>
+<ownerDesignName>top7_modelo</ownerDesignName>
+<engineerTo>
+<item key="3ABD327B-C1BC-7AAB-B926-7997A40C7C41" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>C04AF55C-246D-895E-2DF3-6F88B52341AE</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre pais" id="B086E3D3-085B-FCAF-11AF-B025CBA90FD4">
+<createdBy>ruke</createdBy>
+<createdTime>2026-09-26 23:58:44 UTC</createdTime>
+<generatorID>DB38A6BB-BB3B-83E9-A02A-CB1DED85F9E3</generatorID>
+<ownerDesignName>top7_modelo</ownerDesignName>
+<engineerTo>
+<item key="3ABD327B-C1BC-7AAB-B926-7997A40C7C41" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>0A31FCD1-5BC2-D80D-0792-A86433E9393B</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="43F901E1-6499-B65E-4D26-32A6799A5DB9" name="pk pais">
+<createdBy>ruke</createdBy>
+<createdTime>2026-09-26 23:58:44 UTC</createdTime>
+<generatorID>DC1649ED-78F5-0DA4-18F8-20A9C43A5B24</generatorID>
+<ownerDesignName>top7_modelo</ownerDesignName>
+<engineerTo>
+<item key="3ABD327B-C1BC-7AAB-B926-7997A40C7C41" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>6070A7E1-A6A1-5BF5-1D68-05D9EEAD9613</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="A2959AC0-7184-529C-BB4E-3CA87336F72D" name="uq nombre pais">
+<createdBy>ruke</createdBy>
+<createdTime>2026-09-26 23:58:44 UTC</createdTime>
+<generatorID>92A2DE9C-65AD-FF2D-FAD7-C10633C2B441</generatorID>
+<ownerDesignName>top7_modelo</ownerDesignName>
+<engineerTo>
+<item key="3ABD327B-C1BC-7AAB-B926-7997A40C7C41" value="true"/>
+</engineerTo>
+<usedAttributes>
+<attributeRef>B086E3D3-085B-FCAF-11AF-B025CBA90FD4</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

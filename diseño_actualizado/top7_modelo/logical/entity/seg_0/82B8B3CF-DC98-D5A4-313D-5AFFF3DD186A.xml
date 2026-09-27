@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="82B8B3CF-DC98-D5A4-313D-5AFFF3DD186A" name="METODO PAGO">
+<createdBy>ruke</createdBy>
+<createdTime>2026-09-26 23:58:44 UTC</createdTime>
+<generatorID>7D208BE3-A4B8-9900-1C35-43AA19AE05D9</generatorID>
+<ownerDesignName>top7_modelo</ownerDesignName>
+<engineerTo>
+<item key="3ABD327B-C1BC-7AAB-B926-7997A40C7C41" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id metodo pago" id="B8758F2B-41D9-1B29-4365-417AB2FF8809">
+<createdBy>ruke</createdBy>
+<createdTime>2026-09-26 23:58:44 UTC</createdTime>
+<generatorID>2AF261BA-21C2-3602-11CC-36974214CC95</generatorID>
+<ownerDesignName>top7_modelo</ownerDesignName>
+<engineerTo>
+<item key="3ABD327B-C1BC-7AAB-B926-7997A40C7C41" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>C04AF55C-246D-895E-2DF3-6F88B52341AE</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="BB8143EB-C482-BC4B-399D-77AEEC88BE59">
+<createdBy>ruke</createdBy>
+<createdTime>2026-09-26 23:58:44 UTC</createdTime>
+<generatorID>33616FA0-BEC2-9A74-65A2-E491D4A6739F</generatorID>
+<ownerDesignName>top7_modelo</ownerDesignName>
+<engineerTo>
+<item key="3ABD327B-C1BC-7AAB-B926-7997A40C7C41" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>FF8AF47A-620F-0B55-9A73-49DD7DDCA6F4</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="7705B5A4-C5E2-DB2D-E239-1D5EAD33AF11" name="pk metodo pago">
+<createdBy>ruke</createdBy>
+<createdTime>2026-09-26 23:58:44 UTC</createdTime>
+<generatorID>A6A2682A-556B-B6AA-AE52-8DF057A6B67D</generatorID>
+<ownerDesignName>top7_modelo</ownerDesignName>
+<engineerTo>
+<item key="3ABD327B-C1BC-7AAB-B926-7997A40C7C41" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B8758F2B-41D9-1B29-4365-417AB2FF8809</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
