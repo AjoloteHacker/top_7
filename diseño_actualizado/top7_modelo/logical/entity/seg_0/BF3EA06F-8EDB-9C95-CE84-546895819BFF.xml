@@ -1,8 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8FECD19F-BCE3-7EC5-71B9-B1F13AF84DA2" name="CARGO">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="BF3EA06F-8EDB-9C95-CE84-546895819BFF" name="REGION">
 <createdBy>ruke</createdBy>
-<createdTime>2026-09-26 23:58:44 UTC</createdTime>
-<generatorID>5C368EA8-ED5E-99BE-38D6-1032D48B7E94</generatorID>
+<createdTime>2026-09-28 00:51:50 UTC</createdTime>
 <ownerDesignName>top7_modelo</ownerDesignName>
 <engineerTo>
 <item key="3ABD327B-C1BC-7AAB-B926-7997A40C7C41" value="true"/>
@@ -16,10 +15,9 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="id" id="0793571F-470D-B6FA-0FC8-89D4982F3741">
+<Attribute name="id" id="5FCA368E-4997-4D8E-E1BD-C7EB3134B5C9">
 <createdBy>ruke</createdBy>
-<createdTime>2026-09-26 23:58:44 UTC</createdTime>
-<generatorID>683E1BC4-F05A-E370-5A6D-C05D133B8AF9</generatorID>
+<createdTime>2026-09-28 00:52:51 UTC</createdTime>
 <ownerDesignName>top7_modelo</ownerDesignName>
 <engineerTo>
 <item key="3ABD327B-C1BC-7AAB-B926-7997A40C7C41" value="true"/>
@@ -27,13 +25,12 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>2</dataTypePrecision>
-<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="nombre cargo" id="6B1FEFF6-2421-8792-E150-D9648BC0F230">
+<Attribute name="nombre" id="A579CEE4-F545-31ED-36B9-17DFCF20BCDD">
 <createdBy>ruke</createdBy>
-<createdTime>2026-09-26 23:58:44 UTC</createdTime>
-<generatorID>0EBBF0DC-8265-4BAA-F479-66058E2814DD</generatorID>
+<createdTime>2026-09-28 00:53:09 UTC</createdTime>
 <ownerDesignName>top7_modelo</ownerDesignName>
 <engineerTo>
 <item key="3ABD327B-C1BC-7AAB-B926-7997A40C7C41" value="true"/>
@@ -41,35 +38,36 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>40 CHAR</dataTypeSize>
-<ownDataTypeParameters>40 CHAR,,</ownDataTypeParameters>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="descripción" id="21FBC5ED-AD1E-1C21-A5AF-F232C6C57845">
+<Attribute name="id1" id="1E544C02-522F-089E-B709-F7706D888CFC">
 <createdBy>ruke</createdBy>
-<createdTime>2026-09-28 00:49:28 UTC</createdTime>
+<createdTime>2026-09-28 00:56:38 UTC</createdTime>
+<generatorID>80DB11B5-69BF-F719-7067-E6CA6E3FC925</generatorID>
 <ownerDesignName>top7_modelo</ownerDesignName>
 <engineerTo>
 <item key="3ABD327B-C1BC-7AAB-B926-7997A40C7C41" value="true"/>
 </engineerTo>
+<referedAttribute>7BC87B95-8045-22A7-A20E-888B3B6A0525</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>500 CHAR</dataTypeSize>
-<ownDataTypeParameters>500 CHAR,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="753B0586-581E-4A98-0FAC-0A85F421BCD6" name="pk cargo">
+<identifier id="CDD3AB48-EF9C-76A8-2705-34A3CA652D30" name="REGION PK">
 <createdBy>ruke</createdBy>
-<createdTime>2026-09-26 23:58:44 UTC</createdTime>
-<generatorID>5BEFE572-EEC8-6650-D394-C90468339FE6</generatorID>
+<createdTime>2026-09-28 00:53:02 UTC</createdTime>
 <ownerDesignName>top7_modelo</ownerDesignName>
 <engineerTo>
 <item key="3ABD327B-C1BC-7AAB-B926-7997A40C7C41" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>0793571F-470D-B6FA-0FC8-89D4982F3741</attributeRef>
+<attributeRef>5FCA368E-4997-4D8E-E1BD-C7EB3134B5C9</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>
