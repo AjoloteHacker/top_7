@@ -1,8 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B70E7591-CAB4-B838-ED6B-325008105FCA" name="PRODUCTO">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B8A9F22F-6A09-7A79-4944-CCAC48443BD1" name="EMPLEADO">
 <createdBy>ruke</createdBy>
-<createdTime>2026-09-26 23:58:44 UTC</createdTime>
-<generatorID>011FBA76-E0CE-7A1D-8F0A-82AF9871D886</generatorID>
+<createdTime>2026-09-28 01:15:31 UTC</createdTime>
 <ownerDesignName>top7_modelo</ownerDesignName>
 <engineerTo>
 <item key="3ABD327B-C1BC-7AAB-B926-7997A40C7C41" value="true"/>
@@ -16,10 +15,9 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="id" id="E45180F9-A3B9-05D3-87D4-E9D6C09488AF">
+<Attribute name="id" id="81D8988F-DE51-065B-3E09-57835CCA13E5">
 <createdBy>ruke</createdBy>
-<createdTime>2026-09-26 23:58:44 UTC</createdTime>
-<generatorID>B9B64F36-6402-A343-3081-AF1B0B0366E2</generatorID>
+<createdTime>2026-09-28 01:15:38 UTC</createdTime>
 <ownerDesignName>top7_modelo</ownerDesignName>
 <engineerTo>
 <item key="3ABD327B-C1BC-7AAB-B926-7997A40C7C41" value="true"/>
@@ -27,12 +25,12 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="sku" id="2B5FBD6D-2CD8-6222-518F-9BED4FA0E1FD">
+<Attribute name="primer_nombre" id="94FC7EAA-B550-2025-3BFF-FD468A66F7C8">
 <createdBy>ruke</createdBy>
-<createdTime>2026-09-26 23:58:44 UTC</createdTime>
-<generatorID>792E4350-D4FA-53C8-2D52-9A0BEDCFCBBD</generatorID>
+<createdTime>2026-09-28 01:15:50 UTC</createdTime>
 <ownerDesignName>top7_modelo</ownerDesignName>
 <engineerTo>
 <item key="3ABD327B-C1BC-7AAB-B926-7997A40C7C41" value="true"/>
@@ -43,52 +41,9 @@
 <dataTypeSize>30 CHAR</dataTypeSize>
 <ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="nombre producto" id="D72A26FB-FA81-945E-C01C-4D67902363FE">
+<Attribute name="segundo_nombre" id="C5DCDDB7-473C-0377-4AFE-1F42EA0313DB">
 <createdBy>ruke</createdBy>
-<createdTime>2026-09-26 23:58:44 UTC</createdTime>
-<generatorID>E25ED406-33A4-9269-2E38-B396031FA62D</generatorID>
-<ownerDesignName>top7_modelo</ownerDesignName>
-<engineerTo>
-<item key="3ABD327B-C1BC-7AAB-B926-7997A40C7C41" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>100 CHAR</dataTypeSize>
-<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="precio" id="C213B565-2377-6090-348D-94BC58F71135">
-<createdBy>ruke</createdBy>
-<createdTime>2026-09-26 23:58:44 UTC</createdTime>
-<generatorID>4F7770CE-46E8-1AAE-822B-808C59885790</generatorID>
-<ownerDesignName>top7_modelo</ownerDesignName>
-<engineerTo>
-<item key="3ABD327B-C1BC-7AAB-B926-7997A40C7C41" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>7</dataTypePrecision>
-<ownDataTypeParameters>,7,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="min jugadores" id="EB79E098-F71D-4431-47EF-159FECE16CFC">
-<createdBy>ruke</createdBy>
-<createdTime>2026-09-26 23:58:44 UTC</createdTime>
-<generatorID>88F915AF-4658-5D42-4DAF-9ADE0DB209B4</generatorID>
-<ownerDesignName>top7_modelo</ownerDesignName>
-<engineerTo>
-<item key="3ABD327B-C1BC-7AAB-B926-7997A40C7C41" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>2</dataTypePrecision>
-<ownDataTypeParameters>,2,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="descripción" id="DE8773DF-3457-DA6E-DBD4-1CF612123CD7">
-<createdBy>ruke</createdBy>
-<createdTime>2026-09-28 01:22:50 UTC</createdTime>
+<createdTime>2026-09-28 01:16:10 UTC</createdTime>
 <ownerDesignName>top7_modelo</ownerDesignName>
 <engineerTo>
 <item key="3ABD327B-C1BC-7AAB-B926-7997A40C7C41" value="true"/>
@@ -97,22 +52,48 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>500 CHAR</dataTypeSize>
-<ownDataTypeParameters>500 CHAR,,</ownDataTypeParameters>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="primer_apellido" id="FD8D416F-2022-3896-3D31-F0A3C5221E89">
+<createdBy>ruke</createdBy>
+<createdTime>2026-09-28 01:16:30 UTC</createdTime>
+<ownerDesignName>top7_modelo</ownerDesignName>
+<engineerTo>
+<item key="3ABD327B-C1BC-7AAB-B926-7997A40C7C41" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="segundo_nombre_1" id="B777AE83-C3F9-6808-E715-AF2C1CFB91A5">
+<createdBy>ruke</createdBy>
+<createdTime>2026-09-28 01:16:44 UTC</createdTime>
+<ownerDesignName>top7_modelo</ownerDesignName>
+<engineerTo>
+<item key="3ABD327B-C1BC-7AAB-B926-7997A40C7C41" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="3AFFCA52-91C3-8575-0C5B-4A2721DB8C34" name="pk producto">
+<identifier id="2AFC1591-B182-8909-00DC-FC001A356711" name="EMPLEADO PK">
 <createdBy>ruke</createdBy>
-<createdTime>2026-09-26 23:58:44 UTC</createdTime>
-<generatorID>F8795F85-06E1-5497-B414-94C88F76D897</generatorID>
+<createdTime>2026-09-28 01:15:49 UTC</createdTime>
 <ownerDesignName>top7_modelo</ownerDesignName>
 <engineerTo>
 <item key="3ABD327B-C1BC-7AAB-B926-7997A40C7C41" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>E45180F9-A3B9-05D3-87D4-E9D6C09488AF</attributeRef>
+<attributeRef>81D8988F-DE51-065B-3E09-57835CCA13E5</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

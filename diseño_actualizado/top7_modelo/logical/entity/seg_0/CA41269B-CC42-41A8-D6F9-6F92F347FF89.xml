@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="201E1EC4-7E1B-2C41-8B1E-0FD7A6CEFD53" name="ENTREGA_CLIENTE">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="CA41269B-CC42-41A8-D6F9-6F92F347FF89" name="REVIEW">
 <createdBy>ruke</createdBy>
-<createdTime>2026-09-28 01:03:03 UTC</createdTime>
+<createdTime>2026-09-28 01:11:57 UTC</createdTime>
 <ownerDesignName>top7_modelo</ownerDesignName>
 <engineerTo>
 <item key="3ABD327B-C1BC-7AAB-B926-7997A40C7C41" value="true"/>
@@ -15,9 +15,9 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="id" id="9E658E6F-12D8-AA22-E97F-3325A25D6ACE">
+<Attribute name="id" id="8D6A94F0-2C60-3B76-B460-CD39B453DE22">
 <createdBy>ruke</createdBy>
-<createdTime>2026-09-28 01:04:14 UTC</createdTime>
+<createdTime>2026-09-28 01:12:03 UTC</createdTime>
 <ownerDesignName>top7_modelo</ownerDesignName>
 <engineerTo>
 <item key="3ABD327B-C1BC-7AAB-B926-7997A40C7C41" value="true"/>
@@ -25,25 +25,12 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>6</dataTypePrecision>
-<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="nombre" id="88D631AA-42A3-FC8F-B5E8-77763725C2A1">
+<Attribute name="titulo" id="BD5D7069-B6DD-FDF7-1EB2-8BD6BC3586E7">
 <createdBy>ruke</createdBy>
-<createdTime>2026-09-28 01:04:38 UTC</createdTime>
-<ownerDesignName>top7_modelo</ownerDesignName>
-<engineerTo>
-<item key="3ABD327B-C1BC-7AAB-B926-7997A40C7C41" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>100 CHAR</dataTypeSize>
-<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="descripcion" id="B18D9BAF-F6B6-E86B-D344-A361DB6DBBA9">
-<createdBy>ruke</createdBy>
-<createdTime>2026-09-28 01:04:49 UTC</createdTime>
+<createdTime>2026-09-28 01:12:49 UTC</createdTime>
 <ownerDesignName>top7_modelo</ownerDesignName>
 <engineerTo>
 <item key="3ABD327B-C1BC-7AAB-B926-7997A40C7C41" value="true"/>
@@ -52,33 +39,46 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>100 CHAR</dataTypeSize>
-<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<dataTypeSize>40 CHAR</dataTypeSize>
+<ownDataTypeParameters>40 CHAR,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="id1" id="B0BF6A4A-10C7-85DA-ECDF-2800F206A181">
+<Attribute name="mensaje" id="472DC6CF-2383-DD6B-F10B-3A3A78046BC5">
 <createdBy>ruke</createdBy>
-<createdTime>2026-09-28 01:06:24 UTC</createdTime>
-<generatorID>C23CA9DB-0FA3-9FEC-CDC6-B7814311E504</generatorID>
+<createdTime>2026-09-28 01:12:14 UTC</createdTime>
 <ownerDesignName>top7_modelo</ownerDesignName>
 <engineerTo>
 <item key="3ABD327B-C1BC-7AAB-B926-7997A40C7C41" value="true"/>
 </engineerTo>
-<referedAttribute>47A06A4A-59FA-4905-7C47-3F9A46791A08</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500 CHAR</dataTypeSize>
+<ownDataTypeParameters>500 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id1" id="F649D1CA-CD83-6A49-B752-B1D9BE2D6332">
+<createdBy>ruke</createdBy>
+<createdTime>2026-09-28 01:14:39 UTC</createdTime>
+<generatorID>C9864AB9-BAEE-4EDB-41B5-73F5C56874EB</generatorID>
+<ownerDesignName>top7_modelo</ownerDesignName>
+<engineerTo>
+<item key="3ABD327B-C1BC-7AAB-B926-7997A40C7C41" value="true"/>
+</engineerTo>
+<referedAttribute>18606AB7-B259-4C6F-B3F8-4B8DB30DB4D6</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>7</dataTypePrecision>
-<ownDataTypeParameters>,7,</ownDataTypeParameters>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="id2" id="CEB00F59-1893-34E9-BDDC-323CF31F8295">
+<Attribute name="id2" id="B95067BE-03F2-5EEC-8614-F8455325D7D4">
 <createdBy>ruke</createdBy>
-<createdTime>2026-09-28 01:07:39 UTC</createdTime>
-<generatorID>57C52AAA-4DC0-BE33-7972-9FC1CCCFBB9C</generatorID>
+<createdTime>2026-09-28 01:14:51 UTC</createdTime>
+<generatorID>62583EB3-C8CD-1974-AAF5-941AC82636A1</generatorID>
 <ownerDesignName>top7_modelo</ownerDesignName>
 <engineerTo>
 <item key="3ABD327B-C1BC-7AAB-B926-7997A40C7C41" value="true"/>
 </engineerTo>
-<referedAttribute>A3B32E46-44FF-1562-FC85-8710B898BAC9</referedAttribute>
+<referedAttribute>8DBEBF91-C23B-8EA8-09ED-D4EBF134D6BE</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
@@ -87,16 +87,16 @@
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="BB70BEF1-2FE9-9904-D225-664B409937D1" name="ENTREGA_CLIENTE PK">
+<identifier id="EBD4E98E-E7BB-C76C-128E-A93C047CA48F" name="REVIEW PK">
 <createdBy>ruke</createdBy>
-<createdTime>2026-09-28 01:05:29 UTC</createdTime>
+<createdTime>2026-09-28 01:12:40 UTC</createdTime>
 <ownerDesignName>top7_modelo</ownerDesignName>
 <engineerTo>
 <item key="3ABD327B-C1BC-7AAB-B926-7997A40C7C41" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>9E658E6F-12D8-AA22-E97F-3325A25D6ACE</attributeRef>
+<attributeRef>8D6A94F0-2C60-3B76-B460-CD39B453DE22</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

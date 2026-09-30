@@ -57,6 +57,35 @@
 <dataTypePrecision>3</dataTypePrecision>
 <ownDataTypeParameters>,3,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="id1" id="FC1879D8-1D00-D87A-4E82-40E77C2BE7A8">
+<createdBy>ruke</createdBy>
+<createdTime>2026-09-28 01:20:39 UTC</createdTime>
+<generatorID>560E6756-ACD7-7E19-C3B5-76EDA581823C</generatorID>
+<ownerDesignName>top7_modelo</ownerDesignName>
+<engineerTo>
+<item key="3ABD327B-C1BC-7AAB-B926-7997A40C7C41" value="true"/>
+</engineerTo>
+<referedAttribute>32138E08-3680-0D96-09E6-8C19DCE0B343</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id2" id="FE9B8055-9FB1-9C65-6CF8-90F9933B72B8">
+<createdBy>ruke</createdBy>
+<createdTime>2026-09-28 01:27:12 UTC</createdTime>
+<generatorID>9C04F026-A0D6-5892-3E3B-789508DAFE38</generatorID>
+<ownerDesignName>top7_modelo</ownerDesignName>
+<engineerTo>
+<item key="3ABD327B-C1BC-7AAB-B926-7997A40C7C41" value="true"/>
+</engineerTo>
+<referedAttribute>E45180F9-A3B9-05D3-87D4-E9D6C09488AF</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="FEE49CBE-6CCD-70DC-9E17-015227932219" name="pk stock">
