@@ -1,8 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4B8382F5-30C1-E3AF-EABB-CE13FEA6B63F" name="REVIEW">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="07D210CE-F2C6-A863-23C2-CBBDE9FFA280" name="TIPO_DIRECCION">
 <createdBy>ruke</createdBy>
-<createdTime>2026-09-26 23:58:44 UTC</createdTime>
-<generatorID>53D1D70A-3454-1D51-819E-DF02CDA01F34</generatorID>
+<createdTime>2026-09-28 01:02:02 UTC</createdTime>
 <ownerDesignName>top7_modelo</ownerDesignName>
 <engineerTo>
 <item key="3ABD327B-C1BC-7AAB-B926-7997A40C7C41" value="true"/>
@@ -16,45 +15,44 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="id review" id="AA95FDCF-013C-B1A7-422D-5DA1D250605B">
+<Attribute name="id" id="A3B32E46-44FF-1562-FC85-8710B898BAC9">
 <createdBy>ruke</createdBy>
-<createdTime>2026-09-26 23:58:44 UTC</createdTime>
-<generatorID>339BFBAC-1E22-C47C-7359-22D57FAC7281</generatorID>
+<createdTime>2026-09-28 01:02:15 UTC</createdTime>
 <ownerDesignName>top7_modelo</ownerDesignName>
 <engineerTo>
 <item key="3ABD327B-C1BC-7AAB-B926-7997A40C7C41" value="true"/>
 </engineerTo>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
-<domain>C04AF55C-246D-895E-2DF3-6F88B52341AE</domain>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="descripcion" id="D0898B53-DFAC-2BD5-51C4-7905893B70F4">
+<Attribute name="nombre" id="7FBC96AE-1C58-2912-F38C-9F9444B631AC">
 <createdBy>ruke</createdBy>
-<createdTime>2026-09-26 23:58:44 UTC</createdTime>
-<generatorID>EBB78557-13CE-B811-0E6B-6DCCB7B4F517</generatorID>
+<createdTime>2026-09-28 01:02:37 UTC</createdTime>
 <ownerDesignName>top7_modelo</ownerDesignName>
 <engineerTo>
 <item key="3ABD327B-C1BC-7AAB-B926-7997A40C7C41" value="true"/>
 </engineerTo>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<domain>7BBD4AE9-7EE9-64F8-50EC-4660D684EF69</domain>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="D928C784-ED1A-3394-2C28-E88E66805622" name="pk review">
+<identifier id="A01D6ABC-14FB-981E-7A94-32C593BB7B23" name="DIRECCIONES_CLIENTE PK">
 <createdBy>ruke</createdBy>
-<createdTime>2026-09-26 23:58:44 UTC</createdTime>
-<generatorID>9A30747A-E050-1EAF-A4B5-9B9A051ADB8C</generatorID>
+<createdTime>2026-09-28 01:02:35 UTC</createdTime>
 <ownerDesignName>top7_modelo</ownerDesignName>
 <engineerTo>
 <item key="3ABD327B-C1BC-7AAB-B926-7997A40C7C41" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>AA95FDCF-013C-B1A7-422D-5DA1D250605B</attributeRef>
+<attributeRef>A3B32E46-44FF-1562-FC85-8710B898BAC9</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

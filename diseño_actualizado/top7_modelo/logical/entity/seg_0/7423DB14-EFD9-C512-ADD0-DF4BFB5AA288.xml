@@ -16,7 +16,7 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="id sucursal" id="32138E08-3680-0D96-09E6-8C19DCE0B343">
+<Attribute name="id" id="32138E08-3680-0D96-09E6-8C19DCE0B343">
 <createdBy>ruke</createdBy>
 <createdTime>2026-09-26 23:58:44 UTC</createdTime>
 <generatorID>B2C678E2-4055-C9EC-2499-6A9C3021D662</generatorID>
@@ -24,10 +24,11 @@
 <engineerTo>
 <item key="3ABD327B-C1BC-7AAB-B926-7997A40C7C41" value="true"/>
 </engineerTo>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
-<domain>C04AF55C-246D-895E-2DF3-6F88B52341AE</domain>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="nombre" id="0C101B7D-90E6-398B-9189-929E5A897FD8">
 <createdBy>ruke</createdBy>
@@ -37,22 +38,75 @@
 <engineerTo>
 <item key="3ABD327B-C1BC-7AAB-B926-7997A40C7C41" value="true"/>
 </engineerTo>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<domain>FF8AF47A-620F-0B55-9A73-49DD7DDCA6F4</domain>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="direccion" id="E8970EDE-6855-2586-BB17-A78E89D757FB">
+<Attribute name="numero_contacto" id="0775A7A9-7195-EEEA-DF44-FF00445962C8">
 <createdBy>ruke</createdBy>
-<createdTime>2026-09-26 23:58:44 UTC</createdTime>
-<generatorID>BC85B989-A2D6-8143-9EB0-97221D93349E</generatorID>
+<createdTime>2026-09-28 01:25:03 UTC</createdTime>
 <ownerDesignName>top7_modelo</ownerDesignName>
 <engineerTo>
 <item key="3ABD327B-C1BC-7AAB-B926-7997A40C7C41" value="true"/>
 </engineerTo>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<domain>0A31FCD1-5BC2-D80D-0792-A86433E9393B</domain>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="email_contacto" id="467FCAA8-549A-1DF5-17A5-7F2789118E28">
+<createdBy>ruke</createdBy>
+<createdTime>2026-09-28 01:25:27 UTC</createdTime>
+<ownerDesignName>top7_modelo</ownerDesignName>
+<engineerTo>
+<item key="3ABD327B-C1BC-7AAB-B926-7997A40C7C41" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="hora_apertura" id="9566F838-60A7-2B7A-88C8-0DD3E5720D93">
+<createdBy>ruke</createdBy>
+<createdTime>2026-09-28 01:26:09 UTC</createdTime>
+<ownerDesignName>top7_modelo</ownerDesignName>
+<engineerTo>
+<item key="3ABD327B-C1BC-7AAB-B926-7997A40C7C41" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="hora_cierre" id="E5A03C55-91C8-6CAC-7352-A7DA483F37EB">
+<createdBy>ruke</createdBy>
+<createdTime>2026-09-28 01:26:33 UTC</createdTime>
+<ownerDesignName>top7_modelo</ownerDesignName>
+<engineerTo>
+<item key="3ABD327B-C1BC-7AAB-B926-7997A40C7C41" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id1" id="8313F324-5C39-3EF0-21AD-FB29989C8097">
+<createdBy>ruke</createdBy>
+<createdTime>2026-09-28 01:09:20 UTC</createdTime>
+<generatorID>33E8C6FC-9F89-1548-4E59-C38E6348984B</generatorID>
+<ownerDesignName>top7_modelo</ownerDesignName>
+<engineerTo>
+<item key="3ABD327B-C1BC-7AAB-B926-7997A40C7C41" value="true"/>
+</engineerTo>
+<referedAttribute>47A06A4A-59FA-4905-7C47-3F9A46791A08</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>

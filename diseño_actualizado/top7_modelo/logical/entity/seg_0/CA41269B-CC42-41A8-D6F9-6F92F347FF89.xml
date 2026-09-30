@@ -1,8 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="16BF286B-3FB9-E536-96D3-1932BB3D8844" name="STOCK">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="CA41269B-CC42-41A8-D6F9-6F92F347FF89" name="REVIEW">
 <createdBy>ruke</createdBy>
-<createdTime>2026-09-26 23:58:44 UTC</createdTime>
-<generatorID>95BA585D-815F-3C02-7D13-5E5AC6BCEEFF</generatorID>
+<createdTime>2026-09-28 01:11:57 UTC</createdTime>
 <ownerDesignName>top7_modelo</ownerDesignName>
 <engineerTo>
 <item key="3ABD327B-C1BC-7AAB-B926-7997A40C7C41" value="true"/>
@@ -16,10 +15,9 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="id" id="7ECD4400-B4B6-2A7A-36EF-100EFE574068">
+<Attribute name="id" id="8D6A94F0-2C60-3B76-B460-CD39B453DE22">
 <createdBy>ruke</createdBy>
-<createdTime>2026-09-26 23:58:44 UTC</createdTime>
-<generatorID>50E673C8-3EE4-A8C3-5D0C-72EAE3DDC162</generatorID>
+<createdTime>2026-09-28 01:12:03 UTC</createdTime>
 <ownerDesignName>top7_modelo</ownerDesignName>
 <engineerTo>
 <item key="3ABD327B-C1BC-7AAB-B926-7997A40C7C41" value="true"/>
@@ -27,78 +25,78 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>4</dataTypePrecision>
-<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="stock_disponible" id="6281A86F-9788-5D51-C902-770CE4625ECF">
+<Attribute name="titulo" id="BD5D7069-B6DD-FDF7-1EB2-8BD6BC3586E7">
 <createdBy>ruke</createdBy>
-<createdTime>2026-09-26 23:58:44 UTC</createdTime>
-<generatorID>E2F082E6-8013-D3DE-F055-2B9A5D3C6453</generatorID>
+<createdTime>2026-09-28 01:12:49 UTC</createdTime>
+<ownerDesignName>top7_modelo</ownerDesignName>
+<engineerTo>
+<item key="3ABD327B-C1BC-7AAB-B926-7997A40C7C41" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40 CHAR</dataTypeSize>
+<ownDataTypeParameters>40 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="mensaje" id="472DC6CF-2383-DD6B-F10B-3A3A78046BC5">
+<createdBy>ruke</createdBy>
+<createdTime>2026-09-28 01:12:14 UTC</createdTime>
 <ownerDesignName>top7_modelo</ownerDesignName>
 <engineerTo>
 <item key="3ABD327B-C1BC-7AAB-B926-7997A40C7C41" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>6</dataTypePrecision>
-<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500 CHAR</dataTypeSize>
+<ownDataTypeParameters>500 CHAR,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="stock_minimo" id="1EECB056-5F49-248A-59AF-12FF8D1236F8">
+<Attribute name="id1" id="F649D1CA-CD83-6A49-B752-B1D9BE2D6332">
 <createdBy>ruke</createdBy>
-<createdTime>2026-09-28 00:50:47 UTC</createdTime>
+<createdTime>2026-09-28 01:14:39 UTC</createdTime>
+<generatorID>C9864AB9-BAEE-4EDB-41B5-73F5C56874EB</generatorID>
 <ownerDesignName>top7_modelo</ownerDesignName>
 <engineerTo>
 <item key="3ABD327B-C1BC-7AAB-B926-7997A40C7C41" value="true"/>
 </engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>3</dataTypePrecision>
-<ownDataTypeParameters>,3,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="id1" id="FC1879D8-1D00-D87A-4E82-40E77C2BE7A8">
-<createdBy>ruke</createdBy>
-<createdTime>2026-09-28 01:20:39 UTC</createdTime>
-<generatorID>560E6756-ACD7-7E19-C3B5-76EDA581823C</generatorID>
-<ownerDesignName>top7_modelo</ownerDesignName>
-<engineerTo>
-<item key="3ABD327B-C1BC-7AAB-B926-7997A40C7C41" value="true"/>
-</engineerTo>
-<referedAttribute>32138E08-3680-0D96-09E6-8C19DCE0B343</referedAttribute>
+<referedAttribute>18606AB7-B259-4C6F-B3F8-4B8DB30DB4D6</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>2</dataTypePrecision>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="id2" id="FE9B8055-9FB1-9C65-6CF8-90F9933B72B8">
+<Attribute name="id2" id="B95067BE-03F2-5EEC-8614-F8455325D7D4">
 <createdBy>ruke</createdBy>
-<createdTime>2026-09-28 01:27:12 UTC</createdTime>
-<generatorID>9C04F026-A0D6-5892-3E3B-789508DAFE38</generatorID>
+<createdTime>2026-09-28 01:14:51 UTC</createdTime>
+<generatorID>62583EB3-C8CD-1974-AAF5-941AC82636A1</generatorID>
 <ownerDesignName>top7_modelo</ownerDesignName>
 <engineerTo>
 <item key="3ABD327B-C1BC-7AAB-B926-7997A40C7C41" value="true"/>
 </engineerTo>
-<referedAttribute>E45180F9-A3B9-05D3-87D4-E9D6C09488AF</referedAttribute>
+<referedAttribute>8DBEBF91-C23B-8EA8-09ED-D4EBF134D6BE</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="FEE49CBE-6CCD-70DC-9E17-015227932219" name="pk stock">
+<identifier id="EBD4E98E-E7BB-C76C-128E-A93C047CA48F" name="REVIEW PK">
 <createdBy>ruke</createdBy>
-<createdTime>2026-09-26 23:58:44 UTC</createdTime>
-<generatorID>340A3187-0175-DD1C-956D-0F0CB921A99A</generatorID>
+<createdTime>2026-09-28 01:12:40 UTC</createdTime>
 <ownerDesignName>top7_modelo</ownerDesignName>
 <engineerTo>
 <item key="3ABD327B-C1BC-7AAB-B926-7997A40C7C41" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>7ECD4400-B4B6-2A7A-36EF-100EFE574068</attributeRef>
+<attributeRef>8D6A94F0-2C60-3B76-B460-CD39B453DE22</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>
