@@ -107,6 +107,21 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,7,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id2" id="FB0A14AD-CEE9-05AF-6772-C42B6086CB2F">
+<createdBy>ruke</createdBy>
+<createdTime>2026-10-01 23:32:02 UTC</createdTime>
+<generatorID>06F66AA8-8487-5FC1-E4D3-CC35B658CED8</generatorID>
+<ownerDesignName>top7_modelo</ownerDesignName>
+<engineerTo>
+<item key="3ABD327B-C1BC-7AAB-B926-7997A40C7C41" value="true"/>
+</engineerTo>
+<referedAttribute>6E0DFF53-1F67-C2D8-8838-2D9ACFC87760</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
@@ -116,8 +131,9 @@
 <createdTime>2026-09-26 23:58:44 UTC</createdTime>
 <generatorID>76A930CB-5296-1457-2D4E-C91230FC2D75</generatorID>
 <ownerDesignName>top7_modelo</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="3ABD327B-C1BC-7AAB-B926-7997A40C7C41" value="true"/>
+<item key="3ABD327B-C1BC-7AAB-B926-7997A40C7C41" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

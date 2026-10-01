@@ -70,6 +70,51 @@
 <domain>B4728727-7CE0-1F98-7F29-9A14D7BB0A68</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="id" id="9769026B-A82B-8DFC-3297-5BD00626A153">
+<createdBy>ruke</createdBy>
+<createdTime>2026-10-01 23:25:39 UTC</createdTime>
+<generatorID>1F06F9A4-004B-29FF-B212-95B622D810E9</generatorID>
+<ownerDesignName>top7_modelo</ownerDesignName>
+<engineerTo>
+<item key="3ABD327B-C1BC-7AAB-B926-7997A40C7C41" value="true"/>
+</engineerTo>
+<referedAttribute>32138E08-3680-0D96-09E6-8C19DCE0B343</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id1" id="6C4B7C8A-3659-6506-02AC-3ACADB19F9F3">
+<createdBy>ruke</createdBy>
+<createdTime>2026-10-01 23:25:47 UTC</createdTime>
+<generatorID>1415F8FE-B9D8-E352-7A7B-59DE12726C84</generatorID>
+<ownerDesignName>top7_modelo</ownerDesignName>
+<engineerTo>
+<item key="3ABD327B-C1BC-7AAB-B926-7997A40C7C41" value="true"/>
+</engineerTo>
+<referedAttribute>8DBEBF91-C23B-8EA8-09ED-D4EBF134D6BE</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id2" id="F8C4362D-D191-1908-A9C8-A0F7F6A43E6C">
+<createdBy>ruke</createdBy>
+<createdTime>2026-10-01 23:30:23 UTC</createdTime>
+<generatorID>83DCB8D9-7911-29AF-1734-42403ECCD78F</generatorID>
+<ownerDesignName>top7_modelo</ownerDesignName>
+<engineerTo>
+<item key="3ABD327B-C1BC-7AAB-B926-7997A40C7C41" value="true"/>
+</engineerTo>
+<referedAttribute>B8758F2B-41D9-1B29-4365-417AB2FF8809</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="14F0A176-C350-18E3-B778-90C68585AF72" name="pk venta">

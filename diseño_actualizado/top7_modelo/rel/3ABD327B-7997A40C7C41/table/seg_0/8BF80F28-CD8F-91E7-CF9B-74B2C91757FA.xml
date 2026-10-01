@@ -1,0 +1,50 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8BF80F28-CD8F-91E7-CF9B-74B2C91757FA" name="METODO_PAGO">
+<createdBy>ruke</createdBy>
+<createdTime>2026-10-01 23:08:05 UTC</createdTime>
+<generatorID>82B8B3CF-DC98-D5A4-313D-5AFFF3DD186A</generatorID>
+<ownerDesignName>top7_modelo</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="D9EBF0DB-CAB7-897D-B98C-B6F0AE34EEF8">
+<createdBy>ruke</createdBy>
+<createdTime>2026-10-01 23:08:05 UTC</createdTime>
+<generatorID>B8758F2B-41D9-1B29-4365-417AB2FF8809</generatorID>
+<ownerDesignName>top7_modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="43F1506A-87AD-1BBF-56ED-ABF04492F4B9">
+<createdBy>ruke</createdBy>
+<createdTime>2026-10-01 23:08:05 UTC</createdTime>
+<generatorID>BB8143EB-C482-BC4B-399D-77AEEC88BE59</generatorID>
+<ownerDesignName>top7_modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="81BA7B15-9A18-A674-6365-01A8312467D6" name="METODO_PAGO_PK">
+<createdBy>ruke</createdBy>
+<createdTime>2026-10-01 23:08:05 UTC</createdTime>
+<generatorID>7705B5A4-C5E2-DB2D-E239-1D5EAD33AF11</generatorID>
+<ownerDesignName>top7_modelo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D9EBF0DB-CAB7-897D-B98C-B6F0AE34EEF8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

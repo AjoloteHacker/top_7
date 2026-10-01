@@ -1,0 +1,117 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8B64AA30-46DC-27EC-A49C-E9A46B5EF0A5" name="ENTREGA_CLIENTE">
+<createdBy>ruke</createdBy>
+<createdTime>2026-10-01 23:08:05 UTC</createdTime>
+<generatorID>201E1EC4-7E1B-2C41-8B1E-0FD7A6CEFD53</generatorID>
+<ownerDesignName>top7_modelo</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="A6FEF93A-823D-FA24-A2BA-005F0D1AE9C7">
+<createdBy>ruke</createdBy>
+<createdTime>2026-10-01 23:08:05 UTC</createdTime>
+<generatorID>9E658E6F-12D8-AA22-E97F-3325A25D6ACE</generatorID>
+<ownerDesignName>top7_modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="29E31938-844C-783A-A94D-2166DF3198DC">
+<createdBy>ruke</createdBy>
+<createdTime>2026-10-01 23:08:05 UTC</createdTime>
+<generatorID>88D631AA-42A3-FC8F-B5E8-77763725C2A1</generatorID>
+<ownerDesignName>top7_modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="descripcion" id="F01E6EDA-E1A1-AFF4-F8DF-B1CAF6579D26">
+<createdBy>ruke</createdBy>
+<createdTime>2026-10-01 23:08:05 UTC</createdTime>
+<generatorID>B18D9BAF-F6B6-E86B-D344-A361DB6DBBA9</generatorID>
+<ownerDesignName>top7_modelo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CALLE_id" id="01D0AF9A-50D0-1F69-B87C-D7441F9F28B2">
+<createdBy>ruke</createdBy>
+<createdTime>2026-10-01 23:08:05 UTC</createdTime>
+<generatorID>B0BF6A4A-10C7-85DA-ECDF-2800F206A181</generatorID>
+<ownerDesignName>top7_modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,7,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="01BDE59D-2366-DCC5-E491-09F6EF56FA8B" referredColumn="678B42E3-2681-FDBF-BEAC-AC63A72ADB23"/>
+</associations>
+</Column>
+<Column name="TIPO_DIRECCION_id" id="59BBEB7D-C0C1-370C-BE69-F2DB9A8CE1DF">
+<createdBy>ruke</createdBy>
+<createdTime>2026-10-01 23:08:05 UTC</createdTime>
+<generatorID>CEB00F59-1893-34E9-BDDC-323CF31F8295</generatorID>
+<ownerDesignName>top7_modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F18DFB80-7531-0621-76B9-A5BC81A94061" referredColumn="F1314588-6DC6-107E-C529-8059A5085219"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="54F61D75-EF13-3D1D-E857-AEED0FDC66CE" name="ENTREGA_CLIENTE_PK">
+<createdBy>ruke</createdBy>
+<createdTime>2026-10-01 23:08:05 UTC</createdTime>
+<generatorID>BB70BEF1-2FE9-9904-D225-664B409937D1</generatorID>
+<ownerDesignName>top7_modelo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A6FEF93A-823D-FA24-A2BA-005F0D1AE9C7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3B1F6107-48E1-CF77-9820-8359614B9AF1" name="ENTREGA_CLIENTE_TIPO_DIRECCION_FK">
+<createdBy>ruke</createdBy>
+<createdTime>2026-10-01 23:08:05 UTC</createdTime>
+<generatorID>57C52AAA-4DC0-BE33-7972-9FC1CCCFBB9C</generatorID>
+<ownerDesignName>top7_modelo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="59BBEB7D-C0C1-370C-BE69-F2DB9A8CE1DF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BAA28138-FDF7-79FF-15B0-D6BDE2C2521C" name="ENTREGA_CLIENTE_CALLE_FK">
+<createdBy>ruke</createdBy>
+<createdTime>2026-10-01 23:08:05 UTC</createdTime>
+<generatorID>C23CA9DB-0FA3-9FEC-CDC6-B7814311E504</generatorID>
+<ownerDesignName>top7_modelo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="01D0AF9A-50D0-1F69-B87C-D7441F9F28B2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

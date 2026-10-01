@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1957C7C3-E0A3-295F-18CC-B083720AD046" name="CATEGORIA">
+<createdBy>ruke</createdBy>
+<createdTime>2026-10-01 23:08:05 UTC</createdTime>
+<generatorID>DFC8ECE0-4003-A6C7-644B-3F4A2D1125D5</generatorID>
+<ownerDesignName>top7_modelo</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_categoria" id="5558F427-55DB-A0F2-9F72-5E898CC14069">
+<createdBy>ruke</createdBy>
+<createdTime>2026-10-01 23:08:05 UTC</createdTime>
+<generatorID>20BEA1D5-62D7-79B2-3729-8A20CE99B5F0</generatorID>
+<ownerDesignName>top7_modelo</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>C04AF55C-246D-895E-2DF3-6F88B52341AE</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre_categoria" id="9A2BACA4-B570-34AD-EF13-2FF11741C6D2">
+<createdBy>ruke</createdBy>
+<createdTime>2026-10-01 23:08:05 UTC</createdTime>
+<generatorID>0BCCAFC8-501E-EF8C-D309-DC0B87F935FC</generatorID>
+<ownerDesignName>top7_modelo</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>FF8AF47A-620F-0B55-9A73-49DD7DDCA6F4</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="descripcion" id="D29B8186-92A6-6547-4024-74BD7E7A9BC1">
+<createdBy>ruke</createdBy>
+<createdTime>2026-10-01 23:08:05 UTC</createdTime>
+<generatorID>513454B6-46CC-95A7-8740-F397A17480EB</generatorID>
+<ownerDesignName>top7_modelo</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>F5093760-BC2F-A0EC-2FBE-26907F2E3526</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E408EB94-D4C8-27F5-FE58-799DC6D916DA" name="CATEGORIA_PK">
+<createdBy>ruke</createdBy>
+<createdTime>2026-10-01 23:08:05 UTC</createdTime>
+<generatorID>02F6BFEF-43F7-845B-175D-6C0C32603175</generatorID>
+<ownerDesignName>top7_modelo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5558F427-55DB-A0F2-9F72-5E898CC14069"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

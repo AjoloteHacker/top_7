@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CA8A3A88-0ABE-5CDD-7166-3F8F19C5A6FD" name="DETALLE_VENTA">
+<createdBy>ruke</createdBy>
+<createdTime>2026-10-01 23:08:05 UTC</createdTime>
+<generatorID>073919D0-09F3-B6CF-C84A-8F5C15231BE9</generatorID>
+<ownerDesignName>top7_modelo</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="A3552B6F-72C5-92B8-45E5-5A37273F7E70">
+<createdBy>ruke</createdBy>
+<createdTime>2026-10-01 23:08:05 UTC</createdTime>
+<generatorID>71ACCDED-EEF9-90AE-F94A-C4D6D3988820</generatorID>
+<ownerDesignName>top7_modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cantidad" id="3FF668E5-396C-7EAE-123F-908EA065CE47">
+<createdBy>ruke</createdBy>
+<createdTime>2026-10-01 23:08:05 UTC</createdTime>
+<generatorID>FCCE8409-5C50-CA79-C4D4-1805A1DCE125</generatorID>
+<ownerDesignName>top7_modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="precio_unitario" id="872AEAE3-7089-273E-48CD-D2110F666849">
+<createdBy>ruke</createdBy>
+<createdTime>2026-10-01 23:08:05 UTC</createdTime>
+<generatorID>8C88C262-1B8C-B539-BAA6-30413FFB3FD6</generatorID>
+<ownerDesignName>top7_modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,7,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="descuento_aplicado" id="9D31FF09-A380-3992-5507-C8FAEC29E75E">
+<createdBy>ruke</createdBy>
+<createdTime>2026-10-01 23:30:40 UTC</createdTime>
+<generatorID>12984D2D-8E2F-A089-6E44-3E6F7926180A</generatorID>
+<ownerDesignName>top7_modelo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VENTA_id_venta" id="1671B433-BCD2-67DC-3538-A2702EF13CAB">
+<createdBy>ruke</createdBy>
+<createdTime>2026-10-01 23:30:40 UTC</createdTime>
+<generatorID>AC3AD88E-F1AF-3593-8102-A25FC9A9BF61</generatorID>
+<ownerDesignName>top7_modelo</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>C04AF55C-246D-895E-2DF3-6F88B52341AE</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F7128EE7-6EE4-C88C-6E64-6D93F21CB4E5" referredColumn="97A2C816-93B0-6238-433F-993C4D249E6B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9CDD3F72-20A3-C23A-F3FF-B82C559B131D" name="DETALLE_VENTA_PK">
+<createdBy>ruke</createdBy>
+<createdTime>2026-10-01 23:08:05 UTC</createdTime>
+<generatorID>F88EF512-9825-AB91-4C7F-3221D34D0DC6</generatorID>
+<ownerDesignName>top7_modelo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A3552B6F-72C5-92B8-45E5-5A37273F7E70"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DCAAC8C5-D8AF-6787-4C4D-515EB19B3E88" name="DETALLE_VENTA_VENTA_FK">
+<createdBy>ruke</createdBy>
+<createdTime>2026-10-01 23:30:40 UTC</createdTime>
+<generatorID>A34D19D9-1B1C-5362-94EE-B3FC123A7639</generatorID>
+<ownerDesignName>top7_modelo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1671B433-BCD2-67DC-3538-A2702EF13CAB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

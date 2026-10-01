@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0F583179-E764-E186-3759-D3791F4B54DE" name="EVENTO">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0F583179-E764-E186-3759-D3791F4B54DE" name="TIPO_EVENTO">
 <createdBy>ruke</createdBy>
 <createdTime>2026-09-26 23:58:44 UTC</createdTime>
 <generatorID>0610E7D6-3E27-E5A8-4210-C362EC2BF5F9</generatorID>
@@ -16,7 +16,7 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="id evento" id="C67E129E-D5A5-058D-5224-6D84F9DE1641">
+<Attribute name="id" id="C67E129E-D5A5-058D-5224-6D84F9DE1641">
 <createdBy>ruke</createdBy>
 <createdTime>2026-09-26 23:58:44 UTC</createdTime>
 <generatorID>E57293C3-DEC9-C9D4-E073-A59A5D2A070B</generatorID>
@@ -24,12 +24,13 @@
 <engineerTo>
 <item key="3ABD327B-C1BC-7AAB-B926-7997A40C7C41" value="true"/>
 </engineerTo>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
-<domain>C04AF55C-246D-895E-2DF3-6F88B52341AE</domain>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="nombre evento" id="4406262B-D421-AE05-F964-1F90E49C68E3">
+<Attribute name="nombre" id="4406262B-D421-AE05-F964-1F90E49C68E3">
 <createdBy>ruke</createdBy>
 <createdTime>2026-09-26 23:58:44 UTC</createdTime>
 <generatorID>F3348C87-3685-23CD-A41F-9C6997A612AB</generatorID>
@@ -37,25 +38,13 @@
 <engineerTo>
 <item key="3ABD327B-C1BC-7AAB-B926-7997A40C7C41" value="true"/>
 </engineerTo>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<domain>0A31FCD1-5BC2-D80D-0792-A86433E9393B</domain>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="tipo evento" id="EC4781AB-0F85-DB3B-7640-3A23A6944065">
-<createdBy>ruke</createdBy>
-<createdTime>2026-09-26 23:58:44 UTC</createdTime>
-<generatorID>DD5BFBD8-9249-D66A-B308-B5DF99547F35</generatorID>
-<ownerDesignName>top7_modelo</ownerDesignName>
-<engineerTo>
-<item key="3ABD327B-C1BC-7AAB-B926-7997A40C7C41" value="true"/>
-</engineerTo>
-<use>0</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<domain>FF8AF47A-620F-0B55-9A73-49DD7DDCA6F4</domain>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="fecha inicio" id="98DC633D-38B1-E744-E659-2FC4A80E4065">
+<Attribute name="inicio_evento" id="98DC633D-38B1-E744-E659-2FC4A80E4065">
 <createdBy>ruke</createdBy>
 <createdTime>2026-09-26 23:58:44 UTC</createdTime>
 <generatorID>43C03ADE-3CB1-D307-FD6E-1A7C7AB674D0</generatorID>
@@ -63,12 +52,12 @@
 <engineerTo>
 <item key="3ABD327B-C1BC-7AAB-B926-7997A40C7C41" value="true"/>
 </engineerTo>
-<use>0</use>
-<logicalDatatype>LOGDT007</logicalDatatype>
-<domain>7CB37A13-3ACD-7FE3-FD3A-F92A6C9E2EC3</domain>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="fecha final" id="5DDE28DD-B99A-ADBD-DA44-C5B781F58443">
+<Attribute name="final_evento" id="5DDE28DD-B99A-ADBD-DA44-C5B781F58443">
 <createdBy>ruke</createdBy>
 <createdTime>2026-09-26 23:58:44 UTC</createdTime>
 <generatorID>65EBCFDB-DC36-A4AE-0B08-1CED4CC9794A</generatorID>
@@ -76,12 +65,12 @@
 <engineerTo>
 <item key="3ABD327B-C1BC-7AAB-B926-7997A40C7C41" value="true"/>
 </engineerTo>
-<use>0</use>
-<logicalDatatype>LOGDT007</logicalDatatype>
-<domain>7CB37A13-3ACD-7FE3-FD3A-F92A6C9E2EC3</domain>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="cupo maximo" id="152401FD-4254-52EA-0AD4-A47E98B6C542">
+<Attribute name="cupo_maximo" id="152401FD-4254-52EA-0AD4-A47E98B6C542">
 <createdBy>ruke</createdBy>
 <createdTime>2026-09-26 23:58:44 UTC</createdTime>
 <generatorID>CE93F49B-8B7E-2C5E-833D-C10A200897CD</generatorID>
@@ -89,10 +78,41 @@
 <engineerTo>
 <item key="3ABD327B-C1BC-7AAB-B926-7997A40C7C41" value="true"/>
 </engineerTo>
-<use>0</use>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
-<domain>C04AF55C-246D-895E-2DF3-6F88B52341AE</domain>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="descripcion" id="D92419A6-B347-99F0-1DB6-04912AB21EE2">
+<createdBy>ruke</createdBy>
+<createdTime>2026-09-30 13:09:03 UTC</createdTime>
+<ownerDesignName>top7_modelo</ownerDesignName>
+<engineerTo>
+<item key="3ABD327B-C1BC-7AAB-B926-7997A40C7C41" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500 CHAR</dataTypeSize>
+<ownDataTypeParameters>500 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id1" id="19753ACE-3C76-61B9-B48C-1154480ABDC7">
+<createdBy>ruke</createdBy>
+<createdTime>2026-09-30 13:10:56 UTC</createdTime>
+<generatorID>E01CA68B-CC1A-4D9C-6E49-A2FCFB10C029</generatorID>
+<ownerDesignName>top7_modelo</ownerDesignName>
+<engineerTo>
+<item key="3ABD327B-C1BC-7AAB-B926-7997A40C7C41" value="true"/>
+</engineerTo>
+<referedAttribute>1244DF35-801D-4EBB-2EDD-888C58EA31A1</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">

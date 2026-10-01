@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B0C76B7F-E615-1719-C1BE-B5C36DBB1D94" name="CATEGORIA_PRODUCTO">
+<createdBy>ruke</createdBy>
+<createdTime>2026-10-01 23:30:40 UTC</createdTime>
+<generatorID>2CC9D97A-59C1-5E48-96E6-F4AFE5D7A411</generatorID>
+<ownerDesignName>top7_modelo</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="B31ACA9F-8EC6-5364-D292-9BEF0255C3D6">
+<createdBy>ruke</createdBy>
+<createdTime>2026-10-01 23:30:40 UTC</createdTime>
+<generatorID>92ED5824-669F-2430-2565-D1CE28FE43D2</generatorID>
+<ownerDesignName>top7_modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="9BD26D57-63CF-2825-D204-F67CCA1551AC">
+<createdBy>ruke</createdBy>
+<createdTime>2026-10-01 23:30:40 UTC</createdTime>
+<generatorID>61BEEF31-9A20-9FAF-176D-C3A431A02FE1</generatorID>
+<ownerDesignName>top7_modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="descripcion" id="969BCAE5-F4ED-EE77-8893-5F1167237531">
+<createdBy>ruke</createdBy>
+<createdTime>2026-10-01 23:30:40 UTC</createdTime>
+<generatorID>E058935A-9170-8744-759A-9F66B616D455</generatorID>
+<ownerDesignName>top7_modelo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>300 CHAR</dataTypeSize>
+<ownDataTypeParameters>300 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2C603776-3E6D-40F1-720E-5E9F7355AF50" name="CATEGORIA_PRODUCTO_PK">
+<createdBy>ruke</createdBy>
+<createdTime>2026-10-01 23:30:40 UTC</createdTime>
+<generatorID>3B3C20E0-3FC6-B5A4-881C-7CADA6561520</generatorID>
+<ownerDesignName>top7_modelo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B31ACA9F-8EC6-5364-D292-9BEF0255C3D6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

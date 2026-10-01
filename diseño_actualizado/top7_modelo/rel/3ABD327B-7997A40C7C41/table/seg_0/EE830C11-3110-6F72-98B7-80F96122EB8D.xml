@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EE830C11-3110-6F72-98B7-80F96122EB8D" name="Relation_23">
+<createdBy>ruke</createdBy>
+<createdTime>2026-10-01 23:08:05 UTC</createdTime>
+<ownerDesignName>top7_modelo</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="EVENTO_id" id="7FA1D7C0-DBB6-55F1-8186-533F09E12FE7">
+<createdBy>ruke</createdBy>
+<createdTime>2026-10-01 23:08:05 UTC</createdTime>
+<ownerDesignName>top7_modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8751E5ED-F774-B5AD-8EC3-5097B3C65EA2" referredColumn="371364F6-40F8-E825-6C9E-62B987341817"/>
+</associations>
+</Column>
+<Column name="SUCURSAL_id" id="B40EC26A-15FC-F540-5B80-2FA7A0966BD4">
+<createdBy>ruke</createdBy>
+<createdTime>2026-10-01 23:08:05 UTC</createdTime>
+<ownerDesignName>top7_modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8EBB82DB-5D24-F0EA-F982-90037C2DBB44" referredColumn="37522A82-C204-C6BF-C700-DE8AC924C667"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2EB8277C-7F4F-B3F5-CD31-419C168D4FCE" name="Relation_23_PK">
+<createdBy>ruke</createdBy>
+<createdTime>2026-10-01 23:08:05 UTC</createdTime>
+<ownerDesignName>top7_modelo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7FA1D7C0-DBB6-55F1-8186-533F09E12FE7"/>
+<colUsage columnID="B40EC26A-15FC-F540-5B80-2FA7A0966BD4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C81B5209-A4AD-0CBD-4F5C-8EB8C332C9A2" name="Relation_23_EVENTO_FK">
+<createdBy>ruke</createdBy>
+<createdTime>2026-10-01 23:08:05 UTC</createdTime>
+<generatorID>6FC7A1B1-5AD2-1C36-5282-ED5E91DDAA04</generatorID>
+<ownerDesignName>top7_modelo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7FA1D7C0-DBB6-55F1-8186-533F09E12FE7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0D7B3955-94D0-DB08-EEF1-057CB83091C6" name="Relation_23_SUCURSAL_FK">
+<createdBy>ruke</createdBy>
+<createdTime>2026-10-01 23:08:05 UTC</createdTime>
+<generatorID>6FC7A1B1-5AD2-1C36-5282-ED5E91DDAA04</generatorID>
+<ownerDesignName>top7_modelo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B40EC26A-15FC-F540-5B80-2FA7A0966BD4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

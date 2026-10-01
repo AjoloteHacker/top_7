@@ -16,7 +16,7 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="id inscripcion" id="801D4C51-3BD7-F0FC-2C0D-3BFFEA23094B">
+<Attribute name="id" id="801D4C51-3BD7-F0FC-2C0D-3BFFEA23094B">
 <createdBy>ruke</createdBy>
 <createdTime>2026-09-26 23:58:44 UTC</createdTime>
 <generatorID>0C0C340C-40F0-7FA4-9199-FD86E057BF65</generatorID>
@@ -24,12 +24,13 @@
 <engineerTo>
 <item key="3ABD327B-C1BC-7AAB-B926-7997A40C7C41" value="true"/>
 </engineerTo>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
-<domain>C04AF55C-246D-895E-2DF3-6F88B52341AE</domain>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="fecha inscripcion" id="F66BCE2A-604D-8566-7A80-3C45111AF0C2">
+<Attribute name="fecha_inscripcion" id="F66BCE2A-604D-8566-7A80-3C45111AF0C2">
 <createdBy>ruke</createdBy>
 <createdTime>2026-09-26 23:58:44 UTC</createdTime>
 <generatorID>462CCAB7-CD3E-8E8E-E6B7-BC4C3F506E8C</generatorID>
@@ -37,9 +38,9 @@
 <engineerTo>
 <item key="3ABD327B-C1BC-7AAB-B926-7997A40C7C41" value="true"/>
 </engineerTo>
-<use>0</use>
-<logicalDatatype>LOGDT007</logicalDatatype>
-<domain>7CB37A13-3ACD-7FE3-FD3A-F92A6C9E2EC3</domain>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="asistio" id="C4B5BCA2-B7B2-AC27-F416-E6180EB27456">
@@ -50,10 +51,11 @@
 <engineerTo>
 <item key="3ABD327B-C1BC-7AAB-B926-7997A40C7C41" value="true"/>
 </engineerTo>
-<use>0</use>
-<logicalDatatype>LOGDT025</logicalDatatype>
-<domain>A9912C4B-60BE-2313-B4E8-3E94BFDBFA5D</domain>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">

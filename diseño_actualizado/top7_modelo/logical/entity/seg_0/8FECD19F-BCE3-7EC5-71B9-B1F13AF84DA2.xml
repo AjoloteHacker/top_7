@@ -30,7 +30,7 @@
 <dataTypePrecision>2</dataTypePrecision>
 <ownDataTypeParameters>,2,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="nombre cargo" id="6B1FEFF6-2421-8792-E150-D9648BC0F230">
+<Attribute name="nombre" id="6B1FEFF6-2421-8792-E150-D9648BC0F230">
 <createdBy>ruke</createdBy>
 <createdTime>2026-09-26 23:58:44 UTC</createdTime>
 <generatorID>0EBBF0DC-8265-4BAA-F479-66058E2814DD</generatorID>

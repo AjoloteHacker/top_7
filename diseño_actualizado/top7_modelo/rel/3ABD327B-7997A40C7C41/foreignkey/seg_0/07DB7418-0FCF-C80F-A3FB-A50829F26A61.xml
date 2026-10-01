@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="07DB7418-0FCF-C80F-A3FB-A50829F26A61" containerWithKeyObject="2E33F042-6626-A4CF-FDE5-B64CE6680360" localFKIndex="BED9E98B-6918-27E5-C1A5-0C8EE1DFDB6C" name="PRODUCTO_IDIOMAv1_FK">
+<createdBy>ruke</createdBy>
+<createdTime>2026-10-01 23:30:40 UTC</createdTime>
+<generatorID>DD896F6B-D47A-ADA1-BF9D-130E2E55F516</generatorID>
+<ownerDesignName>top7_modelo</ownerDesignName>
+<referredTableLongName>IDIOMAv1</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>3F57ED93-255A-9F4D-C13D-641EC178562E</referredTableID>
+<keyObject>BAFD13A2-828B-8ABB-F54B-51C3350D0775</keyObject>
+<referredKeyID>BAFD13A2-828B-8ABB-F54B-51C3350D0775</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

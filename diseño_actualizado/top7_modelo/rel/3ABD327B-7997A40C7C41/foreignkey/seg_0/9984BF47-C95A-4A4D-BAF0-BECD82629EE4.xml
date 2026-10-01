@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="9984BF47-C95A-4A4D-BAF0-BECD82629EE4" containerWithKeyObject="81F8927C-5A49-899C-36BF-362E43C7278F" localFKIndex="6D427E08-D176-48C8-B85C-D9566EDBA245" name="SUCURSAL_CALLE_FK">
+<createdBy>ruke</createdBy>
+<createdTime>2026-10-01 23:08:05 UTC</createdTime>
+<generatorID>33E8C6FC-9F89-1548-4E59-C38E6348984B</generatorID>
+<ownerDesignName>top7_modelo</ownerDesignName>
+<referredTableLongName>CALLE</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>1D9257B9-AA4A-E691-178C-66244D1684BB</referredTableID>
+<keyObject>14D2EEBC-C062-EBD0-3A1E-3F6597CC5DAE</keyObject>
+<referredKeyID>14D2EEBC-C062-EBD0-3A1E-3F6597CC5DAE</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

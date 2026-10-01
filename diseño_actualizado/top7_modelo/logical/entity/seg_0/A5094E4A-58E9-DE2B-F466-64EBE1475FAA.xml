@@ -16,7 +16,7 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="id proveedor" id="6E0DFF53-1F67-C2D8-8838-2D9ACFC87760">
+<Attribute name="id" id="6E0DFF53-1F67-C2D8-8838-2D9ACFC87760">
 <createdBy>ruke</createdBy>
 <createdTime>2026-09-26 23:58:44 UTC</createdTime>
 <generatorID>2E44EF6C-82CA-545D-6437-0534E8B16106</generatorID>
@@ -24,12 +24,13 @@
 <engineerTo>
 <item key="3ABD327B-C1BC-7AAB-B926-7997A40C7C41" value="true"/>
 </engineerTo>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
-<domain>C04AF55C-246D-895E-2DF3-6F88B52341AE</domain>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="nombre proveedor" id="DCC0E132-116F-2203-D842-2BAF0BDCC7C0">
+<Attribute name="nombre" id="DCC0E132-116F-2203-D842-2BAF0BDCC7C0">
 <createdBy>ruke</createdBy>
 <createdTime>2026-09-26 23:58:44 UTC</createdTime>
 <generatorID>F08AFB3A-210E-A2FA-E5D8-4AE9EAD87AC3</generatorID>
@@ -37,10 +38,11 @@
 <engineerTo>
 <item key="3ABD327B-C1BC-7AAB-B926-7997A40C7C41" value="true"/>
 </engineerTo>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<domain>0A31FCD1-5BC2-D80D-0792-A86433E9393B</domain>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="telefono" id="8415ADE2-A205-9192-5CFC-0B2D08AED207">
 <createdBy>ruke</createdBy>
@@ -50,10 +52,11 @@
 <engineerTo>
 <item key="3ABD327B-C1BC-7AAB-B926-7997A40C7C41" value="true"/>
 </engineerTo>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<domain>6C4BAAFC-89FF-9546-337A-3F44C54BFE86</domain>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="email" id="DD4D1F94-F901-68BC-D53A-C815A9B9E3EE">
 <createdBy>ruke</createdBy>
@@ -63,23 +66,11 @@
 <engineerTo>
 <item key="3ABD327B-C1BC-7AAB-B926-7997A40C7C41" value="true"/>
 </engineerTo>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<domain>0A31FCD1-5BC2-D80D-0792-A86433E9393B</domain>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="direccion" id="692A74CA-B6B4-FDF9-DDE4-45E4D8DD00C2">
-<createdBy>ruke</createdBy>
-<createdTime>2026-09-26 23:58:44 UTC</createdTime>
-<generatorID>6B3786BB-D6FC-B6AA-789F-CB7AD56D1BE8</generatorID>
-<ownerDesignName>top7_modelo</ownerDesignName>
-<engineerTo>
-<item key="3ABD327B-C1BC-7AAB-B926-7997A40C7C41" value="true"/>
-</engineerTo>
-<use>0</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<domain>0A31FCD1-5BC2-D80D-0792-A86433E9393B</domain>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
@@ -88,8 +79,9 @@
 <createdTime>2026-09-26 23:58:44 UTC</createdTime>
 <generatorID>9C2B9397-C293-6E40-7F9D-D01CDA313562</generatorID>
 <ownerDesignName>top7_modelo</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="3ABD327B-C1BC-7AAB-B926-7997A40C7C41" value="true"/>
+<item key="3ABD327B-C1BC-7AAB-B926-7997A40C7C41" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

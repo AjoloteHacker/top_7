@@ -68,7 +68,7 @@
 <dataTypeSize>30 CHAR</dataTypeSize>
 <ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="segundo_nombre_1" id="B777AE83-C3F9-6808-E715-AF2C1CFB91A5">
+<Attribute name="segundo_apellido" id="B777AE83-C3F9-6808-E715-AF2C1CFB91A5">
 <createdBy>ruke</createdBy>
 <createdTime>2026-09-28 01:16:44 UTC</createdTime>
 <ownerDesignName>top7_modelo</ownerDesignName>
@@ -81,6 +81,21 @@
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>30 CHAR</dataTypeSize>
 <ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id1" id="A5E8CD77-3476-313B-792A-A031E66A2BF1">
+<createdBy>ruke</createdBy>
+<createdTime>2026-10-01 23:23:51 UTC</createdTime>
+<generatorID>2FC8FBA3-BCFE-C958-3EE3-6F03C362AB2B</generatorID>
+<ownerDesignName>top7_modelo</ownerDesignName>
+<engineerTo>
+<item key="3ABD327B-C1BC-7AAB-B926-7997A40C7C41" value="true"/>
+</engineerTo>
+<referedAttribute>0793571F-470D-B6FA-0FC8-89D4982F3741</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">

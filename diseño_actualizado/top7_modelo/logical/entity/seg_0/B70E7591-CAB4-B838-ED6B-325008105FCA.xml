@@ -86,6 +86,20 @@
 <dataTypePrecision>2</dataTypePrecision>
 <ownDataTypeParameters>,2,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="max_jugadores" id="422FBC9D-1F83-9662-56DF-883F49195288">
+<createdBy>ruke</createdBy>
+<createdTime>2026-10-01 23:10:49 UTC</createdTime>
+<ownerDesignName>top7_modelo</ownerDesignName>
+<engineerTo>
+<item key="3ABD327B-C1BC-7AAB-B926-7997A40C7C41" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
 <Attribute name="descripción" id="DE8773DF-3457-DA6E-DBD4-1CF612123CD7">
 <createdBy>ruke</createdBy>
 <createdTime>2026-09-28 01:22:50 UTC</createdTime>
@@ -99,6 +113,66 @@
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>500 CHAR</dataTypeSize>
 <ownDataTypeParameters>500 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id1" id="A80F152B-8AD4-3ADD-60C8-1D041D00B758">
+<createdBy>ruke</createdBy>
+<createdTime>2026-10-01 23:04:25 UTC</createdTime>
+<generatorID>26D1E60D-361E-11D0-DFAD-A1E759B84A78</generatorID>
+<ownerDesignName>top7_modelo</ownerDesignName>
+<engineerTo>
+<item key="3ABD327B-C1BC-7AAB-B926-7997A40C7C41" value="true"/>
+</engineerTo>
+<referedAttribute>F01C643B-DD95-1312-89B8-4AC1F6645A84</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id2" id="4221BCFE-F4A8-A949-4376-2C324C965068">
+<createdBy>ruke</createdBy>
+<createdTime>2026-10-01 23:10:33 UTC</createdTime>
+<generatorID>6592E2F6-C3FD-FF6D-339C-1CAF16EF9285</generatorID>
+<ownerDesignName>top7_modelo</ownerDesignName>
+<engineerTo>
+<item key="3ABD327B-C1BC-7AAB-B926-7997A40C7C41" value="true"/>
+</engineerTo>
+<referedAttribute>569D8035-7724-2986-35D2-358C4DFF65BC</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id3" id="D5DFDEE8-9E97-44AD-D622-55D481B61ECA">
+<createdBy>ruke</createdBy>
+<createdTime>2026-10-01 23:19:56 UTC</createdTime>
+<generatorID>DD896F6B-D47A-ADA1-BF9D-130E2E55F516</generatorID>
+<ownerDesignName>top7_modelo</ownerDesignName>
+<engineerTo>
+<item key="3ABD327B-C1BC-7AAB-B926-7997A40C7C41" value="true"/>
+</engineerTo>
+<referedAttribute>3CA76302-4274-2717-CC1B-D69AA4B3ABC5</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id4" id="A720FF04-43AF-EE19-075C-48118A9DD5D8">
+<createdBy>ruke</createdBy>
+<createdTime>2026-10-01 23:21:45 UTC</createdTime>
+<generatorID>675A6CEE-8EA1-CC07-822C-C4A523A72352</generatorID>
+<ownerDesignName>top7_modelo</ownerDesignName>
+<engineerTo>
+<item key="3ABD327B-C1BC-7AAB-B926-7997A40C7C41" value="true"/>
+</engineerTo>
+<referedAttribute>92ED5824-669F-2430-2565-D1CE28FE43D2</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
