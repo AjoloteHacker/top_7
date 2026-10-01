@@ -1,12 +1,36 @@
-/* Funcion que permita calcular lo total vendido por un empleado en un rango de fechas determinado. */
+/* Funcion que permita calcular lo total vendido por un empleado en un rango de un mes */
 CREATE OR REPLACE FUNCTION F_CALCULAR_TOTAL_VENDIDO_EMPLEADO_POR_MES(
-    P_ID_EMPLEADO NUMBER,
+    P_RUT_EMPLEADO varchar2,
     P_MES NUMBER,
     P_ANIO NUMBER
-)RETURN NUMBER IS
-    V_TOTAL_VENIDOD NUMBER;
+)RETURN varchar2 IS
+    V_NOMBRE_COMPLETO varchar2(50);
+    V_TOTAL_VENDIDO NUMBER(10);
 BEGIN
-    NULL;
-END;
+    SELECT
+        (
+            E.PRIMER_NOMBRE||' '||E.SEGUNDO_NOMBRE||' '||
+            E.PRIMER_APELLIDO||' '||E.SEGUNDO_APELLIDO
+        ),
+        SUM(V.TOTAL)
+    INTO V_NOMBRE_COMPLETO, V_TOTAL_VENDIDO
+    FROM VENTA V 
+    INNER JOIN EMPLEADO E ON V.ID_EMPLEADO=E.ID_EMPLEADO
+    WHERE   extract(YEAR FROM V.FECHA_VENTA)=P_ANIO
+        AND extract(MONTH FROM V.FECHA_VENTA)=P_MES
+        AND E.RUT = P_RUT_EMPLEADO
+    GROUP BY (
+            E.PRIMER_NOMBRE||' '||E.SEGUNDO_NOMBRE||' '||
+            E.PRIMER_APELLIDO||' '||E.SEGUNDO_APELLIDO
+        );
+
+    RETURN V_NOMBRE_COMPLETO||': $'||V_TOTAL_VENDIDO;
+END F_CALCULAR_TOTAL_VENDIDO_EMPLEADO_POR_MES;
 /
-SELECT * FROM EMPLEADO;
+commit;
+/
+/* =================================PRUEBAS================================== */
+
+SELECT F_CALCULAR_TOTAL_VENDIDO_EMPLEADO_POR_MES('33.938.240-9', 2, 2026) AS RESULTADO FROM DUAL;
+
+/* DATOS DE JEREMI: ('33.938.240-9', 2, 2026) */

@@ -98,3 +98,4 @@ INSERT INTO CLIENTE (rut,primer_nombre,segundo_nombre,primer_apellido,segundo_ap
 VALUES ('4.692.779-6','Ferdinand','Wanda','Vaughn','Stokes','non@yahoo.edu','+56975476853','151 Ipsum Av.');
 INSERT INTO CLIENTE (rut,primer_nombre,segundo_nombre,primer_apellido,segundo_apellido,email,telefono,direccion)
 VALUES ('19.963.494-1','Desirae','Iona','Freeman','Serrano','massa@hotmail.com','+56946525661','P.O. Box 147, 8308 Gravida. Road');
+COMMIT;
