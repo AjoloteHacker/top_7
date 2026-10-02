@@ -345,3 +345,4 @@ INSERT INTO CIUDAD (nombre_ciudad,id_pais)
 VALUES ('Livingston',3);
 INSERT INTO CIUDAD (nombre_ciudad,id_pais)
 VALUES ('New Galloway',3);
+COMMIT;

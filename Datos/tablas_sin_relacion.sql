@@ -869,3 +869,5 @@ VALUES ('Muy buena organizacion del torneo.',22,NULL,7);
 
 INSERT INTO REVIEW (descripcion,id_cliente,id_producto,id_evento)
 VALUES ('Muy recomendable, volvere a inscribirme.',14,NULL,7);
+
+commit;

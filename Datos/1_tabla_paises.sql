@@ -310,3 +310,4 @@ INSERT INTO PAIS (nombre_pais)
 VALUES ('Georgia');
 INSERT INTO PAIS (nombre_pais)
 VALUES ('Lesotho');
+COMMIT;
