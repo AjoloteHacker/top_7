@@ -109,21 +109,6 @@
 <dataTypePrecision>7</dataTypePrecision>
 <ownDataTypeParameters>,7,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="id2" id="FB0A14AD-CEE9-05AF-6772-C42B6086CB2F">
-<createdBy>ruke</createdBy>
-<createdTime>2026-10-01 23:32:02 UTC</createdTime>
-<generatorID>06F66AA8-8487-5FC1-E4D3-CC35B658CED8</generatorID>
-<ownerDesignName>top7_modelo</ownerDesignName>
-<engineerTo>
-<item key="3ABD327B-C1BC-7AAB-B926-7997A40C7C41" value="true"/>
-</engineerTo>
-<referedAttribute>6E0DFF53-1F67-C2D8-8838-2D9ACFC87760</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>3</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="0AA3E8F9-CC15-1819-1743-A6FF1DADB044" name="pk sucursal">

@@ -28,5 +28,59 @@
 <dataTypePrecision>3</dataTypePrecision>
 <ownDataTypeParameters>,3,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="inicio_contrato" id="9241C118-C981-4DED-4D06-D14A5D34051F">
+<createdBy>ruke</createdBy>
+<createdTime>2026-10-07 13:19:35 UTC</createdTime>
+<ownerDesignName>top7_modelo</ownerDesignName>
+<engineerTo>
+<item key="3ABD327B-C1BC-7AAB-B926-7997A40C7C41" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fin_contrato" id="8A43CA99-9074-C3F9-7F74-DF08E9BB9918">
+<createdBy>ruke</createdBy>
+<createdTime>2026-10-07 13:19:58 UTC</createdTime>
+<ownerDesignName>top7_modelo</ownerDesignName>
+<engineerTo>
+<item key="3ABD327B-C1BC-7AAB-B926-7997A40C7C41" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id1" id="E2E5E98F-2861-088E-F5B8-5B48301CEFF9">
+<createdBy>ruke</createdBy>
+<createdTime>2026-10-07 13:19:10 UTC</createdTime>
+<generatorID>275FFEF4-CCBE-866F-0663-074D8677F231</generatorID>
+<ownerDesignName>top7_modelo</ownerDesignName>
+<engineerTo>
+<item key="3ABD327B-C1BC-7AAB-B926-7997A40C7C41" value="true"/>
+</engineerTo>
+<referedAttribute>81D8988F-DE51-065B-3E09-57835CCA13E5</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="45E410AE-67C1-9AFC-19D6-E49826740D3E" name="CONTRATO PK">
+<createdBy>ruke</createdBy>
+<createdTime>2026-10-07 13:16:20 UTC</createdTime>
+<ownerDesignName>top7_modelo</ownerDesignName>
+<engineerTo>
+<item key="3ABD327B-C1BC-7AAB-B926-7997A40C7C41" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>CCC28589-A306-E409-1F28-C5642FEE11FB</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>

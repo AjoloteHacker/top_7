@@ -83,7 +83,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>2</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="id1" id="6C4B7C8A-3659-6506-02AC-3ACADB19F9F3">
 <createdBy>ruke</createdBy>
@@ -98,7 +98,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>6</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="id2" id="F8C4362D-D191-1908-A9C8-A0F7F6A43E6C">
 <createdBy>ruke</createdBy>
@@ -113,7 +113,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>2</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
@@ -122,8 +122,9 @@
 <createdTime>2026-09-26 23:58:44 UTC</createdTime>
 <generatorID>8EB39134-811C-2F95-EC64-714E9A5A1B37</generatorID>
 <ownerDesignName>top7_modelo</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="3ABD327B-C1BC-7AAB-B926-7997A40C7C41" value="true"/>
+<item key="3ABD327B-C1BC-7AAB-B926-7997A40C7C41" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

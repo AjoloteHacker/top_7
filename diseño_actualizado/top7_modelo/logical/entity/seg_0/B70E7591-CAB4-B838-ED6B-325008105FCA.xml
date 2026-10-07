@@ -127,7 +127,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>4</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="id2" id="4221BCFE-F4A8-A949-4376-2C324C965068">
 <createdBy>ruke</createdBy>
@@ -142,7 +142,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>4</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="id3" id="D5DFDEE8-9E97-44AD-D622-55D481B61ECA">
 <createdBy>ruke</createdBy>
@@ -157,7 +157,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>3</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="id4" id="A720FF04-43AF-EE19-075C-48118A9DD5D8">
 <createdBy>ruke</createdBy>
@@ -172,6 +172,21 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id5" id="6CD2D35F-44E7-0AD5-66BF-0194C06E2C6E">
+<createdBy>ruke</createdBy>
+<createdTime>2026-10-07 14:07:21 UTC</createdTime>
+<generatorID>EFD696F8-5AD5-E9B9-21E1-E059978CFD73</generatorID>
+<ownerDesignName>top7_modelo</ownerDesignName>
+<engineerTo>
+<item key="3ABD327B-C1BC-7AAB-B926-7997A40C7C41" value="true"/>
+</engineerTo>
+<referedAttribute>6E0DFF53-1F67-C2D8-8838-2D9ACFC87760</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
@@ -181,8 +196,9 @@
 <createdTime>2026-09-26 23:58:44 UTC</createdTime>
 <generatorID>F8795F85-06E1-5497-B414-94C88F76D897</generatorID>
 <ownerDesignName>top7_modelo</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="3ABD327B-C1BC-7AAB-B926-7997A40C7C41" value="true"/>
+<item key="3ABD327B-C1BC-7AAB-B926-7997A40C7C41" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

@@ -3,8 +3,9 @@
 <createdBy>ruke</createdBy>
 <createdTime>2026-09-26 23:57:40 UTC</createdTime>
 <ownerDesignName>top7_modelo</ownerDesignName>
-<shouldBeOpen>false</shouldBeOpen>
+<shouldBeOpen>true</shouldBeOpen>
 <selectedRDBMSSite>3FD120B5-9F4E-6278-D5E2-746D192C8319</selectedRDBMSSite>
+<useTemplateTable>true</useTemplateTable>
 <importDDLFileStamps>
 <importDDLFileStamp class="oracle.dbtools.crest.imports.DDLFileStamp">
 <fileName>creacion_tablas.sql</fileName>
