@@ -1,6 +1,6 @@
 /* CReacion de la tabla historial stock */
 DROP TABLE HISTORIAL_STOCK;
-/
+
 CREATE TABLE HISTORIAL_STOCK(
     ID                  NUMBER GENERATED ALWAYS AS identity,
     ID_PRODUCTO         NUMBER NOT NULL,
