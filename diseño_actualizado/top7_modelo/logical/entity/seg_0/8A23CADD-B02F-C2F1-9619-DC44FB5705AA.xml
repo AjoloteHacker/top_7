@@ -27,14 +27,30 @@
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="id1" id="D3069882-B629-CEBB-F34A-3ACD94871448">
+<createdBy>ruke</createdBy>
+<createdTime>2026-10-07 13:16:22 UTC</createdTime>
+<generatorID>71A11C17-42D1-2F13-A44A-D9AA43FC0326</generatorID>
+<ownerDesignName>top7_modelo</ownerDesignName>
+<engineerTo>
+<item key="3ABD327B-C1BC-7AAB-B926-7997A40C7C41" value="true"/>
+</engineerTo>
+<referedAttribute>CCC28589-A306-E409-1F28-C5642FEE11FB</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="BA1E4DB8-B6DF-4111-2155-94B972BC4C8F" name="ANEXO_CONTRATO PK">
 <createdBy>ruke</createdBy>
 <createdTime>2026-09-28 01:18:52 UTC</createdTime>
 <ownerDesignName>top7_modelo</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="3ABD327B-C1BC-7AAB-B926-7997A40C7C41" value="true"/>
+<item key="3ABD327B-C1BC-7AAB-B926-7997A40C7C41" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

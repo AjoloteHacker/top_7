@@ -57,6 +57,21 @@
 <dataTypeSize>1 CHAR</dataTypeSize>
 <ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="id1" id="50752506-EDA0-AAAA-1478-4DF2A28A3FA2">
+<createdBy>ruke</createdBy>
+<createdTime>2026-10-07 13:16:38 UTC</createdTime>
+<generatorID>92D094AA-46BD-C545-37E7-89620A565CC4</generatorID>
+<ownerDesignName>top7_modelo</ownerDesignName>
+<engineerTo>
+<item key="3ABD327B-C1BC-7AAB-B926-7997A40C7C41" value="true"/>
+</engineerTo>
+<referedAttribute>A4AD0CF6-5CA1-3F03-C62E-E83E96D2AF88</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="7522D88F-413D-3A52-8E87-B08BEDB2E0A8" name="pk inscripcion">
@@ -64,8 +79,9 @@
 <createdTime>2026-09-26 23:58:44 UTC</createdTime>
 <generatorID>7CAF2643-8EA8-4EB9-70FF-3CAB4B491500</generatorID>
 <ownerDesignName>top7_modelo</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="3ABD327B-C1BC-7AAB-B926-7997A40C7C41" value="true"/>
+<item key="3ABD327B-C1BC-7AAB-B926-7997A40C7C41" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
