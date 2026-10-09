@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DDB04EAF-521F-39BD-4E83-BE9C81ACEEFC" name="LOCALIDAD">
+<createdBy>ruke</createdBy>
+<createdTime>2026-10-09 00:42:37 UTC</createdTime>
+<generatorID>2850724F-DBB5-5A72-7D89-FDC515A9C333</generatorID>
+<ownerDesignName>top7_modelo</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="433F634D-6AB0-4253-9B5C-1F99DDDFA3F5">
+<createdBy>ruke</createdBy>
+<createdTime>2026-10-09 00:42:37 UTC</createdTime>
+<generatorID>0E51AAE8-760E-C8DE-9CF7-84DFD0189A81</generatorID>
+<ownerDesignName>top7_modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="C7DD719D-0BD4-F8A3-6F32-AC814A2BD43F">
+<createdBy>ruke</createdBy>
+<createdTime>2026-10-09 00:42:37 UTC</createdTime>
+<generatorID>8A998369-6609-E178-8DE7-3D4AFDC0AE66</generatorID>
+<ownerDesignName>top7_modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="REGION_id" id="1AAAB30C-8AB6-B548-7DDA-306FDD7DD64C">
+<createdBy>ruke</createdBy>
+<createdTime>2026-10-09 00:42:37 UTC</createdTime>
+<generatorID>C4F44FB4-C20E-F1DB-1475-4C91F0E5516F</generatorID>
+<ownerDesignName>top7_modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B1E395F9-7BB3-0B58-F3EF-2DCA50BBFC2A" referredColumn="20A33774-5350-6768-7E25-A051FFDBBB9F"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E96A6C57-5BDA-98A8-C511-E473EC4725C3" name="LOCALIDAD_PK">
+<createdBy>ruke</createdBy>
+<createdTime>2026-10-09 00:42:37 UTC</createdTime>
+<generatorID>B7F91424-147E-2CE1-B60A-B15D96513F42</generatorID>
+<ownerDesignName>top7_modelo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="433F634D-6AB0-4253-9B5C-1F99DDDFA3F5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7E877196-FA73-42C0-3DE8-D4518CD4208E" name="LOCALIDAD_REGION_FK">
+<createdBy>ruke</createdBy>
+<createdTime>2026-10-09 00:42:37 UTC</createdTime>
+<generatorID>695C4C77-A1DB-F02D-1A07-935AFA594B75</generatorID>
+<ownerDesignName>top7_modelo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1AAAB30C-8AB6-B548-7DDA-306FDD7DD64C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

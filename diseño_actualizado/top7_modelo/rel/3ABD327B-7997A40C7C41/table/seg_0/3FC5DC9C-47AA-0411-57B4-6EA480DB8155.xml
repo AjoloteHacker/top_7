@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3FC5DC9C-47AA-0411-57B4-6EA480DB8155" name="PAGO">
+<createdBy>ruke</createdBy>
+<createdTime>2026-10-09 00:42:37 UTC</createdTime>
+<generatorID>073919D0-09F3-B6CF-C84A-8F5C15231BE9</generatorID>
+<ownerDesignName>top7_modelo</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="AADDE6DB-802D-F9DA-0399-E644989C8F45">
+<createdBy>ruke</createdBy>
+<createdTime>2026-10-09 00:42:37 UTC</createdTime>
+<generatorID>71ACCDED-EEF9-90AE-F94A-C4D6D3988820</generatorID>
+<ownerDesignName>top7_modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cantidad" id="F0869CE6-E131-4B19-C86B-F1DA8697AFE0">
+<createdBy>ruke</createdBy>
+<createdTime>2026-10-09 00:42:37 UTC</createdTime>
+<generatorID>FCCE8409-5C50-CA79-C4D4-1805A1DCE125</generatorID>
+<ownerDesignName>top7_modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="precio_unitario" id="1CE8270E-B3C9-4D45-AC14-84079C8567E7">
+<createdBy>ruke</createdBy>
+<createdTime>2026-10-09 00:42:37 UTC</createdTime>
+<generatorID>8C88C262-1B8C-B539-BAA6-30413FFB3FD6</generatorID>
+<ownerDesignName>top7_modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,7,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="descuento_aplicado" id="95668440-4053-B825-092F-4ACB465CAED0">
+<createdBy>ruke</createdBy>
+<createdTime>2026-10-09 00:42:37 UTC</createdTime>
+<generatorID>12984D2D-8E2F-A089-6E44-3E6F7926180A</generatorID>
+<ownerDesignName>top7_modelo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VENTA_id_venta" id="AD91136E-35D6-16A7-4CC2-67E4106DB864">
+<createdBy>ruke</createdBy>
+<createdTime>2026-10-09 00:42:37 UTC</createdTime>
+<generatorID>AC3AD88E-F1AF-3593-8102-A25FC9A9BF61</generatorID>
+<ownerDesignName>top7_modelo</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>C04AF55C-246D-895E-2DF3-6F88B52341AE</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D260CCCD-76F9-D02C-765D-4485F616D411" referredColumn="D771404F-C270-3D7A-87D2-262BDE559465"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8E543825-3F41-2CB5-9630-24CF80542F14" name="PAGO_PK">
+<createdBy>ruke</createdBy>
+<createdTime>2026-10-09 00:42:37 UTC</createdTime>
+<generatorID>F88EF512-9825-AB91-4C7F-3221D34D0DC6</generatorID>
+<ownerDesignName>top7_modelo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AADDE6DB-802D-F9DA-0399-E644989C8F45"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A5E08511-7453-D03B-8C71-C638E32B99FF" name="PAGO_VENTA_FK">
+<createdBy>ruke</createdBy>
+<createdTime>2026-10-09 00:42:37 UTC</createdTime>
+<generatorID>A34D19D9-1B1C-5362-94EE-B3FC123A7639</generatorID>
+<ownerDesignName>top7_modelo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AD91136E-35D6-16A7-4CC2-67E4106DB864"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

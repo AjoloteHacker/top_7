@@ -1,0 +1,117 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D6DDDD69-AEF7-73DB-8ADC-1660919168BD" name="REVIEW">
+<createdBy>ruke</createdBy>
+<createdTime>2026-10-09 00:42:37 UTC</createdTime>
+<generatorID>CA41269B-CC42-41A8-D6F9-6F92F347FF89</generatorID>
+<ownerDesignName>top7_modelo</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="46967EBE-2CB0-7ECC-051D-FF8B3494BCCD">
+<createdBy>ruke</createdBy>
+<createdTime>2026-10-09 00:42:37 UTC</createdTime>
+<generatorID>8D6A94F0-2C60-3B76-B460-CD39B453DE22</generatorID>
+<ownerDesignName>top7_modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="titulo" id="62A11038-D98D-DA36-9E05-A019A412C3D9">
+<createdBy>ruke</createdBy>
+<createdTime>2026-10-09 00:42:37 UTC</createdTime>
+<generatorID>BD5D7069-B6DD-FDF7-1EB2-8BD6BC3586E7</generatorID>
+<ownerDesignName>top7_modelo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40 CHAR</dataTypeSize>
+<ownDataTypeParameters>40 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="mensaje" id="B71277B4-B3EE-50C5-230E-8DEC566F7646">
+<createdBy>ruke</createdBy>
+<createdTime>2026-10-09 00:42:37 UTC</createdTime>
+<generatorID>472DC6CF-2383-DD6B-F10B-3A3A78046BC5</generatorID>
+<ownerDesignName>top7_modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500 CHAR</dataTypeSize>
+<ownDataTypeParameters>500 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TIPO_REVIEW_id" id="A41D449B-6E5B-73D4-BC1F-76F170336218">
+<createdBy>ruke</createdBy>
+<createdTime>2026-10-09 00:42:37 UTC</createdTime>
+<generatorID>F649D1CA-CD83-6A49-B752-B1D9BE2D6332</generatorID>
+<ownerDesignName>top7_modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="50D53BCF-B7E8-2070-810A-75AD9D8B3769" referredColumn="88A7BC16-16B5-5491-98B7-8ABDE94410F0"/>
+</associations>
+</Column>
+<Column name="CLIENTE_id" id="01D17F51-FD4E-9121-505C-FE491642E8BE">
+<createdBy>ruke</createdBy>
+<createdTime>2026-10-09 00:42:37 UTC</createdTime>
+<generatorID>B95067BE-03F2-5EEC-8614-F8455325D7D4</generatorID>
+<ownerDesignName>top7_modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3011DB81-085C-C46F-E196-E879E43CD21E" referredColumn="D918D4C9-860A-4BC9-20FC-554C8E2A45FF"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="55780B9F-7F5B-5781-5962-68EFC6D409D9" name="REVIEW_PK">
+<createdBy>ruke</createdBy>
+<createdTime>2026-10-09 00:42:37 UTC</createdTime>
+<generatorID>EBD4E98E-E7BB-C76C-128E-A93C047CA48F</generatorID>
+<ownerDesignName>top7_modelo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="46967EBE-2CB0-7ECC-051D-FF8B3494BCCD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="73AB7D23-06D2-FC73-43FA-E13F74B385E1" name="REVIEW_TIPO_REVIEW_FK">
+<createdBy>ruke</createdBy>
+<createdTime>2026-10-09 00:42:37 UTC</createdTime>
+<generatorID>C9864AB9-BAEE-4EDB-41B5-73F5C56874EB</generatorID>
+<ownerDesignName>top7_modelo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A41D449B-6E5B-73D4-BC1F-76F170336218"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="621C996E-F05E-0CFF-0C58-F850F084213D" name="REVIEW_CLIENTE_FK">
+<createdBy>ruke</createdBy>
+<createdTime>2026-10-09 00:42:37 UTC</createdTime>
+<generatorID>62583EB3-C8CD-1974-AAF5-941AC82636A1</generatorID>
+<ownerDesignName>top7_modelo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="01D17F51-FD4E-9121-505C-FE491642E8BE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

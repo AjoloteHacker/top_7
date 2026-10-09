@@ -1,0 +1,104 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="061CDD5F-218B-BA45-0532-58CF7E1D670A" name="CALLE">
+<createdBy>ruke</createdBy>
+<createdTime>2026-10-09 00:42:37 UTC</createdTime>
+<generatorID>2B98DB74-4BDD-494A-0B8E-E2CFCD9D9C73</generatorID>
+<ownerDesignName>top7_modelo</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="E7E2D034-2674-C641-8D42-41433D4609A5">
+<createdBy>ruke</createdBy>
+<createdTime>2026-10-09 00:42:37 UTC</createdTime>
+<generatorID>47A06A4A-59FA-4905-7C47-3F9A46791A08</generatorID>
+<ownerDesignName>top7_modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,7,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="603A2F61-684C-1870-D481-84BF0F2D22A4">
+<createdBy>ruke</createdBy>
+<createdTime>2026-10-09 00:42:37 UTC</createdTime>
+<generatorID>6CC221EF-E2A4-0BE3-E939-A3A7CED4EF65</generatorID>
+<ownerDesignName>top7_modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CIUDAD_id" id="D995ACD5-956A-72EB-F07D-1451AF54FE6D">
+<createdBy>ruke</createdBy>
+<createdTime>2026-10-09 00:42:37 UTC</createdTime>
+<generatorID>E6A1CEF0-AA60-6088-7C38-BCCA4FF3A845</generatorID>
+<ownerDesignName>top7_modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FC3E5825-34D1-E2F3-DF6E-BE09DE7309AB" referredColumn="13EF4C05-4C99-86C1-AD09-4FE3FC0AFA1E"/>
+</associations>
+</Column>
+<Column name="LOCALIDAD_id" id="C3A1983F-420C-3809-76A0-647B2FBA92EE">
+<createdBy>ruke</createdBy>
+<createdTime>2026-10-09 00:42:37 UTC</createdTime>
+<generatorID>85828F00-308D-94E9-1B6A-EA0A82010013</generatorID>
+<ownerDesignName>top7_modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C85C2231-3039-C6EA-2EBD-8CBD4D9CBAE3" referredColumn="433F634D-6AB0-4253-9B5C-1F99DDDFA3F5"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="29653AC4-B45D-C5F1-F2CE-4EEB74E014AF" name="CALLE_PK">
+<createdBy>ruke</createdBy>
+<createdTime>2026-10-09 00:42:37 UTC</createdTime>
+<generatorID>FABCD1BF-79C4-8EF7-E652-AE75CD5BDFEA</generatorID>
+<ownerDesignName>top7_modelo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E7E2D034-2674-C641-8D42-41433D4609A5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7001F721-B361-9DFC-71C1-DAC6A295C6B1" name="CALLE_CIUDAD_FK">
+<createdBy>ruke</createdBy>
+<createdTime>2026-10-09 00:42:37 UTC</createdTime>
+<generatorID>9EFD2281-E505-FE38-E994-DF097AAAE73E</generatorID>
+<ownerDesignName>top7_modelo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D995ACD5-956A-72EB-F07D-1451AF54FE6D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EDDC1E3E-B76B-FB41-D0C9-5981B40A0B5E" name="CALLE_LOCALIDAD_FK">
+<createdBy>ruke</createdBy>
+<createdTime>2026-10-09 00:42:37 UTC</createdTime>
+<generatorID>89518A56-1834-668A-204B-67560D86C680</generatorID>
+<ownerDesignName>top7_modelo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C3A1983F-420C-3809-76A0-647B2FBA92EE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

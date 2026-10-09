@@ -1,0 +1,116 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BE73E848-A369-269F-968F-7AF3CDA90642" name="EVENTO">
+<createdBy>ruke</createdBy>
+<createdTime>2026-10-09 00:42:37 UTC</createdTime>
+<generatorID>405FD232-9007-EC40-2245-AE2E9DCC5D59</generatorID>
+<ownerDesignName>top7_modelo</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="D4E36D7B-F837-2BC6-EEE8-0188DC74657E">
+<createdBy>ruke</createdBy>
+<createdTime>2026-10-09 00:42:37 UTC</createdTime>
+<generatorID>A4AD0CF6-5CA1-3F03-C62E-E83E96D2AF88</generatorID>
+<ownerDesignName>top7_modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="97C7495C-2972-036D-F105-86813664E49E">
+<createdBy>ruke</createdBy>
+<createdTime>2026-10-09 00:42:37 UTC</createdTime>
+<generatorID>7AD8C8E6-6DA2-3F62-50AB-F4F545B907EA</generatorID>
+<ownerDesignName>top7_modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="descripcion" id="CBDCDE21-85E5-AFED-DF8F-F00CA17B989F">
+<createdBy>ruke</createdBy>
+<createdTime>2026-10-09 00:42:37 UTC</createdTime>
+<generatorID>BD108EA4-564D-64D8-6822-7ACEB688ACFA</generatorID>
+<ownerDesignName>top7_modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>300 CHAR</dataTypeSize>
+<ownDataTypeParameters>300 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TIPO_EVENTO_id" id="BFE85102-B2A2-EAE1-3206-81A7EA7E3099">
+<createdBy>ruke</createdBy>
+<createdTime>2026-10-09 00:42:37 UTC</createdTime>
+<generatorID>FC97008B-D32C-BE1B-543B-4E1DDD7CA407</generatorID>
+<ownerDesignName>top7_modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="787DFEE9-FC38-7270-B340-2A22B12B40E3" referredColumn="86B03F4D-BF00-8E41-F336-C8BB5DC9A653"/>
+</associations>
+</Column>
+<Column name="SUCURSAL_id" id="9B26AE60-96C5-C061-F304-CA0D54F9B48D">
+<createdBy>ruke</createdBy>
+<createdTime>2026-10-09 00:42:37 UTC</createdTime>
+<generatorID>A9F1046E-3594-7EBE-8665-60AEEEF206B9</generatorID>
+<ownerDesignName>top7_modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="07684FF6-A6DA-5F6F-DAA6-AE4083494ABE" referredColumn="2FB76998-011E-451F-0FBC-1703EBB470DD"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8F0AA7F9-0DE9-C4A3-0138-9903E9B6387E" name="EVENTO_PK">
+<createdBy>ruke</createdBy>
+<createdTime>2026-10-09 00:42:37 UTC</createdTime>
+<generatorID>37A6CCA0-B810-2D5A-2382-FDA7E80ABF19</generatorID>
+<ownerDesignName>top7_modelo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D4E36D7B-F837-2BC6-EEE8-0188DC74657E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A5BEE8E2-7F83-364C-5C6B-0020140AA640" name="EVENTO_TIPO_EVENTO_FK">
+<createdBy>ruke</createdBy>
+<createdTime>2026-10-09 00:42:37 UTC</createdTime>
+<generatorID>19BF665E-90C6-B5A6-86BC-B675DC6EE1E3</generatorID>
+<ownerDesignName>top7_modelo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BFE85102-B2A2-EAE1-3206-81A7EA7E3099"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="79120D4D-5486-ADCD-C6C4-65F989A61760" name="EVENTO_SUCURSAL_FK">
+<createdBy>ruke</createdBy>
+<createdTime>2026-10-09 00:42:37 UTC</createdTime>
+<generatorID>BE1871D8-5C88-A378-BF91-764E58802683</generatorID>
+<ownerDesignName>top7_modelo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9B26AE60-96C5-C061-F304-CA0D54F9B48D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

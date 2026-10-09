@@ -1,0 +1,153 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="28300C00-29B8-604D-6747-AD0BA3354496" name="VENTA">
+<createdBy>ruke</createdBy>
+<createdTime>2026-10-09 00:42:37 UTC</createdTime>
+<generatorID>A698610F-E7DF-4DB0-AC1A-A1E7E4513CCE</generatorID>
+<ownerDesignName>top7_modelo</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_venta" id="D771404F-C270-3D7A-87D2-262BDE559465">
+<createdBy>ruke</createdBy>
+<createdTime>2026-10-09 00:42:37 UTC</createdTime>
+<generatorID>0841AD6F-3171-A9A4-9898-316F57758934</generatorID>
+<ownerDesignName>top7_modelo</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>C04AF55C-246D-895E-2DF3-6F88B52341AE</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_venta" id="1D5AFED1-9D0E-34BE-7853-E85DC3C1CE38">
+<createdBy>ruke</createdBy>
+<createdTime>2026-10-09 00:42:37 UTC</createdTime>
+<generatorID>68995858-665A-8F44-94BD-5CE006AC6005</generatorID>
+<ownerDesignName>top7_modelo</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>7CB37A13-3ACD-7FE3-FD3A-F92A6C9E2EC3</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="total" id="47451B09-321F-F238-B567-6F1219CF1FF5">
+<createdBy>ruke</createdBy>
+<createdTime>2026-10-09 00:42:37 UTC</createdTime>
+<generatorID>627E8B27-2002-2E49-F00D-4229CD86A3F6</generatorID>
+<ownerDesignName>top7_modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<ownDataTypeParameters>,15,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nro_boleta" id="F18766EA-07A4-8DE3-4E43-A41543D943C7">
+<createdBy>ruke</createdBy>
+<createdTime>2026-10-09 00:42:37 UTC</createdTime>
+<generatorID>90C9E969-2611-A5BB-2749-E508556DC620</generatorID>
+<ownerDesignName>top7_modelo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>B4728727-7CE0-1F98-7F29-9A14D7BB0A68</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SUCURSAL_id" id="0C4A93AA-6E28-DFF1-4E10-1BF50B033704">
+<createdBy>ruke</createdBy>
+<createdTime>2026-10-09 00:42:37 UTC</createdTime>
+<generatorID>9769026B-A82B-8DFC-3297-5BD00626A153</generatorID>
+<ownerDesignName>top7_modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="92A89531-420C-2A04-AB1C-4598CE86A985" referredColumn="2FB76998-011E-451F-0FBC-1703EBB470DD"/>
+</associations>
+</Column>
+<Column name="CLIENTE_id" id="4D2C237B-98B4-81F7-262A-B73DC6A7AA62">
+<createdBy>ruke</createdBy>
+<createdTime>2026-10-09 00:42:37 UTC</createdTime>
+<generatorID>6C4B7C8A-3659-6506-02AC-3ACADB19F9F3</generatorID>
+<ownerDesignName>top7_modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5556B559-65CD-5478-E52E-0901BB770239" referredColumn="D918D4C9-860A-4BC9-20FC-554C8E2A45FF"/>
+</associations>
+</Column>
+<Column name="METODO_PAGO_id" id="25831F44-BB94-11EC-157B-17289EAE6082">
+<createdBy>ruke</createdBy>
+<createdTime>2026-10-09 00:42:37 UTC</createdTime>
+<generatorID>F8C4362D-D191-1908-A9C8-A0F7F6A43E6C</generatorID>
+<ownerDesignName>top7_modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4DEFF200-5685-90D0-3E4B-2F0E27A83390" referredColumn="52C85FEF-E56E-7C42-8102-8EE556EE2ED8"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A8326EE9-2E06-394C-D9BF-F7DEF1B4E7D0" name="VENTA_PK">
+<createdBy>ruke</createdBy>
+<createdTime>2026-10-09 00:42:37 UTC</createdTime>
+<generatorID>14F0A176-C350-18E3-B778-90C68585AF72</generatorID>
+<ownerDesignName>top7_modelo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D771404F-C270-3D7A-87D2-262BDE559465"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D0E02719-6349-257C-B872-A416EED398D4" name="VENTA_SUCURSAL_FK">
+<createdBy>ruke</createdBy>
+<createdTime>2026-10-09 00:42:37 UTC</createdTime>
+<generatorID>1F06F9A4-004B-29FF-B212-95B622D810E9</generatorID>
+<ownerDesignName>top7_modelo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0C4A93AA-6E28-DFF1-4E10-1BF50B033704"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="93E36917-3FD5-1C35-7F40-5C7D96350883" name="VENTA_CLIENTE_FK">
+<createdBy>ruke</createdBy>
+<createdTime>2026-10-09 00:42:37 UTC</createdTime>
+<generatorID>1415F8FE-B9D8-E352-7A7B-59DE12726C84</generatorID>
+<ownerDesignName>top7_modelo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4D2C237B-98B4-81F7-262A-B73DC6A7AA62"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E4C80C2B-29C1-6668-F7F9-D2EA54042704" name="VENTA_METODO_PAGO_FK">
+<createdBy>ruke</createdBy>
+<createdTime>2026-10-09 00:42:37 UTC</createdTime>
+<generatorID>83DCB8D9-7911-29AF-1734-42403ECCD78F</generatorID>
+<ownerDesignName>top7_modelo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="25831F44-BB94-11EC-157B-17289EAE6082"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

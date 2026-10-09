@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CDC4B487-D5A9-2D64-6E59-1A5BA997AD2B" name="Relation_47">
+<createdBy>ruke</createdBy>
+<createdTime>2026-10-09 00:42:37 UTC</createdTime>
+<ownerDesignName>top7_modelo</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="VENTA_id_venta" id="6070BEC8-37E1-E907-68FD-97A537BD5A60">
+<createdBy>ruke</createdBy>
+<createdTime>2026-10-09 00:42:37 UTC</createdTime>
+<ownerDesignName>top7_modelo</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>C04AF55C-246D-895E-2DF3-6F88B52341AE</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EEE284B6-7EC3-823A-39FE-3B651FECBF7F" referredColumn="D771404F-C270-3D7A-87D2-262BDE559465"/>
+</associations>
+</Column>
+<Column name="PRODUCTO_id" id="AE1093A7-E91E-AED8-5490-C1601B59F5F9">
+<createdBy>ruke</createdBy>
+<createdTime>2026-10-09 00:42:37 UTC</createdTime>
+<ownerDesignName>top7_modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="91AB7634-EFDA-0BE2-6ED7-462D8C1FEF1B" referredColumn="B47329C0-6AB4-48C1-8213-158F43887EC9"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="433C2F75-E864-2484-F211-1F961AB132AE" name="Relation_47_PK">
+<createdBy>ruke</createdBy>
+<createdTime>2026-10-09 00:42:37 UTC</createdTime>
+<ownerDesignName>top7_modelo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6070BEC8-37E1-E907-68FD-97A537BD5A60"/>
+<colUsage columnID="AE1093A7-E91E-AED8-5490-C1601B59F5F9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D0294222-19F2-5430-E377-495C0034A129" name="Relation_47_VENTA_FK">
+<createdBy>ruke</createdBy>
+<createdTime>2026-10-09 00:42:37 UTC</createdTime>
+<generatorID>AB50388F-5574-356B-A43A-C4DC09FE7C35</generatorID>
+<ownerDesignName>top7_modelo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6070BEC8-37E1-E907-68FD-97A537BD5A60"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1CA2A7D7-72DC-89CE-B16B-C31A4103200F" name="Relation_47_PRODUCTO_FK">
+<createdBy>ruke</createdBy>
+<createdTime>2026-10-09 00:42:37 UTC</createdTime>
+<generatorID>AB50388F-5574-356B-A43A-C4DC09FE7C35</generatorID>
+<ownerDesignName>top7_modelo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AE1093A7-E91E-AED8-5490-C1601B59F5F9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
