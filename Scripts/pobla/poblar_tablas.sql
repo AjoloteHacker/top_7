@@ -39,12 +39,12 @@ INSERT INTO SUCURSAL (nombre, numero_contacto, email_contacto, hora_apertura, ho
 INSERT INTO SUCURSAL (nombre, numero_contacto, email_contacto, hora_apertura, hora_cierre, CALLE_id) VALUES ('Mesa Épica Concepción', '+56 41 291 8803', 'concepcion@mesaepica.cl', TIMESTAMP '2000-01-01 10:00:00', TIMESTAMP '2000-01-01 20:00:00', 5);
 
 -- CARGO
-INSERT INTO CARGO (nombre, descripción) VALUES ('Gerente de Sucursal', 'Responsable de la operación, el equipo y los resultados de la sucursal.');
-INSERT INTO CARGO (nombre, descripción) VALUES ('Vendedor', 'Atiende a clientes, recomienda juegos y gestiona ventas en sala.');
-INSERT INTO CARGO (nombre, descripción) VALUES ('Cajero', 'Procesa pagos, emite boletas y realiza el cierre de caja diario.');
-INSERT INTO CARGO (nombre, descripción) VALUES ('Encargado de Bodega', 'Recibe mercadería, controla inventario y repone el stock de sala.');
-INSERT INTO CARGO (nombre, descripción) VALUES ('Anfitrión de Eventos', 'Organiza y modera torneos, talleres y noches de juegos.');
-INSERT INTO CARGO (nombre, descripción) VALUES ('Administrador', 'Gestiona proveedores, compras y la administración general.');
+INSERT INTO CARGO (nombre, descripcion) VALUES ('Gerente de Sucursal', 'Responsable de la operación, el equipo y los resultados de la sucursal.');
+INSERT INTO CARGO (nombre, descripcion) VALUES ('Vendedor', 'Atiende a clientes, recomienda juegos y gestiona ventas en sala.');
+INSERT INTO CARGO (nombre, descripcion) VALUES ('Cajero', 'Procesa pagos, emite boletas y realiza el cierre de caja diario.');
+INSERT INTO CARGO (nombre, descripcion) VALUES ('Encargado de Bodega', 'Recibe mercadería, controla inventario y repone el stock de sala.');
+INSERT INTO CARGO (nombre, descripcion) VALUES ('Anfitrión de Eventos', 'Organiza y modera torneos, talleres y noches de juegos.');
+INSERT INTO CARGO (nombre, descripcion) VALUES ('Administrador', 'Gestiona proveedores, compras y la administración general.');
 
 -- EMPLEADO
 INSERT INTO EMPLEADO (primer_nombre, segundo_nombre, primer_apellido, segundo_apellido, CARGO_id, SUCURSAL_id) VALUES ('Matías', NULL, 'González', 'Rojas', 1, 1);
@@ -84,10 +84,10 @@ INSERT INTO ANEXO_CONTRATO (CONTRATO_id) VALUES (8);
 INSERT INTO ANEXO_CONTRATO (CONTRATO_id) VALUES (9);
 
 -- CATEGORIA_EVENTO
-INSERT INTO CATEGORIA_EVENTO (nombre, descripción) VALUES ('Torneo', 'Competencias oficiales con premios');
-INSERT INTO CATEGORIA_EVENTO (nombre, descripción) VALUES ('Taller', 'Actividades de aprendizaje guiado');
-INSERT INTO CATEGORIA_EVENTO (nombre, descripción) VALUES ('Noche de Juegos', 'Encuentros libres para jugar en comunidad');
-INSERT INTO CATEGORIA_EVENTO (nombre, descripción) VALUES ('Lanzamiento', 'Presentación de novedades y expansiones');
+INSERT INTO CATEGORIA_EVENTO (nombre, descripcion) VALUES ('Torneo', 'Competencias oficiales con premios');
+INSERT INTO CATEGORIA_EVENTO (nombre, descripcion) VALUES ('Taller', 'Actividades de aprendizaje guiado');
+INSERT INTO CATEGORIA_EVENTO (nombre, descripcion) VALUES ('Noche de Juegos', 'Encuentros libres para jugar en comunidad');
+INSERT INTO CATEGORIA_EVENTO (nombre, descripcion) VALUES ('Lanzamiento', 'Presentación de novedades y expansiones');
 
 -- TIPO_EVENTO
 INSERT INTO TIPO_EVENTO (nombre, inicio_evento, final_evento, cupo_maximo, descripcion, CATEGORIA_EVENTO_id) VALUES ('Torneo Magic Draft de Viernes', TIMESTAMP '2026-09-18 19:00:00', TIMESTAMP '2026-09-18 23:00:00', 16, 'Draft de 8 rondas con sobres incluidos.', 1);
@@ -241,26 +241,26 @@ INSERT INTO PROVEEDOR (nombre, telefono, email) VALUES ('Cartas y Más Distribui
 INSERT INTO PROVEEDOR (nombre, telefono, email) VALUES ('Juegos del Sur Ltda', '+56 41 255 3004', 'ventas@juegosdelsur.cl');
 
 -- PRODUCTO
-INSERT INTO PRODUCTO (sku, nombre_producto, precio, min_jugadores, max_jugadores, descripción, EDITORIAL_id, MARCA_id, IDIOMA_id, CATEGORIA_PRODUCTO_id, PROVEEDOR_id) VALUES ('JM-EST-001', 'Catan', 54900, 3, 4, 'Clásico de colonización y comercio de recursos.', 1, 1, 1, 1, 1);
-INSERT INTO PRODUCTO (sku, nombre_producto, precio, min_jugadores, max_jugadores, descripción, EDITORIAL_id, MARCA_id, IDIOMA_id, CATEGORIA_PRODUCTO_id, PROVEEDOR_id) VALUES ('JM-FAM-002', 'Ticket to Ride Europa', 49900, 2, 5, 'Conecta ciudades europeas construyendo rutas de tren.', 2, 2, 1, 2, 2);
-INSERT INTO PRODUCTO (sku, nombre_producto, precio, min_jugadores, max_jugadores, descripción, EDITORIAL_id, MARCA_id, IDIOMA_id, CATEGORIA_PRODUCTO_id, PROVEEDOR_id) VALUES ('JM-FAM-003', 'Carcassonne', 27900, 2, 5, 'Colocación de losetas para construir un paisaje medieval.', 1, 6, 1, 2, 1);
-INSERT INTO PRODUCTO (sku, nombre_producto, precio, min_jugadores, max_jugadores, descripción, EDITORIAL_id, MARCA_id, IDIOMA_id, CATEGORIA_PRODUCTO_id, PROVEEDOR_id) VALUES ('JM-EST-004', 'Pandemic', 44900, 2, 4, 'Juego cooperativo para detener cuatro enfermedades.', 2, 6, 1, 1, 2);
-INSERT INTO PRODUCTO (sku, nombre_producto, precio, min_jugadores, max_jugadores, descripción, EDITORIAL_id, MARCA_id, IDIOMA_id, CATEGORIA_PRODUCTO_id, PROVEEDOR_id) VALUES ('JM-FAM-005', 'Dixit', 36900, 3, 6, 'Juego de imaginación con cartas ilustradas.', 2, 7, 1, 2, 2);
-INSERT INTO PRODUCTO (sku, nombre_producto, precio, min_jugadores, max_jugadores, descripción, EDITORIAL_id, MARCA_id, IDIOMA_id, CATEGORIA_PRODUCTO_id, PROVEEDOR_id) VALUES ('JM-EST-006', '7 Wonders', 39900, 3, 7, 'Desarrollo de civilizaciones en tres eras.', 2, 8, 1, 1, 2);
-INSERT INTO PRODUCTO (sku, nombre_producto, precio, min_jugadores, max_jugadores, descripción, EDITORIAL_id, MARCA_id, IDIOMA_id, CATEGORIA_PRODUCTO_id, PROVEEDOR_id) VALUES ('TCG-MTG-007', 'Mazo Commander Magic: The Gathering', 24900, 2, 4, 'Mazo preconstruido de 100 cartas.', 4, 5, 1, 4, 3);
-INSERT INTO PRODUCTO (sku, nombre_producto, precio, min_jugadores, max_jugadores, descripción, EDITORIAL_id, MARCA_id, IDIOMA_id, CATEGORIA_PRODUCTO_id, PROVEEDOR_id) VALUES ('TCG-MTG-008', 'Sobre Draft Booster Magic (Inglés)', 5900, 2, 2, 'Sobre de 15 cartas para draft.', 4, 5, 2, 4, 3);
-INSERT INTO PRODUCTO (sku, nombre_producto, precio, min_jugadores, max_jugadores, descripción, EDITORIAL_id, MARCA_id, IDIOMA_id, CATEGORIA_PRODUCTO_id, PROVEEDOR_id) VALUES ('ROL-DND-009', 'Starter Kit Dungeons & Dragons', 29900, 3, 6, 'Kit de inicio con aventura, dados y hojas de personaje.', 4, 5, 1, 5, 3);
-INSERT INTO PRODUCTO (sku, nombre_producto, precio, min_jugadores, max_jugadores, descripción, EDITORIAL_id, MARCA_id, IDIOMA_id, CATEGORIA_PRODUCTO_id, PROVEEDOR_id) VALUES ('ROL-DND-010', 'Manual del Jugador D&D', 39900, NULL, NULL, 'Reglas básicas para crear personajes y jugar.', 4, 5, 1, 5, 3);
-INSERT INTO PRODUCTO (sku, nombre_producto, precio, min_jugadores, max_jugadores, descripción, EDITORIAL_id, MARCA_id, IDIOMA_id, CATEGORIA_PRODUCTO_id, PROVEEDOR_id) VALUES ('PUZ-RAV-011', 'Rompecabezas Paisaje 1000 piezas', 19900, 1, 4, 'Puzzle de 1000 piezas con paisaje sureño.', 5, 3, 1, 6, 4);
-INSERT INTO PRODUCTO (sku, nombre_producto, precio, min_jugadores, max_jugadores, descripción, EDITORIAL_id, MARCA_id, IDIOMA_id, CATEGORIA_PRODUCTO_id, PROVEEDOR_id) VALUES ('PUZ-RAV-012', 'Rompecabezas Ciudad 2000 piezas', 29900, 1, 4, 'Puzzle de gran formato de 2000 piezas.', 5, 3, 1, 6, 4);
-INSERT INTO PRODUCTO (sku, nombre_producto, precio, min_jugadores, max_jugadores, descripción, EDITORIAL_id, MARCA_id, IDIOMA_id, CATEGORIA_PRODUCTO_id, PROVEEDOR_id) VALUES ('JM-FAM-013', 'Monopoly Clásico', 29900, 2, 6, 'Compra, vende e intercambia propiedades.', 6, 4, 1, 2, 2);
-INSERT INTO PRODUCTO (sku, nombre_producto, precio, min_jugadores, max_jugadores, descripción, EDITORIAL_id, MARCA_id, IDIOMA_id, CATEGORIA_PRODUCTO_id, PROVEEDOR_id) VALUES ('CAR-UNO-014', 'UNO', 7900, 2, 10, 'Clásico de cartas de colores y números.', 6, 4, 1, 3, 2);
-INSERT INTO PRODUCTO (sku, nombre_producto, precio, min_jugadores, max_jugadores, descripción, EDITORIAL_id, MARCA_id, IDIOMA_id, CATEGORIA_PRODUCTO_id, PROVEEDOR_id) VALUES ('JM-FAM-015', 'Jenga', 14900, 2, 8, 'Torre de bloques de madera de equilibrio.', 6, 4, 1, 2, 2);
-INSERT INTO PRODUCTO (sku, nombre_producto, precio, min_jugadores, max_jugadores, descripción, EDITORIAL_id, MARCA_id, IDIOMA_id, CATEGORIA_PRODUCTO_id, PROVEEDOR_id) VALUES ('ACC-FUN-016', 'Fundas Protectoras 100 un.', 4900, NULL, NULL, 'Fundas estándar para proteger cartas.', 3, 9, 1, 7, 3);
-INSERT INTO PRODUCTO (sku, nombre_producto, precio, min_jugadores, max_jugadores, descripción, EDITORIAL_id, MARCA_id, IDIOMA_id, CATEGORIA_PRODUCTO_id, PROVEEDOR_id) VALUES ('ACC-DAD-017', 'Set de Dados Poliédricos 7 piezas', 6900, NULL, NULL, 'Set completo de dados para juegos de rol.', 4, 5, 1, 7, 3);
-INSERT INTO PRODUCTO (sku, nombre_producto, precio, min_jugadores, max_jugadores, descripción, EDITORIAL_id, MARCA_id, IDIOMA_id, CATEGORIA_PRODUCTO_id, PROVEEDOR_id) VALUES ('ACC-TAP-018', 'Tapete de Juego Neopreno', 14900, NULL, NULL, 'Tapete antideslizante para cartas.', 3, 9, 1, 7, 3);
-INSERT INTO PRODUCTO (sku, nombre_producto, precio, min_jugadores, max_jugadores, descripción, EDITORIAL_id, MARCA_id, IDIOMA_id, CATEGORIA_PRODUCTO_id, PROVEEDOR_id) VALUES ('TCG-MYL-019', 'Mazo Inicial Mitos y Leyendas', 9900, 2, 2, 'Mazo de inicio del TCG chileno Mitos y Leyendas.', 3, 9, 1, 4, 3);
-INSERT INTO PRODUCTO (sku, nombre_producto, precio, min_jugadores, max_jugadores, descripción, EDITORIAL_id, MARCA_id, IDIOMA_id, CATEGORIA_PRODUCTO_id, PROVEEDOR_id) VALUES ('CAR-EXP-020', 'Exploding Kittens', 19900, 2, 5, 'Juego de cartas de riesgo con gatos explosivos.', 1, 10, 1, 3, 1);
+INSERT INTO PRODUCTO (sku, nombre_producto, precio, min_jugadores, max_jugadores, descripcion, EDITORIAL_id, MARCA_id, IDIOMA_id, CATEGORIA_PRODUCTO_id, PROVEEDOR_id) VALUES ('JM-EST-001', 'Catan', 54900, 3, 4, 'Clásico de colonización y comercio de recursos.', 1, 1, 1, 1, 1);
+INSERT INTO PRODUCTO (sku, nombre_producto, precio, min_jugadores, max_jugadores, descripcion, EDITORIAL_id, MARCA_id, IDIOMA_id, CATEGORIA_PRODUCTO_id, PROVEEDOR_id) VALUES ('JM-FAM-002', 'Ticket to Ride Europa', 49900, 2, 5, 'Conecta ciudades europeas construyendo rutas de tren.', 2, 2, 1, 2, 2);
+INSERT INTO PRODUCTO (sku, nombre_producto, precio, min_jugadores, max_jugadores, descripcion, EDITORIAL_id, MARCA_id, IDIOMA_id, CATEGORIA_PRODUCTO_id, PROVEEDOR_id) VALUES ('JM-FAM-003', 'Carcassonne', 27900, 2, 5, 'Colocación de losetas para construir un paisaje medieval.', 1, 6, 1, 2, 1);
+INSERT INTO PRODUCTO (sku, nombre_producto, precio, min_jugadores, max_jugadores, descripcion, EDITORIAL_id, MARCA_id, IDIOMA_id, CATEGORIA_PRODUCTO_id, PROVEEDOR_id) VALUES ('JM-EST-004', 'Pandemic', 44900, 2, 4, 'Juego cooperativo para detener cuatro enfermedades.', 2, 6, 1, 1, 2);
+INSERT INTO PRODUCTO (sku, nombre_producto, precio, min_jugadores, max_jugadores, descripcion, EDITORIAL_id, MARCA_id, IDIOMA_id, CATEGORIA_PRODUCTO_id, PROVEEDOR_id) VALUES ('JM-FAM-005', 'Dixit', 36900, 3, 6, 'Juego de imaginación con cartas ilustradas.', 2, 7, 1, 2, 2);
+INSERT INTO PRODUCTO (sku, nombre_producto, precio, min_jugadores, max_jugadores, descripcion, EDITORIAL_id, MARCA_id, IDIOMA_id, CATEGORIA_PRODUCTO_id, PROVEEDOR_id) VALUES ('JM-EST-006', '7 Wonders', 39900, 3, 7, 'Desarrollo de civilizaciones en tres eras.', 2, 8, 1, 1, 2);
+INSERT INTO PRODUCTO (sku, nombre_producto, precio, min_jugadores, max_jugadores, descripcion, EDITORIAL_id, MARCA_id, IDIOMA_id, CATEGORIA_PRODUCTO_id, PROVEEDOR_id) VALUES ('TCG-MTG-007', 'Mazo Commander Magic: The Gathering', 24900, 2, 4, 'Mazo preconstruido de 100 cartas.', 4, 5, 1, 4, 3);
+INSERT INTO PRODUCTO (sku, nombre_producto, precio, min_jugadores, max_jugadores, descripcion, EDITORIAL_id, MARCA_id, IDIOMA_id, CATEGORIA_PRODUCTO_id, PROVEEDOR_id) VALUES ('TCG-MTG-008', 'Sobre Draft Booster Magic (Inglés)', 5900, 2, 2, 'Sobre de 15 cartas para draft.', 4, 5, 2, 4, 3);
+INSERT INTO PRODUCTO (sku, nombre_producto, precio, min_jugadores, max_jugadores, descripcion, EDITORIAL_id, MARCA_id, IDIOMA_id, CATEGORIA_PRODUCTO_id, PROVEEDOR_id) VALUES ('ROL-DND-009', 'Starter Kit Dungeons & Dragons', 29900, 3, 6, 'Kit de inicio con aventura, dados y hojas de personaje.', 4, 5, 1, 5, 3);
+INSERT INTO PRODUCTO (sku, nombre_producto, precio, min_jugadores, max_jugadores, descripcion, EDITORIAL_id, MARCA_id, IDIOMA_id, CATEGORIA_PRODUCTO_id, PROVEEDOR_id) VALUES ('ROL-DND-010', 'Manual del Jugador D&D', 39900, NULL, NULL, 'Reglas básicas para crear personajes y jugar.', 4, 5, 1, 5, 3);
+INSERT INTO PRODUCTO (sku, nombre_producto, precio, min_jugadores, max_jugadores, descripcion, EDITORIAL_id, MARCA_id, IDIOMA_id, CATEGORIA_PRODUCTO_id, PROVEEDOR_id) VALUES ('PUZ-RAV-011', 'Rompecabezas Paisaje 1000 piezas', 19900, 1, 4, 'Puzzle de 1000 piezas con paisaje sureño.', 5, 3, 1, 6, 4);
+INSERT INTO PRODUCTO (sku, nombre_producto, precio, min_jugadores, max_jugadores, descripcion, EDITORIAL_id, MARCA_id, IDIOMA_id, CATEGORIA_PRODUCTO_id, PROVEEDOR_id) VALUES ('PUZ-RAV-012', 'Rompecabezas Ciudad 2000 piezas', 29900, 1, 4, 'Puzzle de gran formato de 2000 piezas.', 5, 3, 1, 6, 4);
+INSERT INTO PRODUCTO (sku, nombre_producto, precio, min_jugadores, max_jugadores, descripcion, EDITORIAL_id, MARCA_id, IDIOMA_id, CATEGORIA_PRODUCTO_id, PROVEEDOR_id) VALUES ('JM-FAM-013', 'Monopoly Clásico', 29900, 2, 6, 'Compra, vende e intercambia propiedades.', 6, 4, 1, 2, 2);
+INSERT INTO PRODUCTO (sku, nombre_producto, precio, min_jugadores, max_jugadores, descripcion, EDITORIAL_id, MARCA_id, IDIOMA_id, CATEGORIA_PRODUCTO_id, PROVEEDOR_id) VALUES ('CAR-UNO-014', 'UNO', 7900, 2, 10, 'Clásico de cartas de colores y números.', 6, 4, 1, 3, 2);
+INSERT INTO PRODUCTO (sku, nombre_producto, precio, min_jugadores, max_jugadores, descripcion, EDITORIAL_id, MARCA_id, IDIOMA_id, CATEGORIA_PRODUCTO_id, PROVEEDOR_id) VALUES ('JM-FAM-015', 'Jenga', 14900, 2, 8, 'Torre de bloques de madera de equilibrio.', 6, 4, 1, 2, 2);
+INSERT INTO PRODUCTO (sku, nombre_producto, precio, min_jugadores, max_jugadores, descripcion, EDITORIAL_id, MARCA_id, IDIOMA_id, CATEGORIA_PRODUCTO_id, PROVEEDOR_id) VALUES ('ACC-FUN-016', 'Fundas Protectoras 100 un.', 4900, NULL, NULL, 'Fundas estándar para proteger cartas.', 3, 9, 1, 7, 3);
+INSERT INTO PRODUCTO (sku, nombre_producto, precio, min_jugadores, max_jugadores, descripcion, EDITORIAL_id, MARCA_id, IDIOMA_id, CATEGORIA_PRODUCTO_id, PROVEEDOR_id) VALUES ('ACC-DAD-017', 'Set de Dados Poliédricos 7 piezas', 6900, NULL, NULL, 'Set completo de dados para juegos de rol.', 4, 5, 1, 7, 3);
+INSERT INTO PRODUCTO (sku, nombre_producto, precio, min_jugadores, max_jugadores, descripcion, EDITORIAL_id, MARCA_id, IDIOMA_id, CATEGORIA_PRODUCTO_id, PROVEEDOR_id) VALUES ('ACC-TAP-018', 'Tapete de Juego Neopreno', 14900, NULL, NULL, 'Tapete antideslizante para cartas.', 3, 9, 1, 7, 3);
+INSERT INTO PRODUCTO (sku, nombre_producto, precio, min_jugadores, max_jugadores, descripcion, EDITORIAL_id, MARCA_id, IDIOMA_id, CATEGORIA_PRODUCTO_id, PROVEEDOR_id) VALUES ('TCG-MYL-019', 'Mazo Inicial Mitos y Leyendas', 9900, 2, 2, 'Mazo de inicio del TCG chileno Mitos y Leyendas.', 3, 9, 1, 4, 3);
+INSERT INTO PRODUCTO (sku, nombre_producto, precio, min_jugadores, max_jugadores, descripcion, EDITORIAL_id, MARCA_id, IDIOMA_id, CATEGORIA_PRODUCTO_id, PROVEEDOR_id) VALUES ('CAR-EXP-020', 'Exploding Kittens', 19900, 2, 5, 'Juego de cartas de riesgo con gatos explosivos.', 1, 10, 1, 3, 1);
 
 -- STOCK (3 sucursales x 20 productos; algunos bajo el minimo para pruebas)
 INSERT INTO STOCK (stock_disponible, stock_minimo, SUCURSAL_id, PRODUCTO_id)
@@ -298,10 +298,10 @@ INSERT INTO METODO_PAGO (nombre) VALUES ('Transferencia Bancaria');
 INSERT INTO METODO_PAGO (nombre) VALUES ('Webpay');
 
 -- TIPO_REVIEW
-INSERT INTO TIPO_REVIEW (nombre, descripción) VALUES ('Producto', 'Opinión sobre un juego o accesorio');
-INSERT INTO TIPO_REVIEW (nombre, descripción) VALUES ('Sucursal', 'Opinión sobre la tienda física');
-INSERT INTO TIPO_REVIEW (nombre, descripción) VALUES ('Evento', 'Opinión sobre un torneo o taller');
-INSERT INTO TIPO_REVIEW (nombre, descripción) VALUES ('Atención al cliente', 'Opinión sobre el trato recibido');
+INSERT INTO TIPO_REVIEW (nombre, descripcion) VALUES ('Producto', 'Opinión sobre un juego o accesorio');
+INSERT INTO TIPO_REVIEW (nombre, descripcion) VALUES ('Sucursal', 'Opinión sobre la tienda física');
+INSERT INTO TIPO_REVIEW (nombre, descripcion) VALUES ('Evento', 'Opinión sobre un torneo o taller');
+INSERT INTO TIPO_REVIEW (nombre, descripcion) VALUES ('Atención al cliente', 'Opinión sobre el trato recibido');
 
 -- REVIEW
 INSERT INTO REVIEW (titulo, mensaje, TIPO_REVIEW_id, CLIENTE_id) VALUES ('Excelente Catan', 'Llegó en perfecto estado y la edición en español es muy buena. Ideal para jugar en familia.', 1, 1);
