@@ -43,7 +43,7 @@ CREATE TABLE CARGO
     ( 
      id          NUMBER GENERATED ALWAYS AS IDENTITY CONSTRAINT CARGO_PK PRIMARY KEY, 
      nombre      VARCHAR2 (40 CHAR) NOT NULL, 
-     descripción VARCHAR2 (500 CHAR) NOT NULL 
+     descripcion VARCHAR2 (500 CHAR) NOT NULL 
     ) 
 ;
 
@@ -51,7 +51,7 @@ CREATE TABLE CATEGORIA_EVENTO
     ( 
      id          NUMBER GENERATED ALWAYS AS IDENTITY CONSTRAINT CATEGORIA_EVENTO_PK PRIMARY KEY, 
      nombre      VARCHAR2 (50 CHAR) NOT NULL, 
-     descripción VARCHAR2 (100 CHAR) 
+     descripcion VARCHAR2 (100 CHAR) 
     ) 
 ;
 
@@ -121,7 +121,7 @@ CREATE TABLE TIPO_REVIEW
     ( 
      id          NUMBER GENERATED ALWAYS AS IDENTITY CONSTRAINT TIPO_REVIEW_PK PRIMARY KEY, 
      nombre      VARCHAR2 (30 CHAR) NOT NULL, 
-     descripción VARCHAR2 (50 CHAR) NOT NULL 
+     descripcion VARCHAR2 (50 CHAR) NOT NULL 
     ) 
 ;
 
@@ -165,7 +165,7 @@ CREATE TABLE PRODUCTO
      precio                NUMBER (7) NOT NULL, 
      min_jugadores         NUMBER (2), 
      max_jugadores         NUMBER (2), 
-     descripción           VARCHAR2 (500 CHAR), 
+     descripcion           VARCHAR2 (500 CHAR), 
      EDITORIAL_id          NUMBER NOT NULL CONSTRAINT PRODUCTO_EDITORIAL_FK REFERENCES EDITORIAL(id), 
      MARCA_id              NUMBER NOT NULL CONSTRAINT PRODUCTO_MARCA_FK REFERENCES MARCA(id), 
      IDIOMA_id             NUMBER NOT NULL CONSTRAINT PRODUCTO_IDIOMA_FK REFERENCES IDIOMA(id), 
