@@ -1,10 +1,5 @@
 SET DEFINE OFF;
--- Desactiva las variables de sustitucion (&) para que "Dungeons & Dragons" y "D&D" se inserten como texto.
-
--- Poblado de datos de ejemplo - Tienda de juegos de mesa (Chile, 3 sucursales)
--- Ejecutar DESPUES de creacion_tablas_top_7.sql (tablas vacias).
--- Los IDs son GENERATED ALWAYS, por lo que se asignan en orden de insercion (1, 2, 3...).
--- Los FKs de este script asumen ese orden: no cambiar el orden de los INSERTs.
+-- Carga inicial de datos para Top 7
 
 -- PAIS
 INSERT INTO PAIS (nombre) VALUES ('Chile');
@@ -34,9 +29,9 @@ INSERT INTO CALLE (nombre, CIUDAD_id, LOCALIDAD_id) VALUES ('Barros Arana 780', 
 INSERT INTO CALLE (nombre, CIUDAD_id, LOCALIDAD_id) VALUES ('O''Higgins 645', 3, 4);
 
 -- SUCURSAL
-INSERT INTO SUCURSAL (nombre, numero_contacto, email_contacto, hora_apertura, hora_cierre, CALLE_id) VALUES ('Mesa Épica Providencia', '+56 2 2345 6701', 'providencia@mesaepica.cl', TIMESTAMP '2000-01-01 10:30:00', TIMESTAMP '2000-01-01 20:30:00', 1);
-INSERT INTO SUCURSAL (nombre, numero_contacto, email_contacto, hora_apertura, hora_cierre, CALLE_id) VALUES ('Mesa Épica Viña del Mar', '+56 32 276 5502', 'vina@mesaepica.cl', TIMESTAMP '2000-01-01 11:00:00', TIMESTAMP '2000-01-01 21:00:00', 3);
-INSERT INTO SUCURSAL (nombre, numero_contacto, email_contacto, hora_apertura, hora_cierre, CALLE_id) VALUES ('Mesa Épica Concepción', '+56 41 291 8803', 'concepcion@mesaepica.cl', TIMESTAMP '2000-01-01 10:00:00', TIMESTAMP '2000-01-01 20:00:00', 5);
+INSERT INTO SUCURSAL (nombre, numero_contacto, email_contacto, hora_apertura, hora_cierre, CALLE_id) VALUES ('Top 7 Providencia', '+56 2 2345 6701', 'providencia@top7.cl', TIMESTAMP '2000-01-01 10:30:00', TIMESTAMP '2000-01-01 20:30:00', 1);
+INSERT INTO SUCURSAL (nombre, numero_contacto, email_contacto, hora_apertura, hora_cierre, CALLE_id) VALUES ('Top 7 Viña del Mar', '+56 32 276 5502', 'vina@top7.cl', TIMESTAMP '2000-01-01 11:00:00', TIMESTAMP '2000-01-01 21:00:00', 3);
+INSERT INTO SUCURSAL (nombre, numero_contacto, email_contacto, hora_apertura, hora_cierre, CALLE_id) VALUES ('Top 7 Concepción', '+56 41 291 8803', 'concepcion@top7.cl', TIMESTAMP '2000-01-01 10:00:00', TIMESTAMP '2000-01-01 20:00:00', 5);
 
 -- CARGO
 INSERT INTO CARGO (nombre, descripcion) VALUES ('Gerente de Sucursal', 'Responsable de la operación, el equipo y los resultados de la sucursal.');
@@ -262,7 +257,7 @@ INSERT INTO PRODUCTO (sku, nombre_producto, precio, min_jugadores, max_jugadores
 INSERT INTO PRODUCTO (sku, nombre_producto, precio, min_jugadores, max_jugadores, descripcion, EDITORIAL_id, MARCA_id, IDIOMA_id, CATEGORIA_PRODUCTO_id, PROVEEDOR_id) VALUES ('TCG-MYL-019', 'Mazo Inicial Mitos y Leyendas', 9900, 2, 2, 'Mazo de inicio del TCG chileno Mitos y Leyendas.', 3, 9, 1, 4, 3);
 INSERT INTO PRODUCTO (sku, nombre_producto, precio, min_jugadores, max_jugadores, descripcion, EDITORIAL_id, MARCA_id, IDIOMA_id, CATEGORIA_PRODUCTO_id, PROVEEDOR_id) VALUES ('CAR-EXP-020', 'Exploding Kittens', 19900, 2, 5, 'Juego de cartas de riesgo con gatos explosivos.', 1, 10, 1, 3, 1);
 
--- STOCK (3 sucursales x 20 productos; algunos bajo el minimo para pruebas)
+-- STOCK
 INSERT INTO STOCK (stock_disponible, stock_minimo, SUCURSAL_id, PRODUCTO_id)
 SELECT MOD(s.id * 17 + p.id * 13, 40) + 2, 5, s.id, p.id
 FROM SUCURSAL s CROSS JOIN PRODUCTO p
@@ -454,7 +449,7 @@ INSERT INTO N_N_VENTA_PRODUCTO (VENTA_id, PRODUCTO_id) VALUES (45, 6);
 INSERT INTO N_N_VENTA_PRODUCTO (VENTA_id, PRODUCTO_id) VALUES (45, 17);
 INSERT INTO N_N_VENTA_PRODUCTO (VENTA_id, PRODUCTO_id) VALUES (45, 4);
 
--- PAGO (una linea por producto vendido; descuento en %)
+-- PAGO
 INSERT INTO PAGO (cantidad, precio_unitario, descuento_aplicado, VENTA_id) VALUES (2, 24900, 5, 1);
 INSERT INTO PAGO (cantidad, precio_unitario, descuento_aplicado, VENTA_id) VALUES (2, 39900, 0, 1);
 INSERT INTO PAGO (cantidad, precio_unitario, descuento_aplicado, VENTA_id) VALUES (1, 39900, 0, 1);

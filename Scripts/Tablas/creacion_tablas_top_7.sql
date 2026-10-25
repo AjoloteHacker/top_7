@@ -1,5 +1,4 @@
--- Generado por Oracle SQL Developer Data Modeler 24.3.1.351.0831
--- Adaptado con PKs, Identity Columns y FKs integradas inline en CREATE TABLE
+-- Creacion de tablas para el sistema Top 7
 
 DROP TABLE ANEXO_CONTRATO CASCADE CONSTRAINTS;
 DROP TABLE CALLE CASCADE CONSTRAINTS;
@@ -261,7 +260,7 @@ CREATE TABLE VENTA
     ) 
 ;
 
--- 6. TABLAS FINALES DE MAYOR PROFUNDIDAD EN LA JERARQUÍA
+-- 6. TABLAS FINALES DE MAYOR PROFUNDIDAD EN LA JERARQUIA
 
 CREATE TABLE CONTRATO 
     ( 
