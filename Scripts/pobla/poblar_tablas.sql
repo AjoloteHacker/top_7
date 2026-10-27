@@ -42,18 +42,18 @@ INSERT INTO CARGO (nombre, descripcion) VALUES ('Anfitrión de Eventos', 'Organi
 INSERT INTO CARGO (nombre, descripcion) VALUES ('Administrador', 'Gestiona proveedores, compras y la administración general.');
 
 -- EMPLEADO
-INSERT INTO EMPLEADO (primer_nombre, segundo_nombre, primer_apellido, segundo_apellido, CARGO_id, SUCURSAL_id) VALUES ('Matías', NULL, 'González', 'Rojas', 1, 1);
-INSERT INTO EMPLEADO (primer_nombre, segundo_nombre, primer_apellido, segundo_apellido, CARGO_id, SUCURSAL_id) VALUES ('Camila', 'Andrea', 'Muñoz', 'Soto', 2, 1);
-INSERT INTO EMPLEADO (primer_nombre, segundo_nombre, primer_apellido, segundo_apellido, CARGO_id, SUCURSAL_id) VALUES ('Felipe', NULL, 'Contreras', 'Díaz', 3, 1);
-INSERT INTO EMPLEADO (primer_nombre, segundo_nombre, primer_apellido, segundo_apellido, CARGO_id, SUCURSAL_id) VALUES ('Valentina', NULL, 'Silva', 'Pérez', 5, 1);
-INSERT INTO EMPLEADO (primer_nombre, segundo_nombre, primer_apellido, segundo_apellido, CARGO_id, SUCURSAL_id) VALUES ('Sebastián', 'Ignacio', 'Morales', 'Vega', 1, 2);
-INSERT INTO EMPLEADO (primer_nombre, segundo_nombre, primer_apellido, segundo_apellido, CARGO_id, SUCURSAL_id) VALUES ('Javiera', NULL, 'Fuentes', 'Castro', 2, 2);
-INSERT INTO EMPLEADO (primer_nombre, segundo_nombre, primer_apellido, segundo_apellido, CARGO_id, SUCURSAL_id) VALUES ('Nicolás', NULL, 'Araya', 'Núñez', 4, 2);
-INSERT INTO EMPLEADO (primer_nombre, segundo_nombre, primer_apellido, segundo_apellido, CARGO_id, SUCURSAL_id) VALUES ('Francisca', 'Belén', 'Tapia', 'Reyes', 5, 2);
-INSERT INTO EMPLEADO (primer_nombre, segundo_nombre, primer_apellido, segundo_apellido, CARGO_id, SUCURSAL_id) VALUES ('Diego', 'Alejandro', 'Sepúlveda', 'Parra', 1, 3);
-INSERT INTO EMPLEADO (primer_nombre, segundo_nombre, primer_apellido, segundo_apellido, CARGO_id, SUCURSAL_id) VALUES ('Constanza', NULL, 'Herrera', 'Molina', 2, 3);
-INSERT INTO EMPLEADO (primer_nombre, segundo_nombre, primer_apellido, segundo_apellido, CARGO_id, SUCURSAL_id) VALUES ('Tomás', NULL, 'Vargas', 'Ortiz', 3, 3);
-INSERT INTO EMPLEADO (primer_nombre, segundo_nombre, primer_apellido, segundo_apellido, CARGO_id, SUCURSAL_id) VALUES ('Antonia', NULL, 'Cárdenas', 'Lagos', 4, 3);
+INSERT INTO EMPLEADO (primer_nombre, segundo_nombre, primer_apellido, segundo_apellido, CARGO_id, SUCURSAL_id) VALUES ('Matías', NULL, 'González', 'Rojas', 1, 1); --Local 1 (1)
+INSERT INTO EMPLEADO (primer_nombre, segundo_nombre, primer_apellido, segundo_apellido, CARGO_id, SUCURSAL_id) VALUES ('Camila', 'Andrea', 'Muñoz', 'Soto', 2, 1); --Local 1 (2)
+INSERT INTO EMPLEADO (primer_nombre, segundo_nombre, primer_apellido, segundo_apellido, CARGO_id, SUCURSAL_id) VALUES ('Felipe', NULL, 'Contreras', 'Díaz', 3, 1); --Local 1 (3)
+INSERT INTO EMPLEADO (primer_nombre, segundo_nombre, primer_apellido, segundo_apellido, CARGO_id, SUCURSAL_id) VALUES ('Valentina', NULL, 'Silva', 'Pérez', 5, 1); --Local 1 (4)
+INSERT INTO EMPLEADO (primer_nombre, segundo_nombre, primer_apellido, segundo_apellido, CARGO_id, SUCURSAL_id) VALUES ('Sebastián', 'Ignacio', 'Morales', 'Vega', 1, 2); --Local 2 (5)
+INSERT INTO EMPLEADO (primer_nombre, segundo_nombre, primer_apellido, segundo_apellido, CARGO_id, SUCURSAL_id) VALUES ('Javiera', NULL, 'Fuentes', 'Castro', 2, 2); --Local 2 (6)
+INSERT INTO EMPLEADO (primer_nombre, segundo_nombre, primer_apellido, segundo_apellido, CARGO_id, SUCURSAL_id) VALUES ('Nicolás', NULL, 'Araya', 'Núñez', 4, 2); --Local 2 (7)
+INSERT INTO EMPLEADO (primer_nombre, segundo_nombre, primer_apellido, segundo_apellido, CARGO_id, SUCURSAL_id) VALUES ('Francisca', 'Belén', 'Tapia', 'Reyes', 5, 2); --Local 2 (8)
+INSERT INTO EMPLEADO (primer_nombre, segundo_nombre, primer_apellido, segundo_apellido, CARGO_id, SUCURSAL_id) VALUES ('Diego', 'Alejandro', 'Sepúlveda', 'Parra', 1, 3); --Local 3 (9)
+INSERT INTO EMPLEADO (primer_nombre, segundo_nombre, primer_apellido, segundo_apellido, CARGO_id, SUCURSAL_id) VALUES ('Constanza', NULL, 'Herrera', 'Molina', 2, 3); --Local 3 (10)
+INSERT INTO EMPLEADO (primer_nombre, segundo_nombre, primer_apellido, segundo_apellido, CARGO_id, SUCURSAL_id) VALUES ('Tomás', NULL, 'Vargas', 'Ortiz', 3, 3); --Local 3 (11)
+INSERT INTO EMPLEADO (primer_nombre, segundo_nombre, primer_apellido, segundo_apellido, CARGO_id, SUCURSAL_id) VALUES ('Antonia', NULL, 'Cárdenas', 'Lagos', 4, 3); --Local 3 (12)
 
 -- CONTRATO
 INSERT INTO CONTRATO (inicio_contrato, fin_contrato, EMPLEADO_id) VALUES (TIMESTAMP '2022-03-01 09:00:00', NULL, 1);
@@ -313,51 +313,51 @@ INSERT INTO REVIEW (titulo, mensaje, TIPO_REVIEW_id, CLIENTE_id) VALUES ('Noche 
 INSERT INTO REVIEW (titulo, mensaje, TIPO_REVIEW_id, CLIENTE_id) VALUES ('Falta stock de accesorios', 'Fui por fundas y no había. Me ofrecieron encargarlas, pero tardaban una semana.', 2, 12);
 
 -- VENTA
-INSERT INTO VENTA (fecha_venta, total, nro_boleta, SUCURSAL_id, CLIENTE_id, METODO_PAGO_id) VALUES (DATE '2026-07-03', 167010, 'B-100205', 1, 1, 5);
-INSERT INTO VENTA (fecha_venta, total, nro_boleta, SUCURSAL_id, CLIENTE_id, METODO_PAGO_id) VALUES (DATE '2026-07-05', 37010, 'B-100208', 2, 18, 2);
-INSERT INTO VENTA (fecha_venta, total, nro_boleta, SUCURSAL_id, CLIENTE_id, METODO_PAGO_id) VALUES (DATE '2026-07-06', 44900, 'B-100215', 1, 12, 3);
-INSERT INTO VENTA (fecha_venta, total, nro_boleta, SUCURSAL_id, CLIENTE_id, METODO_PAGO_id) VALUES (DATE '2026-07-06', 80400, 'B-100226', 2, 20, 3);
-INSERT INTO VENTA (fecha_venta, total, nro_boleta, SUCURSAL_id, CLIENTE_id, METODO_PAGO_id) VALUES (DATE '2026-07-11', 59800, 'B-100229', 1, 18, 5);
-INSERT INTO VENTA (fecha_venta, total, nro_boleta, SUCURSAL_id, CLIENTE_id, METODO_PAGO_id) VALUES (DATE '2026-07-11', 39700, 'B-100240', 2, 10, 3);
-INSERT INTO VENTA (fecha_venta, total, nro_boleta, SUCURSAL_id, CLIENTE_id, METODO_PAGO_id) VALUES (DATE '2026-07-13', 79800, 'B-100244', 3, 18, 3);
-INSERT INTO VENTA (fecha_venta, total, nro_boleta, SUCURSAL_id, CLIENTE_id, METODO_PAGO_id) VALUES (DATE '2026-07-14', 69700, 'B-100252', 3, 12, 3);
-INSERT INTO VENTA (fecha_venta, total, nro_boleta, SUCURSAL_id, CLIENTE_id, METODO_PAGO_id) VALUES (DATE '2026-07-18', 152520, 'B-100259', 1, 11, 3);
-INSERT INTO VENTA (fecha_venta, total, nro_boleta, SUCURSAL_id, CLIENTE_id, METODO_PAGO_id) VALUES (DATE '2026-07-19', 118500, 'B-100265', 3, 4, 3);
-INSERT INTO VENTA (fecha_venta, total, nro_boleta, SUCURSAL_id, CLIENTE_id, METODO_PAGO_id) VALUES (DATE '2026-07-21', 87775, 'B-100274', 1, 16, 5);
-INSERT INTO VENTA (fecha_venta, total, nro_boleta, SUCURSAL_id, CLIENTE_id, METODO_PAGO_id) VALUES (DATE '2026-07-23', 14220, 'B-100282', 2, 2, 4);
-INSERT INTO VENTA (fecha_venta, total, nro_boleta, SUCURSAL_id, CLIENTE_id, METODO_PAGO_id) VALUES (DATE '2026-07-28', 104310, 'B-100286', 3, 9, 2);
-INSERT INTO VENTA (fecha_venta, total, nro_boleta, SUCURSAL_id, CLIENTE_id, METODO_PAGO_id) VALUES (DATE '2026-08-03', 56520, 'B-100291', 1, 9, 3);
-INSERT INTO VENTA (fecha_venta, total, nro_boleta, SUCURSAL_id, CLIENTE_id, METODO_PAGO_id) VALUES (DATE '2026-08-03', 28310, 'B-100302', 3, 12, 1);
-INSERT INTO VENTA (fecha_venta, total, nro_boleta, SUCURSAL_id, CLIENTE_id, METODO_PAGO_id) VALUES (DATE '2026-08-08', 14900, 'B-100308', 1, 11, 2);
-INSERT INTO VENTA (fecha_venta, total, nro_boleta, SUCURSAL_id, CLIENTE_id, METODO_PAGO_id) VALUES (DATE '2026-08-09', 17910, 'B-100315', 2, 3, 5);
-INSERT INTO VENTA (fecha_venta, total, nro_boleta, SUCURSAL_id, CLIENTE_id, METODO_PAGO_id) VALUES (DATE '2026-08-09', 91500, 'B-100322', 3, 17, 2);
-INSERT INTO VENTA (fecha_venta, total, nro_boleta, SUCURSAL_id, CLIENTE_id, METODO_PAGO_id) VALUES (DATE '2026-08-12', 97610, 'B-100326', 2, 11, 3);
-INSERT INTO VENTA (fecha_venta, total, nro_boleta, SUCURSAL_id, CLIENTE_id, METODO_PAGO_id) VALUES (DATE '2026-08-17', 183600, 'B-100337', 1, 12, 3);
-INSERT INTO VENTA (fecha_venta, total, nro_boleta, SUCURSAL_id, CLIENTE_id, METODO_PAGO_id) VALUES (DATE '2026-08-18', 62310, 'B-100342', 3, 17, 5);
-INSERT INTO VENTA (fecha_venta, total, nro_boleta, SUCURSAL_id, CLIENTE_id, METODO_PAGO_id) VALUES (DATE '2026-08-19', 90020, 'B-100347', 2, 12, 2);
-INSERT INTO VENTA (fecha_venta, total, nro_boleta, SUCURSAL_id, CLIENTE_id, METODO_PAGO_id) VALUES (DATE '2026-08-20', 114025, 'B-100357', 2, 8, 2);
-INSERT INTO VENTA (fecha_venta, total, nro_boleta, SUCURSAL_id, CLIENTE_id, METODO_PAGO_id) VALUES (DATE '2026-08-22', 127400, 'B-100365', 3, 13, 5);
-INSERT INTO VENTA (fecha_venta, total, nro_boleta, SUCURSAL_id, CLIENTE_id, METODO_PAGO_id) VALUES (DATE '2026-09-04', 72720, 'B-100369', 1, 9, 3);
-INSERT INTO VENTA (fecha_venta, total, nro_boleta, SUCURSAL_id, CLIENTE_id, METODO_PAGO_id) VALUES (DATE '2026-09-05', 59800, 'B-100380', 2, 6, 2);
-INSERT INTO VENTA (fecha_venta, total, nro_boleta, SUCURSAL_id, CLIENTE_id, METODO_PAGO_id) VALUES (DATE '2026-09-05', 39900, 'B-100386', 3, 20, 4);
-INSERT INTO VENTA (fecha_venta, total, nro_boleta, SUCURSAL_id, CLIENTE_id, METODO_PAGO_id) VALUES (DATE '2026-09-07', 37905, 'B-100392', 2, 18, 1);
-INSERT INTO VENTA (fecha_venta, total, nro_boleta, SUCURSAL_id, CLIENTE_id, METODO_PAGO_id) VALUES (DATE '2026-09-07', 53110, 'B-100398', 1, 2, 1);
-INSERT INTO VENTA (fecha_venta, total, nro_boleta, SUCURSAL_id, CLIENTE_id, METODO_PAGO_id) VALUES (DATE '2026-09-08', 147125, 'B-100404', 2, 7, 2);
-INSERT INTO VENTA (fecha_venta, total, nro_boleta, SUCURSAL_id, CLIENTE_id, METODO_PAGO_id) VALUES (DATE '2026-09-09', 9800, 'B-100415', 1, 18, 4);
-INSERT INTO VENTA (fecha_venta, total, nro_boleta, SUCURSAL_id, CLIENTE_id, METODO_PAGO_id) VALUES (DATE '2026-09-12', 71710, 'B-100418', 3, 16, 1);
-INSERT INTO VENTA (fecha_venta, total, nro_boleta, SUCURSAL_id, CLIENTE_id, METODO_PAGO_id) VALUES (DATE '2026-09-13', 44900, 'B-100424', 3, 20, 2);
-INSERT INTO VENTA (fecha_venta, total, nro_boleta, SUCURSAL_id, CLIENTE_id, METODO_PAGO_id) VALUES (DATE '2026-09-20', 49800, 'B-100432', 2, 1, 5);
-INSERT INTO VENTA (fecha_venta, total, nro_boleta, SUCURSAL_id, CLIENTE_id, METODO_PAGO_id) VALUES (DATE '2026-09-21', 136610, 'B-100441', 2, 9, 3);
-INSERT INTO VENTA (fecha_venta, total, nro_boleta, SUCURSAL_id, CLIENTE_id, METODO_PAGO_id) VALUES (DATE '2026-09-23', 42655, 'B-100448', 1, 12, 4);
-INSERT INTO VENTA (fecha_venta, total, nro_boleta, SUCURSAL_id, CLIENTE_id, METODO_PAGO_id) VALUES (DATE '2026-09-28', 129300, 'B-100452', 3, 17, 5);
-INSERT INTO VENTA (fecha_venta, total, nro_boleta, SUCURSAL_id, CLIENTE_id, METODO_PAGO_id) VALUES (DATE '2026-09-28', 87805, 'B-100459', 3, 15, 5);
-INSERT INTO VENTA (fecha_venta, total, nro_boleta, SUCURSAL_id, CLIENTE_id, METODO_PAGO_id) VALUES (DATE '2026-09-30', 33710, 'B-100466', 2, 5, 1);
-INSERT INTO VENTA (fecha_venta, total, nro_boleta, SUCURSAL_id, CLIENTE_id, METODO_PAGO_id) VALUES (DATE '2026-10-02', 91710, 'B-100473', 1, 20, 5);
-INSERT INTO VENTA (fecha_venta, total, nro_boleta, SUCURSAL_id, CLIENTE_id, METODO_PAGO_id) VALUES (DATE '2026-10-02', 145620, 'B-100481', 2, 8, 4);
-INSERT INTO VENTA (fecha_venta, total, nro_boleta, SUCURSAL_id, CLIENTE_id, METODO_PAGO_id) VALUES (DATE '2026-10-03', 97600, 'B-100490', 3, 16, 5);
-INSERT INTO VENTA (fecha_venta, total, nro_boleta, SUCURSAL_id, CLIENTE_id, METODO_PAGO_id) VALUES (DATE '2026-10-03', 126420, 'B-100495', 1, 17, 4);
-INSERT INTO VENTA (fecha_venta, total, nro_boleta, SUCURSAL_id, CLIENTE_id, METODO_PAGO_id) VALUES (DATE '2026-10-10', 42540, 'B-100505', 3, 1, 3);
-INSERT INTO VENTA (fecha_venta, total, nro_boleta, SUCURSAL_id, CLIENTE_id, METODO_PAGO_id) VALUES (DATE '2026-10-12', 131255, 'B-100511', 2, 4, 1);
+INSERT INTO VENTA (fecha_venta, total, nro_boleta, SUCURSAL_id, CLIENTE_id, METODO_PAGO_id, EMPLEADO_id) VALUES (DATE '2026-07-03', 167010, 'B-100205', 1, 1, 5, 2);
+INSERT INTO VENTA (fecha_venta, total, nro_boleta, SUCURSAL_id, CLIENTE_id, METODO_PAGO_id, EMPLEADO_id) VALUES (DATE '2026-07-05', 37010, 'B-100208', 2, 18, 2, 6);
+INSERT INTO VENTA (fecha_venta, total, nro_boleta, SUCURSAL_id, CLIENTE_id, METODO_PAGO_id, EMPLEADO_id) VALUES (DATE '2026-07-06', 44900, 'B-100215', 1, 12, 3, 3);
+INSERT INTO VENTA (fecha_venta, total, nro_boleta, SUCURSAL_id, CLIENTE_id, METODO_PAGO_id, EMPLEADO_id) VALUES (DATE '2026-07-06', 80400, 'B-100226', 2, 20, 3, 6);
+INSERT INTO VENTA (fecha_venta, total, nro_boleta, SUCURSAL_id, CLIENTE_id, METODO_PAGO_id, EMPLEADO_id) VALUES (DATE '2026-07-11', 59800, 'B-100229', 1, 18, 5, 2);
+INSERT INTO VENTA (fecha_venta, total, nro_boleta, SUCURSAL_id, CLIENTE_id, METODO_PAGO_id, EMPLEADO_id) VALUES (DATE '2026-07-11', 39700, 'B-100240', 2, 10, 3, 6);
+INSERT INTO VENTA (fecha_venta, total, nro_boleta, SUCURSAL_id, CLIENTE_id, METODO_PAGO_id, EMPLEADO_id) VALUES (DATE '2026-07-13', 79800, 'B-100244', 3, 18, 3, 6);
+INSERT INTO VENTA (fecha_venta, total, nro_boleta, SUCURSAL_id, CLIENTE_id, METODO_PAGO_id, EMPLEADO_id) VALUES (DATE '2026-07-14', 69700, 'B-100252', 3, 12, 3, 10);
+INSERT INTO VENTA (fecha_venta, total, nro_boleta, SUCURSAL_id, CLIENTE_id, METODO_PAGO_id, EMPLEADO_id) VALUES (DATE '2026-07-18', 152520, 'B-100259', 1, 11, 3, 11);
+INSERT INTO VENTA (fecha_venta, total, nro_boleta, SUCURSAL_id, CLIENTE_id, METODO_PAGO_id, EMPLEADO_id) VALUES (DATE '2026-07-19', 118500, 'B-100265', 3, 4, 3, 3);
+INSERT INTO VENTA (fecha_venta, total, nro_boleta, SUCURSAL_id, CLIENTE_id, METODO_PAGO_id, EMPLEADO_id) VALUES (DATE '2026-07-21', 87775, 'B-100274', 1, 16, 5, 4);
+INSERT INTO VENTA (fecha_venta, total, nro_boleta, SUCURSAL_id, CLIENTE_id, METODO_PAGO_id, EMPLEADO_id) VALUES (DATE '2026-07-23', 14220, 'B-100282', 2, 2, 4, 6);
+INSERT INTO VENTA (fecha_venta, total, nro_boleta, SUCURSAL_id, CLIENTE_id, METODO_PAGO_id, EMPLEADO_id) VALUES (DATE '2026-07-28', 104310, 'B-100286', 3, 9, 2, 11);
+INSERT INTO VENTA (fecha_venta, total, nro_boleta, SUCURSAL_id, CLIENTE_id, METODO_PAGO_id, EMPLEADO_id) VALUES (DATE '2026-08-03', 56520, 'B-100291', 1, 9, 3, 4);
+INSERT INTO VENTA (fecha_venta, total, nro_boleta, SUCURSAL_id, CLIENTE_id, METODO_PAGO_id, EMPLEADO_id) VALUES (DATE '2026-08-03', 28310, 'B-100302', 3, 12, 1, 10);
+INSERT INTO VENTA (fecha_venta, total, nro_boleta, SUCURSAL_id, CLIENTE_id, METODO_PAGO_id, EMPLEADO_id) VALUES (DATE '2026-08-08', 14900, 'B-100308', 1, 11, 2, 3);
+INSERT INTO VENTA (fecha_venta, total, nro_boleta, SUCURSAL_id, CLIENTE_id, METODO_PAGO_id, EMPLEADO_id) VALUES (DATE '2026-08-09', 17910, 'B-100315', 2, 3, 5, 7);
+INSERT INTO VENTA (fecha_venta, total, nro_boleta, SUCURSAL_id, CLIENTE_id, METODO_PAGO_id, EMPLEADO_id) VALUES (DATE '2026-08-09', 91500, 'B-100322', 3, 17, 2, 9);
+INSERT INTO VENTA (fecha_venta, total, nro_boleta, SUCURSAL_id, CLIENTE_id, METODO_PAGO_id, EMPLEADO_id) VALUES (DATE '2026-08-12', 97610, 'B-100326', 2, 11, 3, 8);
+INSERT INTO VENTA (fecha_venta, total, nro_boleta, SUCURSAL_id, CLIENTE_id, METODO_PAGO_id, EMPLEADO_id) VALUES (DATE '2026-08-17', 183600, 'B-100337', 1, 12, 3, 1);
+INSERT INTO VENTA (fecha_venta, total, nro_boleta, SUCURSAL_id, CLIENTE_id, METODO_PAGO_id, EMPLEADO_id) VALUES (DATE '2026-08-18', 62310, 'B-100342', 3, 17, 5, 12);
+INSERT INTO VENTA (fecha_venta, total, nro_boleta, SUCURSAL_id, CLIENTE_id, METODO_PAGO_id, EMPLEADO_id) VALUES (DATE '2026-08-19', 90020, 'B-100347', 2, 12, 2, 6);
+INSERT INTO VENTA (fecha_venta, total, nro_boleta, SUCURSAL_id, CLIENTE_id, METODO_PAGO_id, EMPLEADO_id) VALUES (DATE '2026-08-20', 114025, 'B-100357', 2, 8, 2, 5);
+INSERT INTO VENTA (fecha_venta, total, nro_boleta, SUCURSAL_id, CLIENTE_id, METODO_PAGO_id, EMPLEADO_id) VALUES (DATE '2026-08-22', 127400, 'B-100365', 3, 13, 5, 9);
+INSERT INTO VENTA (fecha_venta, total, nro_boleta, SUCURSAL_id, CLIENTE_id, METODO_PAGO_id, EMPLEADO_id) VALUES (DATE '2026-09-04', 72720, 'B-100369', 1, 9, 3, 2);
+INSERT INTO VENTA (fecha_venta, total, nro_boleta, SUCURSAL_id, CLIENTE_id, METODO_PAGO_id, EMPLEADO_id) VALUES (DATE '2026-09-05', 59800, 'B-100380', 2, 6, 2, 5);
+INSERT INTO VENTA (fecha_venta, total, nro_boleta, SUCURSAL_id, CLIENTE_id, METODO_PAGO_id, EMPLEADO_id) VALUES (DATE '2026-09-05', 39900, 'B-100386', 3, 20, 4, 9);
+INSERT INTO VENTA (fecha_venta, total, nro_boleta, SUCURSAL_id, CLIENTE_id, METODO_PAGO_id, EMPLEADO_id) VALUES (DATE '2026-09-07', 37905, 'B-100392', 2, 18, 1, 8);
+INSERT INTO VENTA (fecha_venta, total, nro_boleta, SUCURSAL_id, CLIENTE_id, METODO_PAGO_id, EMPLEADO_id) VALUES (DATE '2026-09-07', 53110, 'B-100398', 1, 2, 1, 4);
+INSERT INTO VENTA (fecha_venta, total, nro_boleta, SUCURSAL_id, CLIENTE_id, METODO_PAGO_id, EMPLEADO_id) VALUES (DATE '2026-09-08', 147125, 'B-100404', 2, 7, 2, 6);
+INSERT INTO VENTA (fecha_venta, total, nro_boleta, SUCURSAL_id, CLIENTE_id, METODO_PAGO_id, EMPLEADO_id) VALUES (DATE '2026-09-09', 9800, 'B-100415', 1, 18, 4, 2);
+INSERT INTO VENTA (fecha_venta, total, nro_boleta, SUCURSAL_id, CLIENTE_id, METODO_PAGO_id, EMPLEADO_id) VALUES (DATE '2026-09-12', 71710, 'B-100418', 3, 16, 1, 11);
+INSERT INTO VENTA (fecha_venta, total, nro_boleta, SUCURSAL_id, CLIENTE_id, METODO_PAGO_id, EMPLEADO_id) VALUES (DATE '2026-09-13', 44900, 'B-100424', 3, 20, 2, 10);
+INSERT INTO VENTA (fecha_venta, total, nro_boleta, SUCURSAL_id, CLIENTE_id, METODO_PAGO_id, EMPLEADO_id) VALUES (DATE '2026-09-20', 49800, 'B-100432', 2, 1, 5, 8);
+INSERT INTO VENTA (fecha_venta, total, nro_boleta, SUCURSAL_id, CLIENTE_id, METODO_PAGO_id, EMPLEADO_id) VALUES (DATE '2026-09-21', 136610, 'B-100441', 2, 9, 3, 5);
+INSERT INTO VENTA (fecha_venta, total, nro_boleta, SUCURSAL_id, CLIENTE_id, METODO_PAGO_id, EMPLEADO_id) VALUES (DATE '2026-09-23', 42655, 'B-100448', 1, 12, 4, 3);
+INSERT INTO VENTA (fecha_venta, total, nro_boleta, SUCURSAL_id, CLIENTE_id, METODO_PAGO_id, EMPLEADO_id) VALUES (DATE '2026-09-28', 129300, 'B-100452', 3, 17, 5, 10);
+INSERT INTO VENTA (fecha_venta, total, nro_boleta, SUCURSAL_id, CLIENTE_id, METODO_PAGO_id, EMPLEADO_id) VALUES (DATE '2026-09-28', 87805, 'B-100459', 3, 15, 5, 11);
+INSERT INTO VENTA (fecha_venta, total, nro_boleta, SUCURSAL_id, CLIENTE_id, METODO_PAGO_id, EMPLEADO_id) VALUES (DATE '2026-09-30', 33710, 'B-100466', 2, 5, 1, 8);
+INSERT INTO VENTA (fecha_venta, total, nro_boleta, SUCURSAL_id, CLIENTE_id, METODO_PAGO_id, EMPLEADO_id) VALUES (DATE '2026-10-02', 91710, 'B-100473', 1, 20, 5, 3);
+INSERT INTO VENTA (fecha_venta, total, nro_boleta, SUCURSAL_id, CLIENTE_id, METODO_PAGO_id, EMPLEADO_id) VALUES (DATE '2026-10-02', 145620, 'B-100481', 2, 8, 4, 7);
+INSERT INTO VENTA (fecha_venta, total, nro_boleta, SUCURSAL_id, CLIENTE_id, METODO_PAGO_id, EMPLEADO_id) VALUES (DATE '2026-10-03', 97600, 'B-100490', 3, 16, 5, 12);
+INSERT INTO VENTA (fecha_venta, total, nro_boleta, SUCURSAL_id, CLIENTE_id, METODO_PAGO_id, EMPLEADO_id) VALUES (DATE '2026-10-03', 126420, 'B-100495', 1, 17, 4, 2);
+INSERT INTO VENTA (fecha_venta, total, nro_boleta, SUCURSAL_id, CLIENTE_id, METODO_PAGO_id, EMPLEADO_id) VALUES (DATE '2026-10-10', 42540, 'B-100505', 3, 1, 3, 9);
+INSERT INTO VENTA (fecha_venta, total, nro_boleta, SUCURSAL_id, CLIENTE_id, METODO_PAGO_id, EMPLEADO_id) VALUES (DATE '2026-10-12', 131255, 'B-100511', 2, 4, 1, 6);
 
 -- N_N_VENTA_PRODUCTO
 INSERT INTO N_N_VENTA_PRODUCTO (VENTA_id, PRODUCTO_id) VALUES (1, 7);
