@@ -1,6 +1,6 @@
 -- Paquete de gestión de ventas y reportería
 CREATE OR REPLACE PACKAGE PKG_TOP7_VENTA AS
-    -- Funcion publica con parametros: Total vendido por la sucursal de un empleado en un mes
+    -- Funcion publica con parametros: Total vendido por un empleado en un mes
     FUNCTION F_CALCULAR_TOTAL_VENDIDO_EMPLEADO_POR_MES(
         P_ID_EMPLEADO IN NUMBER,
         P_MES         IN NUMBER,
@@ -39,10 +39,10 @@ CREATE OR REPLACE PACKAGE BODY PKG_TOP7_VENTA AS
     END F_OBTENER_PRECIO;
 
     -- Subprograma privado: Validar existencia y disponibilidad de stock en sucursal
-    FUNCTION F_VALIDAR_STOCK_SUCURSAL(
+    PROCEDURE PR_VALIDAR_STOCK_SUCURSAL(
         P_PRODUCTO_ID IN NUMBER,
         P_SUCURSAL_ID IN NUMBER
-    ) RETURN NUMBER IS
+    ) IS
         V_STOCK STOCK.STOCK_DISPONIBLE%TYPE;
     BEGIN
         SELECT STOCK_DISPONIBLE
@@ -55,14 +55,12 @@ CREATE OR REPLACE PACKAGE BODY PKG_TOP7_VENTA AS
             RAISE_APPLICATION_ERROR(-20001,
                 'Stock insuficiente para el producto ID ' || P_PRODUCTO_ID);
         END IF;
-
-        RETURN V_STOCK;
     EXCEPTION
         WHEN NO_DATA_FOUND THEN
             RAISE_APPLICATION_ERROR(-20002,
                 'No existe registro de stock para el producto ID ' || P_PRODUCTO_ID ||
                 ' en la sucursal de la venta.');
-    END F_VALIDAR_STOCK_SUCURSAL;
+    END PR_VALIDAR_STOCK_SUCURSAL;
 
     -- Implementacion: F_CALCULAR_TOTAL_VENDIDO_EMPLEADO_POR_MES
     FUNCTION F_CALCULAR_TOTAL_VENDIDO_EMPLEADO_POR_MES(
@@ -87,12 +85,10 @@ CREATE OR REPLACE PACKAGE BODY PKG_TOP7_VENTA AS
         -- Sumar ventas del período
         SELECT NVL(SUM(V.TOTAL), 0)
         INTO   V_TOTAL_VENDIDO
-        FROM   VENTA V 
-        INNER JOIN SUCURSAL S ON S.ID = V.SUCURSAL_ID
-        INNER JOIN EMPLEADO E ON S.ID = E.SUCURSAL_ID
+        FROM   VENTA V
         WHERE  EXTRACT(YEAR FROM V.FECHA_VENTA) = P_ANIO
           AND  EXTRACT(MONTH FROM V.FECHA_VENTA) = P_MES
-          AND  E.ID = P_ID_EMPLEADO;
+          AND  V.EMPLEADO_ID = P_ID_EMPLEADO;
 
         RETURN V_NOMBRE_COMPLETO || ': $' || V_TOTAL_VENDIDO;
 
@@ -120,7 +116,6 @@ CREATE OR REPLACE PACKAGE BODY PKG_TOP7_VENTA AS
         P_VENTA_ID    IN NUMBER
     ) AS
         V_VALOR       PRODUCTO.PRECIO%TYPE;
-        V_STOCK       STOCK.STOCK_DISPONIBLE%TYPE;
         V_SUCURSAL_ID VENTA.SUCURSAL_ID%TYPE;
     BEGIN
         -- Validar venta y obtener sucursal
@@ -136,7 +131,7 @@ CREATE OR REPLACE PACKAGE BODY PKG_TOP7_VENTA AS
 
         -- Validar producto y stock mediante subprogramas privados
         V_VALOR := F_OBTENER_PRECIO(P_PRODUCTO_ID);
-        V_STOCK := F_VALIDAR_STOCK_SUCURSAL(P_PRODUCTO_ID, V_SUCURSAL_ID);
+        PR_VALIDAR_STOCK_SUCURSAL(P_PRODUCTO_ID, V_SUCURSAL_ID);
 
         -- Registrar detalle en tabla asociativa (dispara trigger de stock)
         BEGIN
