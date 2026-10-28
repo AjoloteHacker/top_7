@@ -1,4 +1,4 @@
--- Paquete de gestión de ventas y reportería
+-- Paquete de gestión de ventas y reportes
 CREATE OR REPLACE PACKAGE PKG_TOP7_VENTA AS
     -- Funcion publica con parametros: Total vendido por un empleado en un mes
     FUNCTION F_CALCULAR_TOTAL_VENDIDO_EMPLEADO_POR_MES(
