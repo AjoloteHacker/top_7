@@ -38,30 +38,8 @@ EXCEPTION
         DBMS_OUTPUT.PUT_LINE('Error inesperado: ' || SQLERRM);
 END;
 /
-
--- 2. Colección VARRAY y control de índice fuera de rango
-DECLARE
-    TYPE t_edades IS VARRAY(5) OF VARCHAR2(30);
-    v_categorias_edad t_edades;
-BEGIN
-    DBMS_OUTPUT.PUT_LINE('--- Clasificación de edades ---');
-
-    v_categorias_edad := t_edades('Bebés (0-3)', 'Niños (4-8)', 'Preadolescentes (9-12)', 'Adolescentes (13-17)', 'Adultos (18+)');
-
-    -- Se itera hasta 6 para probar el control de excepción
-    FOR i IN 1..6 LOOP
-        DBMS_OUTPUT.PUT_LINE(i || '. ' || v_categorias_edad(i));
-    END LOOP;
-
-EXCEPTION
-    WHEN SUBSCRIPT_OUTSIDE_LIMIT THEN 
-        DBMS_OUTPUT.PUT_LINE('Captura preventiva: Índice fuera del límite del VARRAY.');
-    WHEN OTHERS THEN
-        DBMS_OUTPUT.PUT_LINE('Error inesperado: ' || SQLERRM);
-END;
-/
-
--- 3. Cursores anidados con parámetros y excepción personalizada
+/*
+-- 2. Cursores anidados con parámetros y excepción personalizada
 DECLARE
     v_fecha_busqueda DATE := TO_DATE('18-09-2026', 'DD-MM-YYYY');
    
@@ -113,3 +91,4 @@ EXCEPTION
         DBMS_OUTPUT.PUT_LINE('Error inesperado: ' || SQLERRM);
 END;
 /
+  */
